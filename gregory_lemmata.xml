@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="gregory_lemmata.rnc" type="application/relax-ng-compact-syntax"?>
+<lemmata>
+   <category pos="common noun" gender="masculine" status="inprogress">
+      <lemma pos="common noun" gender="masculine" type="братръ" animacy="yes">ангелъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="братръ" animacy="yes">апостолъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="столъ" animacy="no">блюдъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="врагъ" animacy="yes">богъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="братръ" animacy="yes">братръ</lemma>
+      <lemma pos="common noun" gender="masculine" type="рѫка" animacy="yes">владꙑка</lemma>
+      <lemma pos="common noun" gender="masculine" type="врагъ" animacy="yes">врагъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="вьседрьжитель" animacy="yes"
+         >вьседрьжитель</lemma>
+      <lemma pos="common noun" gender="masculine" type="вѣкъ" animacy="no">вѣкъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="столъ" animacy="no">гласъ</lemma>
+      <lemma pos="common noun" gender="masculine" animacy="yes">господь</lemma>
+      <lemma pos="common noun" gender="masculine" animacy="no">дьнь</lemma>
+      <lemma pos="common noun" gender="masculine" type="столъ" animacy="no">заимъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="братръ" animacy="yes">игоуменъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="братръ" animacy="yes">клиоскаѵръ</lemma>
+      <lemma pos="common noun" gender="masculine" type="мѫченикъ" animacy="yes">корабьникъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="обꙑчаи" animacy="no">краи</lemma>
+      <lemma pos="common noun" gender="masculine" animacy="yes">маломощь</lemma>
+      <lemma pos="common noun" gender="masculine" animacy="no">манастꙑрь</lemma>
+      <lemma pos="common noun" gender="masculine" type="столъ" animacy="no">мартъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="столъ" animacy="no">миръ</lemma>
+      <lemma pos="common noun" gender="masculine" type="мѣсѧць" animacy="no">мѣсѧць</lemma>
+      <lemma pos="common noun" gender="masculine" animacy="yes">мѫжь</lemma>
+      <lemma pos="common noun" gender="masculine" type="мѫченикъ" animacy="yes">мѫченикъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="вѣкъ" animacy="no">намѣстьникъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="столъ" animacy="no">образъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="обꙑчаи" animacy="no">обꙑчаи</lemma>
+      <lemma pos="common noun" gender="masculine" type="вѣкъ" animacy="no">отрокъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="отьць" animacy="yes">отьць</lemma>
+      <lemma pos="common noun" gender="masculine" animacy="yes">папа</lemma>
+      <lemma pos="common noun" gender="masculine" type="патриархъ" animacy="yes">патриархъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="мѫченикъ" animacy="yes">прѣимьникъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="столъ" animacy="no">рабъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="братръ" animacy="yes">сакеларъ</lemma>
+      <lemma pos="common noun" gender="masculine" animacy="no">слоуга</lemma>
+      <lemma pos="common noun" gender="masculine" animacy="no">старѣишина</lemma>
+      <lemma pos="common noun" gender="masculine" type="столъ" animacy="no">столъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="мѫченикъ" animacy="no">съприимьникъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="братръ" animacy="yes">съсѫдъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="столъ" animacy="no">сѫдъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="мѫченикъ" animacy="yes">чловѣкъ</lemma>
+      <lemma pos="common noun" gender="masculine" type="отьць" animacy="yes">чрьноризьць</lemma>
+   </category>
+
+   <category pos="adjective" status="todo">
+      <lemma pos="adjective">блаженъ</lemma>
+      <lemma pos="adjective">божии</lemma>
+      <lemma pos="adjective">великъ</lemma>
+      <lemma pos="adjective">вѣчьнъ</lemma>
+      <lemma pos="adjective">деснъ</lemma>
+      <lemma pos="adjective">дроугъ</lemma>
+      <lemma pos="adjective">прѣчистъ</lemma>
+      <lemma pos="adjective">римьскъ</lemma>
+      <lemma pos="adjective">свѧтъ</lemma>
+      <lemma pos="adjective">хоудъ</lemma>
+      <lemma pos="adjective">ангельскъ</lemma>
+      <lemma pos="adjective">благословлѥнъ</lemma>
+      <lemma pos="adjective">блаженъ</lemma>
+      <lemma pos="adjective">божии</lemma>
+      <lemma pos="adjective">връховьнь</lemma>
+      <lemma pos="adjective">вꙑшьнь</lemma>
+      <lemma pos="adjective">жѧдьнъ</lemma>
+      <lemma pos="adjective">любонищь</lemma>
+      <lemma pos="adjective">малъ</lemma>
+      <lemma pos="adjective">нагъ</lemma>
+      <lemma pos="adjective">ниць</lemma>
+      <lemma pos="adjective">нищь</lemma>
+      <lemma pos="adjective">оубогъ</lemma>
+      <lemma pos="adjective">патриаршьскъ</lemma>
+      <lemma pos="adjective">пристрашьнъ</lemma>
+      <lemma pos="adjective">прѣмилостивъ</lemma>
+      <lemma pos="adjective">римьскъ</lemma>
+      <lemma pos="adjective">свѧтъ</lemma>
+      <lemma pos="adjective">страньнъ</lemma>
+      <lemma pos="adjective">сьребрьнъ</lemma>
+      <lemma pos="adjective">сѣдъ</lemma>
+      <lemma pos="adjective">третии</lemma>
+      <lemma pos="adjective">христ(ос)овъ</lemma>
+      <lemma pos="adjective">чоудьнъ</lemma>
+      <lemma pos="adjective">чьстьнъ</lemma>
+      <lemma pos="adjective">дроугъ</lemma>
+      <lemma pos="adjective">малъ</lemma>
+      <lemma pos="adjective">мъногъ</lemma>
+      <lemma pos="adjective">простъ</lemma>
+      <lemma pos="adjective">чловѣчьскъ</lemma>
+      <lemma pos="adjective">чоудьнъ</lemma>
+      <lemma pos="adjective">щоуждь</lemma>
+   </category>
+   <category pos="cardinal numeral" status="todo">
+      <lemma pos="cardinal numeral">ѥдинъ на десѧте</lemma>
+      <lemma pos="cardinal numeral">триѥ на десѧте</lemma>
+      <lemma pos="cardinal numeral">шесть</lemma>
+      <lemma pos="cardinal numeral">дъва</lemma>
+      <lemma pos="cardinal numeral">дъва на десѧте</lemma>
+      <lemma pos="cardinal numeral">триѥ</lemma>
+      <lemma pos="cardinal numeral">ѥдинъ</lemma>
+      <lemma pos="cardinal numeral">десѧть</lemma>
+   </category>
+   <category pos="demonstrative pronoun" status="todo">
+      <lemma pos="demonstrative pronoun">какъ</lemma>
+      <lemma pos="demonstrative pronoun">сь</lemma>
+      <lemma pos="demonstrative pronoun">онъ</lemma>
+      <lemma pos="demonstrative pronoun">самъ</lemma>
+      <lemma pos="demonstrative pronoun">тъ</lemma>
+      <lemma pos="demonstrative pronoun">тъжде</lemma>
+      <lemma pos="demonstrative pronoun">толикъ</lemma>
+   </category>
+   <category pos="indefinite pronoun" status="todo">
+      <lemma pos="indefinite pronoun">ѥдинъ</lemma>
+      <lemma pos="indefinite pronoun">вьсь</lemma>
+      <lemma pos="indefinite pronoun">инъ</lemma>
+      <lemma pos="indefinite pronoun">никакоже</lemma>
+      <lemma pos="indefinite pronoun">никътоже</lemma>
+      <lemma pos="indefinite pronoun">ничьтоже</lemma>
+   </category>
+   <category pos="interrogative pronoun" status="todo">
+      <lemma pos="interrogative pronoun">къто</lemma>
+      <lemma pos="interrogative pronoun">чьто</lemma>
+   </category>
+   <category pos="ordinal numeral" status="todo">
+      <lemma pos="ordinal numeral">третии</lemma>
+   </category>
+   <category pos="personal pronoun" status="todo">
+      <lemma pos="personal pronoun">азъ</lemma>
+      <lemma pos="personal pronoun">вꙑ</lemma>
+      <lemma pos="personal pronoun">и</lemma>
+      <lemma pos="personal pronoun">мꙑ</lemma>
+      <lemma pos="personal pronoun">тꙑ</lemma>
+   </category>
+   <category pos="personal reflexive pronoun" status="todo">
+      <lemma pos="personal reflexive pronoun">себе</lemma>
+   </category>
+   <category pos="possessive pronoun" status="todo">
+      <lemma pos="possessive pronoun">мои</lemma>
+      <lemma pos="possessive pronoun">твои</lemma>
+   </category>
+   <category pos="possessive reflexive pronoun" status="todo">
+      <lemma pos="possessive reflexive pronoun">свои</lemma>
+   </category>
+   <category pos="proper noun" gender="masculine" status="todo">
+      <lemma pos="proper noun" gender="masculine" animacy="yes">аньдреи</lemma>
+      <lemma pos="proper noun" gender="masculine" animacy="yes">григории</lemma>
+      <lemma pos="proper noun" gender="masculine" animacy="yes">иоанъ</lemma>
+      <lemma pos="proper noun" gender="masculine" animacy="yes">клиоскаѵръ</lemma>
+      <lemma pos="proper noun" gender="masculine" animacy="yes">павьлъ</lemma>
+      <lemma pos="proper noun" gender="masculine" animacy="yes">петръ</lemma>
+      <lemma pos="proper noun" gender="masculine" animacy="yes">христ(ос)ъ</lemma>
+   </category>
+   <category pos="relative pronoun" status="todo">
+      <lemma pos="relative pronoun">иже</lemma>
+   </category>
+   <category pos="verb" status="todo">
+      <lemma pos="verb">бесѣдовати</lemma>
+      <lemma pos="verb">болѣти</lemma>
+      <lemma pos="verb">боꙗти</lemma>
+      <lemma pos="verb">бꙑти</lemma>
+      <lemma pos="verb">видѣти</lemma>
+      <lemma pos="verb">възирати</lemma>
+      <lemma pos="verb">въпрашати</lemma>
+      <lemma pos="verb">въстати</lemma>
+      <lemma pos="verb">вѣдѣти</lemma>
+      <lemma pos="verb">вѣровати</lemma>
+      <lemma pos="verb">глаголати</lemma>
+      <lemma pos="verb">грѧсти</lemma>
+      <lemma pos="verb">дати</lemma>
+      <lemma pos="verb">даꙗти</lemma>
+      <lemma pos="verb">жити</lemma>
+      <lemma pos="verb">заклинати</lemma>
+      <lemma pos="verb">измѣнꙗти</lemma>
+      <lemma pos="verb">имѣти</lemma>
+      <lemma pos="verb">искоусити</lemma>
+      <lemma pos="verb">истопити</lemma>
+      <lemma pos="verb">ити</lemma>
+      <lemma pos="verb">навести</lemma>
+      <lemma pos="verb">напоити</lemma>
+      <lemma pos="verb">нарещи</lemma>
+      <lemma pos="verb">не бꙑти</lemma>
+      <lemma pos="verb">облѣщи</lemma>
+      <lemma pos="verb">обрѣсти</lemma>
+      <lemma pos="verb">обѣдовати</lemma>
+      <lemma pos="verb">отити</lemma>
+      <lemma pos="verb">отъпоустити</lemma>
+      <lemma pos="verb">оубоꙗти</lemma>
+      <lemma pos="verb">оувѣдѣти</lemma>
+      <lemma pos="verb">оуготовати</lemma>
+      <lemma pos="verb">оуслꙑшати</lemma>
+      <lemma pos="verb">пасти</lemma>
+      <lemma pos="verb">повелѣти</lemma>
+      <lemma pos="verb">повѣдѣти</lemma>
+      <lemma pos="verb">погоубити</lemma>
+      <lemma pos="verb">подати</lemma>
+      <lemma pos="verb">подобати</lemma>
+      <lemma pos="verb">позъвати</lemma>
+      <lemma pos="verb">показати</lemma>
+      <lemma pos="verb">поклонити</lemma>
+      <lemma pos="verb">помиловати</lemma>
+      <lemma pos="verb">поставити</lemma>
+      <lemma pos="verb">посълати</lemma>
+      <lemma pos="verb">привести</lemma>
+      <lemma pos="verb">призъвати</lemma>
+      <lemma pos="verb">присѣдѣти</lemma>
+      <lemma pos="verb">прити</lemma>
+      <lemma pos="verb">приѩти</lemma>
+      <lemma pos="verb">пролити </lemma>
+      <lemma pos="verb">пьсати</lemma>
+      <lemma pos="verb">рещи</lemma>
+      <lemma pos="verb">съподобити</lemma>
+      <lemma pos="verb">сътворити</lemma>
+      <lemma pos="verb">сѣдѣти</lemma>
+      <lemma pos="verb">творити</lemma>
+      <lemma pos="verb">хвалити</lemma>
+      <lemma pos="verb">ѩти</lemma>
+      <lemma pos="verb">ꙗсти</lemma>
+      <lemma pos="verb">остати</lemma>
+      <lemma pos="verb">посълати</lemma>
+      <lemma pos="verb">алъкати</lemma>
+      <lemma pos="verb">бꙑти</lemma>
+      <lemma pos="verb">видѣти</lemma>
+      <lemma pos="verb">въвести</lemma>
+      <lemma pos="verb">възѧти</lemma>
+      <lemma pos="verb">глаголати</lemma>
+      <lemma pos="verb">дати</lemma>
+      <lemma pos="verb">дѣлати</lemma>
+      <lemma pos="verb">ити</lemma>
+      <lemma pos="verb">любити</lemma>
+      <lemma pos="verb">миловати</lemma>
+      <lemma pos="verb">молити</lemma>
+      <lemma pos="verb">нарицати</lemma>
+      <lemma pos="verb">обѣдовати</lemma>
+      <lemma pos="verb">отъвѣщати</lemma>
+      <lemma pos="verb">позъвати</lemma>
+      <lemma pos="verb">помоудити</lemma>
+      <lemma pos="verb">послоушати</lemma>
+      <lemma pos="verb">поставити</lemma>
+      <lemma pos="verb">посълати</lemma>
+      <lemma pos="verb">почитати</lemma>
+      <lemma pos="verb">призъвати</lemma>
+      <lemma pos="verb">прити</lemma>
+      <lemma pos="verb">прѣбꙑвати</lemma>
+      <lemma pos="verb">прѣмоудити</lemma>
+      <lemma pos="verb">рещи</lemma>
+      <lemma pos="verb">слꙑшати</lemma>
+      <lemma pos="verb">стоꙗти</lemma>
+      <lemma pos="verb">строити</lemma>
+      <lemma pos="verb">сѣдѣти</lemma>
+      <lemma pos="verb">нарицати</lemma>
+      <lemma pos="verb">оуготовати</lemma>
+   </category>
+
+   <category pos="adverb" status="done">
+      <lemma pos="adverb">акꙑ</lemma>
+      <lemma pos="adverb">бо</lemma>
+      <lemma pos="adverb">вꙑинѫ</lemma>
+      <lemma pos="adverb">дотолѣ</lemma>
+      <lemma pos="adverb">же</lemma>
+      <lemma pos="adverb">и</lemma>
+      <lemma pos="adverb">мало</lemma>
+      <lemma pos="adverb">не</lemma>
+      <lemma pos="adverb">ни</lemma>
+      <lemma pos="adverb">нꙑнѣ</lemma>
+      <lemma pos="adverb">обаче</lemma>
+      <lemma pos="adverb">овогда</lemma>
+      <lemma pos="adverb">оу</lemma>
+      <lemma pos="adverb">оубо</lemma>
+      <lemma pos="adverb">пакꙑ</lemma>
+      <lemma pos="adverb">присно</lemma>
+      <lemma pos="adverb">развѣ</lemma>
+      <lemma pos="adverb">тако</lemma>
+      <lemma pos="adverb">то</lemma>
+      <lemma pos="adverb">третиѥ</lemma>
+      <lemma pos="adverb">тъгда</lemma>
+      <lemma pos="adverb">чловѣколюбьнѣ</lemma>
+      <lemma pos="adverb">ѥдиноѭ</lemma>
+      <lemma pos="adverb">ꙗко</lemma>
+   </category>
+   <category pos="common noun" gender="neuter" status="done">
+      <lemma pos="common noun" gender="neuter" type="блюдо">блюдо</lemma>
+      <lemma pos="common noun" gender="neuter" type="житиѥ">длъготрьпѣниѥ</lemma>
+      <lemma pos="common noun" gender="neuter" type="житиѥ">житиѥ</lemma>
+      <lemma pos="common noun" gender="neuter" type="житиѥ">имѣниѥ</lemma>
+      <lemma pos="common noun" gender="neuter" type="имѧ">имѧ</lemma>
+      <lemma pos="common noun" gender="neuter" type="лице">лице</lemma>
+      <lemma pos="common noun" gender="neuter" type="блюдо">мъножьство</lemma>
+      <lemma pos="common noun" gender="neuter" type="блюдо">мѣсто</lemma>
+      <lemma pos="common noun" gender="neuter" type="блюдо">начѧло</lemma>
+      <lemma pos="common noun" gender="neuter" type="житиѥ">оусрьдиѥ</lemma>
+      <lemma pos="common noun" gender="neuter" type="блюдо">патриаршьство</lemma>
+      <lemma pos="common noun" gender="neuter" type="житиѥ">повелѣниѥ</lemma>
+      <lemma pos="common noun" gender="neuter" type="житиѥ">покланꙗниѥ</lemma>
+      <lemma pos="common noun" gender="neuter" type="блюдо">ризьно</lemma>
+      <lemma pos="common noun" gender="neuter" type="лице">срьдьце</lemma>
+      <lemma pos="common noun" gender="neuter" type="житиѥ">съпасениѥ</lemma>
+      <lemma pos="common noun" gender="neuter" type="блюдо">цѣсарьство</lemma>
+      <lemma pos="common noun" gender="neuter" type="житиѥ">даꙗниѥ</lemma>
+   </category>
+   <category pos="common noun" gender="feminine" status="done">
+      <lemma pos="common noun" gender="feminine" type="вѣра">щедрота</lemma>
+      <lemma pos="common noun" gender="feminine" type="благꙑни">благꙑни</lemma>
+      <lemma pos="common noun" gender="feminine" type="доуша">богородица</lemma>
+      <lemma pos="common noun" gender="feminine" type="коуциꙗ">братриꙗ</lemma>
+      <lemma pos="common noun" gender="feminine" type="вѣра">вѣра</lemma>
+      <lemma pos="common noun" gender="feminine" type="доуша">госпожда</lemma>
+      <lemma pos="common noun" gender="feminine" type="кость">заповѣдь</lemma>
+      <lemma pos="common noun" gender="feminine" type="землꙗ">землꙗ</lemma>
+      <lemma pos="common noun" gender="feminine" type="доуша">златица</lemma>
+      <lemma pos="common noun" gender="feminine" type="вѣра">истина</lemma>
+      <lemma pos="common noun" gender="feminine" type="кость">клѣть</lemma>
+      <lemma pos="common noun" gender="feminine" type="коуциꙗ">коуциꙗ</lemma>
+      <lemma pos="common noun" gender="feminine" type="кръвь">кръвь</lemma>
+      <lemma pos="common noun" gender="feminine" type="доуша">лъжа</lemma>
+      <lemma pos="common noun" gender="feminine" type="мати">мати</lemma>
+      <lemma pos="common noun" gender="feminine" type="кость">милость</lemma>
+      <lemma pos="common noun" gender="feminine" type="вѣра">правьда</lemma>
+      <lemma pos="common noun" gender="feminine" type="доуша">ризьница</lemma>
+      <lemma pos="common noun" gender="feminine" type="рѫка">рѫка</lemma>
+      <lemma pos="common noun" gender="feminine" type="вѣра">сила</lemma>
+      <lemma pos="common noun" gender="feminine" type="вѣра">слава</lemma>
+      <lemma pos="common noun" gender="feminine" type="вѣра">трапеза</lemma>
+      <lemma pos="common noun" gender="feminine" type="кость">трепетъ</lemma>
+      <lemma pos="common noun" gender="feminine" type="доуша">тьмьница</lemma>
+      <lemma pos="common noun" gender="feminine" type="вѣра">хꙑзина</lemma>
+      <lemma pos="common noun" gender="feminine" type="црькꙑ">црькꙑ</lemma>
+      <lemma pos="common noun" gender="feminine" type="кость">чьсть</lemma>
+      <lemma pos="common noun" gender="feminine" type="кость">благодать</lemma>
+      <lemma pos="common noun" gender="feminine" type="кость">благодѣть</lemma>
+   </category>
+   <category pos="conjunction" status="done">
+      <lemma pos="conjunction">а</lemma>
+      <lemma pos="conjunction">и</lemma>
+      <lemma pos="conjunction">ни</lemma>
+   </category>
+   <category pos="interjection" status="done">
+      <lemma pos="interjection">аминъ</lemma>
+      <lemma pos="interjection">се</lemma>
+      <lemma pos="interjection">сь</lemma>
+   </category>
+   <category pos="interrogative adverb" status="done">
+      <lemma pos="interrogative adverb">како</lemma>
+      <lemma pos="interrogative adverb">ли</lemma>
+   </category>
+   <category pos="preposition" status="done">
+      <lemma pos="preposition">без</lemma>
+      <lemma pos="preposition">близъ</lemma>
+      <lemma pos="preposition">въ</lemma>
+      <lemma pos="preposition">за</lemma>
+      <lemma pos="preposition">къ</lemma>
+      <lemma pos="preposition">на</lemma>
+      <lemma pos="preposition">о</lemma>
+      <lemma pos="preposition">отъ</lemma>
+      <lemma pos="preposition">по</lemma>
+      <lemma pos="preposition">прѣжде</lemma>
+      <lemma pos="preposition">ради</lemma>
+      <lemma pos="preposition">развѣ</lemma>
+      <lemma pos="preposition">съ</lemma>
+   </category>
+   <category pos="proper noun" gender="feminine" status="done">
+      <lemma pos="proper noun" gender="feminine" type="коуциꙗ">силвиꙗ</lemma>
+   </category>
+   <category pos="relative adverb" status="done">
+      <lemma pos="relative adverb">отънѥлиже</lemma>
+      <lemma pos="relative adverb">ѥгда</lemma>
+      <lemma pos="relative adverb">ꙗкоже</lemma>
+   </category>
+   <category pos="subjunction" status="done">
+      <lemma pos="subjunction">аще</lemma>
+      <lemma pos="subjunction">да</lemma>
+      <lemma pos="subjunction">ѥже</lemma>
+      <lemma pos="subjunction">ѥльма</lemma>
+      <lemma pos="subjunction">ꙗко</lemma>
+   </category>
+</lemmata>

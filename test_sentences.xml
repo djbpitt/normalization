@@ -1,0 +1,436 @@
+<proiel schema-version="2.0">
+  <source id="Interrogatives" language="chu">
+    <title>Sentences with interrogatives</title>
+    <citation-part>Interrogatives</citation-part>
+    <div>
+      <title>Sentences</title>
+      <sentence id="50226" status="reviewed" presentation-after=" ">
+        <token id="538941" form="вѣмь" citation-part="MARK 1.24" lemma="вѣдѣти" part-of-speech="V-"
+          morphology="1spia----i" relation="pred" presentation-after=" "/>
+        <token id="538942" form="тѧ" citation-part="MARK 1.24" lemma="тꙑ" part-of-speech="Pp"
+          morphology="2s---ma--i" head-id="538941" relation="obj" presentation-after=" "/>
+        <token id="538943" form="кто" citation-part="MARK 1.24" lemma="къто" part-of-speech="Pi"
+          morphology="-s---pn--i" head-id="538944" relation="xobj" presentation-after=" ">
+          <slash target-id="538944" relation="xsub"/>
+        </token>
+        <token id="538944" form="еси" citation-part="MARK 1.24" lemma="бꙑти" part-of-speech="V-"
+          morphology="2spia----i" head-id="538941" relation="comp"/>
+      </sentence>
+      <sentence id="36427" status="reviewed" presentation-after=" ">
+        <token id="539420" form="кто" citation-part="MARK 2.7" lemma="къто" part-of-speech="Pi"
+          morphology="-s---pn--i" head-id="539421" relation="sub" information-status="non_spec"
+          presentation-after=" "/>
+        <token id="539421" form="можетъ" citation-part="MARK 2.7" lemma="мощи" part-of-speech="V-"
+          morphology="3spia----i" relation="pred" presentation-after=" "/>
+        <token id="539422" form="отъпоуштати" citation-part="MARK 2.7" lemma="отъпоущати"
+          part-of-speech="V-" morphology="--pna----i" head-id="539421" relation="xobj"
+          presentation-after=" ">
+          <slash target-id="539420" relation="xsub"/>
+        </token>
+        <token id="539423" form="грѣхꙑ" citation-part="MARK 2.7" lemma="грѣхъ" part-of-speech="Nb"
+          morphology="-p---ma--i" head-id="539422" relation="obj" information-status="non_spec"
+          presentation-after=". "/>
+        <token id="539425" form="ткмо" citation-part="MARK 2.7" lemma="тъкъмо#2" part-of-speech="Df"
+          morphology="---------n" head-id="539420" relation="atr" presentation-after=" "/>
+        <token id="539426" form="единъ" citation-part="MARK 2.7" lemma="ѥдинъ" part-of-speech="Ma"
+          morphology="-s---mn--i" head-id="539427" relation="apos" presentation-after=" "/>
+        <token id="539427" form="б҃ъ" citation-part="MARK 2.7" lemma="богъ" part-of-speech="Nb"
+          morphology="-s---mn--i" head-id="539425" relation="obl" information-status="acc_gen"
+          presentation-after="."/>
+      </sentence>
+      <sentence id="36861" status="reviewed" presentation-after=" ">
+        <token id="545230" form="Дроугъ" citation-part="MARK 9.34" lemma="дроугъ"
+          part-of-speech="Pc" morphology="-s---qn--i" head-id="545234" relation="xadv"
+          presentation-after=" ">
+          <slash target-id="545234" relation="xsub"/>
+        </token>
+        <token id="545231" form="къ" citation-part="MARK 9.34" lemma="къ" part-of-speech="R-"
+          morphology="---------n" head-id="545234" relation="adv" presentation-after=" "/>
+        <token id="545232" form="дроугоу" citation-part="MARK 9.34" lemma="дроугъ"
+          part-of-speech="Pc" morphology="-s---qd--i" head-id="545231" relation="obl"
+          presentation-after=" "/>
+        <token id="545233" form="бо" citation-part="MARK 9.34" lemma="бо" part-of-speech="Df"
+          morphology="---------n" head-id="545234" relation="aux" presentation-after=" "/>
+        <token id="545234" form="сътѧѕашѧ" citation-part="MARK 9.34" lemma="сътѧѕати"
+          part-of-speech="V-" morphology="3paia----i" relation="pred" presentation-after=" "/>
+        <token id="545235" form="на" citation-part="MARK 9.34" lemma="на" part-of-speech="R-"
+          morphology="---------n" head-id="545234" relation="adv" presentation-after=" "/>
+        <token id="545236" form="пѫти" citation-part="MARK 9.34" lemma="пѫть" part-of-speech="Nb"
+          morphology="-s---ml--i" head-id="545235" relation="obl" presentation-after=". "/>
+        <token id="545238" form="кто" citation-part="MARK 9.34" lemma="къто" part-of-speech="Pi"
+          morphology="-s---qn--i" head-id="545239" relation="sub" presentation-after=" "/>
+        <token id="545239" form="естъ" citation-part="MARK 9.34" lemma="бꙑти" part-of-speech="V-"
+          morphology="3spia----i" head-id="545234" relation="comp" presentation-after=" "/>
+        <token id="545240" form="болеи" citation-part="MARK 9.34" lemma="болии" part-of-speech="A-"
+          morphology="-s---mncsi" head-id="545239" relation="xobj" presentation-after=".">
+          <slash target-id="545238" relation="xsub"/>
+        </token>
+      </sentence>
+      <sentence id="37009" status="reviewed" presentation-after=" ">
+        <token id="547146" form="коеѭ҄" citation-part="MARK 11.28" lemma="кꙑи" part-of-speech="Pi"
+          morphology="-s---fi--i" head-id="547147" relation="atr" presentation-after=" "/>
+        <token id="547147" form="областиѭ" citation-part="MARK 11.28" lemma="область"
+          part-of-speech="Nb" morphology="-s---fi--i" head-id="547149" relation="adv"
+          presentation-after=" "/>
+        <token id="547148" form="се" citation-part="MARK 11.28" lemma="сь" part-of-speech="Pd"
+          morphology="-s---na--i" head-id="547149" relation="obj" presentation-after=" "/>
+        <token id="547149" form="твориши" citation-part="MARK 11.28" lemma="творити"
+          part-of-speech="V-" morphology="2spia----i" head-id="547151" relation="pred"
+          presentation-after=". "/>
+        <token id="547151" form="ꙇ" citation-part="MARK 11.28" lemma="и" part-of-speech="C-"
+          morphology="---------n" relation="pred" presentation-after=" "/>
+        <token id="547152" form="кто" citation-part="MARK 11.28" lemma="къто" part-of-speech="Pi"
+          morphology="-s---pn--i" head-id="547154" relation="sub" presentation-after=" "/>
+        <token id="547153" form="ти" citation-part="MARK 11.28" lemma="тꙑ" part-of-speech="Pp"
+          morphology="2s---md--i" head-id="547154" relation="obl" presentation-after=" "/>
+        <token id="547154" form="дастъ" citation-part="MARK 11.28" lemma="дати" part-of-speech="V-"
+          morphology="3saia----i" head-id="547151" relation="pred" presentation-after=" "/>
+        <token id="547155" form="область" citation-part="MARK 11.28" lemma="область"
+          part-of-speech="Nb" morphology="-s---fa--i" head-id="547154" relation="obj"
+          presentation-after=" "/>
+        <token id="547156" form="сиѭ" citation-part="MARK 11.28" lemma="сь" part-of-speech="Pd"
+          morphology="-s---fa--i" head-id="547155" relation="atr" presentation-after=" "/>
+        <token id="547157" form="да" citation-part="MARK 11.28" lemma="да" part-of-speech="G-"
+          morphology="---------n" head-id="547154" relation="adv" presentation-after=" "/>
+        <token id="547158" form="си" citation-part="MARK 11.28" lemma="сь" part-of-speech="Pd"
+          morphology="-p---na--i" head-id="547159" relation="obj" presentation-after=" "/>
+        <token id="547159" form="твориши" citation-part="MARK 11.28" lemma="творити"
+          part-of-speech="V-" morphology="2spia----i" head-id="547157" relation="pred"
+          presentation-after="."/>
+      </sentence>
+      <sentence id="37312" status="reviewed" presentation-after=" ">
+        <token id="550567" form="ꙇ" citation-part="MARK 15.24" lemma="и" part-of-speech="C-"
+          morphology="---------n" head-id="550573" relation="aux" presentation-after=" "/>
+        <token id="550568" form="пропьнъше" citation-part="MARK 15.24" lemma="пропѧти"
+          part-of-speech="V-" morphology="-pupamn-si" head-id="550569" relation="xadv"
+          presentation-after=" "/>
+        <token id="550569" form="и" citation-part="MARK 15.24" lemma="и" part-of-speech="C-"
+          morphology="---------n" head-id="550573" relation="xadv" presentation-after=" ">
+          <slash target-id="550573" relation="xsub"/>
+        </token>
+        <token id="550570" form="раздѣльше" citation-part="MARK 15.24" lemma="раздѣлити"
+          part-of-speech="V-" morphology="-pupamn-si" head-id="550569" relation="xadv"
+          presentation-after=" "/>
+        <token id="550571" form="ризꙑ" citation-part="MARK 15.24" lemma="риза" part-of-speech="Nb"
+          morphology="-p---fa--i" head-id="550570" relation="obj" presentation-after=" "/>
+        <token id="550572" form="его" citation-part="MARK 15.24" lemma="и" part-of-speech="Pp"
+          morphology="3s---mg--i" head-id="550571" relation="atr" presentation-after=" "/>
+        <token id="550573" form="меташѧ" citation-part="MARK 15.24" lemma="метати"
+          part-of-speech="V-" morphology="3paia----i" relation="pred" presentation-after=" "/>
+        <token id="550574" form="жрѣбиѩ" citation-part="MARK 15.24" lemma="жрѣбии"
+          part-of-speech="Nb" morphology="-p---ma--i" head-id="550573" relation="obj"
+          presentation-after=" "/>
+        <token id="550575" form="о" citation-part="MARK 15.24" lemma="о" part-of-speech="R-"
+          morphology="---------n" head-id="550573" relation="obl" presentation-after=" "/>
+        <token id="550576" form="нѧ" citation-part="MARK 15.24" lemma="и" part-of-speech="Pp"
+          morphology="3p---fa--i" head-id="550575" relation="obl" presentation-after=". "/>
+        <token id="550578" form="кто" citation-part="MARK 15.24" lemma="къто" part-of-speech="Pi"
+          morphology="-s---pn--i" head-id="550580" relation="sub" presentation-after=" "/>
+        <token id="550579" form="что" citation-part="MARK 15.24" lemma="чьто" part-of-speech="Pi"
+          morphology="-s---na--i" head-id="550580" relation="obj" presentation-after=" "/>
+        <token id="550580" form="вьзьметъ" citation-part="MARK 15.24" lemma="възѧти"
+          part-of-speech="V-" morphology="3spia----i" head-id="550575" relation="apos"
+          presentation-after="."/>
+      </sentence>
+      <sentence id="40343" status="reviewed" presentation-after=" ">
+        <token id="589115" form="Комоу" citation-part="LUKE 7.31" lemma="къто" part-of-speech="Pi"
+          morphology="-s---md--i" head-id="589117" relation="obl" presentation-after=" "/>
+        <token id="589116" form="оубо" citation-part="LUKE 7.31" lemma="оубо" part-of-speech="Df"
+          morphology="---------n" head-id="589117" relation="aux" presentation-after=" "/>
+        <token id="589117" form="оуподоблѭ" citation-part="LUKE 7.31" lemma="оуподобити"
+          part-of-speech="V-" morphology="1spia----i" head-id="589122" relation="pred"
+          presentation-after=" "/>
+        <token id="589118" form="ч҃лкꙑ" citation-part="LUKE 7.31" lemma="чловѣкъ"
+          part-of-speech="Nb" morphology="-p---ma--i" head-id="589117" relation="obj"
+          presentation-after=" "/>
+        <token id="589119" form="рода" citation-part="LUKE 7.31" lemma="родъ" part-of-speech="Nb"
+          morphology="-s---mg--i" head-id="589118" relation="atr" presentation-after=" "/>
+        <token id="589120" form="сего" citation-part="LUKE 7.31" lemma="сь" part-of-speech="Pd"
+          morphology="-s---og--i" head-id="589119" relation="atr" presentation-after=". "/>
+        <token id="589122" form="ꙇ" citation-part="LUKE 7.31" lemma="и" part-of-speech="C-"
+          morphology="---------n" relation="pred" presentation-after=" "/>
+        <token id="589123" form="комоу" citation-part="LUKE 7.31" lemma="къто" part-of-speech="Pi"
+          morphology="-s---qd--i" head-id="589125" relation="obl" presentation-after=" "/>
+        <token id="589124" form="сѫтъ" citation-part="LUKE 7.31" lemma="бꙑти" part-of-speech="V-"
+          morphology="3ppia----i" head-id="589122" relation="pred" presentation-after=" "/>
+        <token id="589125" form="подобьни" citation-part="LUKE 7.31" lemma="подобьнъ"
+          part-of-speech="A-" morphology="-p---mnpsi" head-id="589124" relation="xobj"
+          presentation-after=".">
+          <slash target-id="589124" relation="xsub"/>
+        </token>
+      </sentence>
+      <sentence id="40672" status="reviewed" presentation-after=" ">
+        <token id="593315" form="аште" citation-part="LUKE 11.19" lemma="аще" part-of-speech="G-"
+          morphology="---------n" head-id="593327" relation="adv" presentation-after=" "/>
+        <token id="593316" form="же" citation-part="LUKE 11.19" lemma="же" part-of-speech="Df"
+          morphology="---------n" head-id="593327" relation="aux" presentation-after=" "/>
+        <token id="593317" form="азъ" citation-part="LUKE 11.19" lemma="азъ" part-of-speech="Pp"
+          morphology="1s---qn--i" head-id="593320" relation="sub" presentation-after=" "/>
+        <token id="593318" form="о" citation-part="LUKE 11.19" lemma="о" part-of-speech="R-"
+          morphology="---------n" head-id="593320" relation="adv" presentation-after=" "/>
+        <token id="593319" form="вельѕѣвоулѣ" citation-part="LUKE 11.19" lemma="вельзѣволъ"
+          part-of-speech="Ne" morphology="-s---ml--i" head-id="593318" relation="obl"
+          presentation-after=" "/>
+        <token id="593320" form="изгонѭ" citation-part="LUKE 11.19" lemma="изгонити"
+          part-of-speech="V-" morphology="1spia----i" head-id="593315" relation="pred"
+          presentation-after=" "/>
+        <token id="593321" form="бѣсꙑ" citation-part="LUKE 11.19" lemma="бѣсъ" part-of-speech="Nb"
+          morphology="-p---ma--i" head-id="593320" relation="obj" presentation-after=". "/>
+        <token id="593323" form="с҃нве" citation-part="LUKE 11.19" lemma="сꙑнъ#1"
+          part-of-speech="Nb" morphology="-p---mn--i" head-id="593327" relation="sub"
+          presentation-after=" "/>
+        <token id="593324" form="ваши" citation-part="LUKE 11.19" lemma="вашь" part-of-speech="Ps"
+          morphology="2p---mn--i" head-id="593323" relation="atr" presentation-after=" "/>
+        <token id="593325" form="о" citation-part="LUKE 11.19" lemma="о" part-of-speech="R-"
+          morphology="---------n" head-id="593327" relation="adv" presentation-after=" "/>
+        <token id="593326" form="комь" citation-part="LUKE 11.19" lemma="къто" part-of-speech="Pi"
+          morphology="-s---ql--i" head-id="593325" relation="obl" presentation-after=" "/>
+        <token id="593327" form="изгонѧтъ" citation-part="LUKE 11.19" lemma="изгонити"
+          part-of-speech="V-" morphology="3ppia----i" relation="pred" presentation-after=".">
+          <slash target-id="593321" relation="obj"/>
+        </token>
+      </sentence>
+      <sentence id="40602" status="reviewed" presentation-after=" ">
+        <token id="592483" form="вьсѣ" citation-part="LUKE 10.22" lemma="вьсь" part-of-speech="Px"
+          morphology="-p---nn--i" head-id="592486" relation="sub" presentation-after=" "/>
+        <token id="592484" form="мьнѣ" citation-part="LUKE 10.22" lemma="азъ" part-of-speech="Pp"
+          morphology="1s---qd--i" head-id="592485" relation="obl" presentation-after=" "/>
+        <token id="592485" form="прѣдана" citation-part="LUKE 10.22" lemma="прѣдати"
+          part-of-speech="V-" morphology="-puppnn-si" head-id="592486" relation="xobj"
+          presentation-after=" ">
+          <slash target-id="592483" relation="xsub"/>
+        </token>
+        <token id="592486" form="бꙑшѧ" citation-part="LUKE 10.22" lemma="бꙑти" part-of-speech="V-"
+          morphology="3paia----i" head-id="592491" relation="pred" presentation-after=" "/>
+        <token id="592487" form="отъ" citation-part="LUKE 10.22" lemma="отъ" part-of-speech="R-"
+          morphology="---------n" head-id="592485" relation="ag" presentation-after=" "/>
+        <token id="592488" form="о҃ца" citation-part="LUKE 10.22" lemma="отьць" part-of-speech="Nb"
+          morphology="-s---mg--i" head-id="592487" relation="obl" presentation-after=" "/>
+        <token id="592489" form="моего" citation-part="LUKE 10.22" lemma="мои" part-of-speech="Ps"
+          morphology="1s---og--i" head-id="592488" relation="atr" presentation-after=". "/>
+        <token id="592491" form="ꙇ" citation-part="LUKE 10.22" lemma="и" part-of-speech="C-"
+          morphology="---------n" relation="pred" presentation-after=" "/>
+        <token id="592492" form="никтоже" citation-part="LUKE 10.22" lemma="никътоже"
+          part-of-speech="Px" morphology="-s---pn--i" head-id="592494" relation="sub"
+          presentation-after=" "/>
+        <token id="592493" form="не" citation-part="LUKE 10.22" lemma="не" part-of-speech="Df"
+          morphology="---------n" head-id="592494" relation="aux" presentation-after=" "/>
+        <token id="592494" form="вѣстъ" citation-part="LUKE 10.22" lemma="вѣдѣти"
+          part-of-speech="V-" morphology="3spia----i" head-id="592491" relation="pred"
+          presentation-after=" "/>
+        <token id="592495" form="кто" citation-part="LUKE 10.22" lemma="къто" part-of-speech="Pi"
+          morphology="-s---pn--i" head-id="592496" relation="xobj" presentation-after=" ">
+          <slash target-id="592497" relation="xsub"/>
+        </token>
+        <token id="592496" form="естъ" citation-part="LUKE 10.22" lemma="бꙑти" part-of-speech="V-"
+          morphology="3spia----i" head-id="592494" relation="comp" presentation-after=" "/>
+        <token id="592497" form="с҃нъ" citation-part="LUKE 10.22" lemma="сꙑнъ#1" part-of-speech="Nb"
+          morphology="-s---mn--i" head-id="592496" relation="sub" presentation-after=" "/>
+        <token id="592498" form="тъкмо" citation-part="LUKE 10.22" lemma="тъкъмо#2"
+          part-of-speech="Df" morphology="---------n" head-id="592492" relation="atr"
+          presentation-after=" "/>
+        <token id="592499" form="отецъ" citation-part="LUKE 10.22" lemma="отьць" part-of-speech="Nb"
+          morphology="-s---mn--i" head-id="592498" relation="sub" presentation-after=". "/>
+        <token id="592501" form="ꙇ҅" citation-part="LUKE 10.22" lemma="и" part-of-speech="C-"
+          morphology="---------n" head-id="592491" relation="aux" presentation-after=" "/>
+        <token id="592502" form="кто" citation-part="LUKE 10.22" lemma="къто" part-of-speech="Pi"
+          morphology="-s---pn--i" head-id="592503" relation="xobj" presentation-after=" ">
+          <slash target-id="592504" relation="xsub"/>
+        </token>
+        <token id="592503" form="естъ" citation-part="LUKE 10.22" lemma="бꙑти" part-of-speech="V-"
+          morphology="3spia----i" head-id="677746" relation="comp" presentation-after=" "/>
+        <token id="592504" form="о҃тцъ" citation-part="LUKE 10.22" lemma="отьць" part-of-speech="Nb"
+          morphology="-s---mn--i" head-id="592503" relation="sub" presentation-after=" "/>
+        <token id="592505" form="ткмо" citation-part="LUKE 10.22" lemma="тъкъмо#2"
+          part-of-speech="Df" morphology="---------n" head-id="677746" relation="sub"
+          presentation-after=" "/>
+        <token id="592506" form="с҃нъ" citation-part="LUKE 10.22" lemma="сꙑнъ#1" part-of-speech="Nb"
+          morphology="-s---mn--i" head-id="592508" relation="sub" presentation-after=". "/>
+        <token id="592508" form="ꙇ" citation-part="LUKE 10.22" lemma="и" part-of-speech="C-"
+          morphology="---------n" head-id="592505" relation="sub" presentation-after=" "/>
+        <token id="592509" form="емоуже" citation-part="LUKE 10.22" lemma="иже" part-of-speech="Pr"
+          morphology="-s---md--i" head-id="592513" relation="obl" presentation-after=" "/>
+        <token id="592510" form="аште" citation-part="LUKE 10.22" lemma="аще" part-of-speech="Df"
+          morphology="---------n" head-id="592509" relation="aux" presentation-after=" "/>
+        <token id="592511" form="хощетъ" citation-part="LUKE 10.22" lemma="хотѣти"
+          part-of-speech="V-" morphology="3spia----i" head-id="592508" relation="sub"
+          presentation-after=" "/>
+        <token id="592512" form="с҃нъ" citation-part="LUKE 10.22" lemma="сꙑнъ#1" part-of-speech="Nb"
+          morphology="-s---mn--i" head-id="592511" relation="sub" presentation-after=" "/>
+        <token id="592513" form="авити" citation-part="LUKE 10.22" lemma="авити" part-of-speech="V-"
+          morphology="--pna----i" head-id="592511" relation="xobj" presentation-after=".">
+          <slash target-id="592512" relation="xsub"/>
+        </token>
+        <token id="677746" empty-token-sort="V" citation-part="LUKE 10.22" head-id="592491"
+          relation="pred">
+          <slash target-id="592493" relation="aux"/>
+          <slash target-id="592494" relation="pid"/>
+        </token>
+      </sentence>
+      <sentence id="40728" status="reviewed" presentation-after=" ">
+        <token id="594124" form="съказаѭ" citation-part="LUKE 12.5" lemma="съказати"
+          part-of-speech="V-" morphology="1spia----i" relation="pred" presentation-after=" "/>
+        <token id="594125" form="же" citation-part="LUKE 12.5" lemma="же" part-of-speech="Df"
+          morphology="---------n" head-id="594124" relation="aux" presentation-after=" "/>
+        <token id="594126" form="вамъ" citation-part="LUKE 12.5" lemma="вꙑ" part-of-speech="Pp"
+          morphology="2p---qd--i" head-id="594124" relation="obl" presentation-after=" "/>
+        <token id="594127" form="кого" citation-part="LUKE 12.5" lemma="къто" part-of-speech="Pi"
+          morphology="-s---qg--i" head-id="594129" relation="obl" presentation-after=" "/>
+        <token id="594128" form="сѧ" citation-part="LUKE 12.5" lemma="себе" part-of-speech="Pk"
+          morphology="3s---qa--i" head-id="594129" relation="aux" presentation-after=" "/>
+        <token id="594129" form="оубоите" citation-part="LUKE 12.5" lemma="оубоꙗти"
+          part-of-speech="V-" morphology="2ppia----i" head-id="594124" relation="comp"
+          presentation-after="."/>
+      </sentence>
+      <sentence id="41341" status="reviewed" presentation-after=" ">
+        <token id="601830" form="къде" citation-part="LUKE 22.9" lemma="къде" part-of-speech="Du"
+          morphology="---------n" head-id="601833" relation="adv" presentation-after=" "/>
+        <token id="601831" form="хоштеши" citation-part="LUKE 22.9" lemma="хотѣти"
+          part-of-speech="V-" morphology="2spia----i" relation="pred" presentation-after=" "/>
+        <token id="601832" form="да" citation-part="LUKE 22.9" lemma="да" part-of-speech="G-"
+          morphology="---------n" head-id="601831" relation="comp" presentation-after=" "/>
+        <token id="601833" form="оуготоваевѣ" citation-part="LUKE 22.9" lemma="оуготовати"
+          part-of-speech="V-" morphology="1dpia----i" head-id="601832" relation="pred"
+          presentation-after="."/>
+      </sentence>
+      <sentence id="41136" status="reviewed" presentation-after=" ">
+        <token id="599344" form="что" citation-part="LUKE 18.41" lemma="чьто" part-of-speech="Pi"
+          morphology="-s---na--i" head-id="599348" relation="obj" presentation-after=" "/>
+        <token id="599345" form="хощеши" citation-part="LUKE 18.41" lemma="хотѣти"
+          part-of-speech="V-" morphology="2spia----i" relation="pred" presentation-after=" "/>
+        <token id="599346" form="да" citation-part="LUKE 18.41" lemma="да" part-of-speech="G-"
+          morphology="---------n" head-id="599345" relation="comp" presentation-after=" "/>
+        <token id="599347" form="ти" citation-part="LUKE 18.41" lemma="тꙑ" part-of-speech="Pp"
+          morphology="2s---qd--i" head-id="599348" relation="obl" presentation-after=" "/>
+        <token id="599348" form="сътворѭ" citation-part="LUKE 18.41" lemma="сътворити"
+          part-of-speech="V-" morphology="1spia----i" head-id="599346" relation="pred"
+          presentation-after="."/>
+      </sentence>
+      <sentence id="37150" status="reviewed" presentation-after=" ">
+        <token id="734774" form="не" citation-part="MARK 13.35" lemma="не" part-of-speech="Df"
+          morphology="---------n" head-id="734775" relation="aux" presentation-after=" "/>
+        <token id="734775" form="вѣсте" citation-part="MARK 13.35" lemma="вѣдѣти"
+          part-of-speech="V-" morphology="2ppia----i" relation="pred" presentation-after=" "/>
+        <token id="734776" form="бо" citation-part="MARK 13.35" lemma="бо" part-of-speech="Df"
+          morphology="---------n" head-id="734775" relation="aux" presentation-after=" "/>
+        <token id="734777" form="когда" citation-part="MARK 13.35" lemma="когда" part-of-speech="Du"
+          morphology="---------n" head-id="734780" relation="adv" presentation-after=" "/>
+        <token id="734778" form="г҃ь" citation-part="MARK 13.35" lemma="господь" part-of-speech="Nb"
+          morphology="-s---mn--i" head-id="734780" relation="sub" presentation-after=" "/>
+        <token id="734779" form="домоу" citation-part="MARK 13.35" lemma="домъ" part-of-speech="Nb"
+          morphology="-s---mg--i" head-id="734778" relation="atr" presentation-after=" "/>
+        <token id="734780" form="придетъ" citation-part="MARK 13.35" lemma="прити"
+          part-of-speech="V-" morphology="3spia----i" head-id="734775" relation="comp"
+          presentation-after=". "/>
+        <token id="734781" form="вечеръ" citation-part="MARK 13.35" lemma="вечеръ"
+          part-of-speech="Df" morphology="---------n" head-id="734782" relation="apos"
+          presentation-after=" "/>
+        <token id="734782" form="ли" citation-part="MARK 13.35" lemma="ли" part-of-speech="Du"
+          morphology="---------n" head-id="734777" relation="apos" presentation-after=" "/>
+        <token id="734783" form="въ" citation-part="MARK 13.35" lemma="въ" part-of-speech="R-"
+          morphology="---------n" head-id="734782" relation="apos" presentation-after=" "/>
+        <token id="734784" form="полоу" citation-part="MARK 13.35" lemma="полъ#1"
+          part-of-speech="Nb" morphology="-s---ml--i" head-id="734783" relation="obl"
+          presentation-after=" "/>
+        <token id="734785" form="ношти" citation-part="MARK 13.35" lemma="нощь" part-of-speech="Nb"
+          morphology="-s---fg--i" head-id="734784" relation="part" presentation-after=". "/>
+        <token id="734786" form="ли" citation-part="MARK 13.35" lemma="ли" part-of-speech="Du"
+          morphology="---------n" head-id="734782" relation="aux" presentation-after=" "/>
+        <token id="734787" form="въ" citation-part="MARK 13.35" lemma="въ" part-of-speech="R-"
+          morphology="---------n" head-id="734782" relation="apos" presentation-after=" "/>
+        <token id="734788" form="кокотоглашение" citation-part="MARK 13.35" lemma="кокотоглашениѥ"
+          part-of-speech="Nb" morphology="-s---na--i" head-id="734787" relation="obl"
+          presentation-after=". "/>
+        <token id="734789" form="ли" citation-part="MARK 13.35" lemma="ли" part-of-speech="Du"
+          morphology="---------n" head-id="734782" relation="aux" presentation-after=" "/>
+        <token id="734790" form="ютро" citation-part="MARK 13.35" lemma="оутро" part-of-speech="Df"
+          morphology="---------n" head-id="734782" relation="apos" presentation-after="."/>
+      </sentence>
+      <sentence id="39990" status="reviewed" presentation-after=" ">
+        <token id="583931" form="Помаваахѫ" citation-part="LUKE 1.62" lemma="помавати"
+          part-of-speech="V-" morphology="3piia----i" relation="pred" presentation-after=" "/>
+        <token id="583932" form="же" citation-part="LUKE 1.62" lemma="же" part-of-speech="Df"
+          morphology="---------n" head-id="583931" relation="aux" presentation-after=" "/>
+        <token id="583933" form="отъцю" citation-part="LUKE 1.62" lemma="отьць" part-of-speech="Nb"
+          morphology="-s---md--i" head-id="583931" relation="obl" presentation-after=" "/>
+        <token id="583934" form="его" citation-part="LUKE 1.62" lemma="и" part-of-speech="Pp"
+          morphology="3s---mg--i" head-id="583933" relation="atr" presentation-after=". "/>
+        <token id="583936" form="како" citation-part="LUKE 1.62" lemma="како" part-of-speech="Du"
+          morphology="---------n" head-id="583939" relation="adv" presentation-after=" "/>
+        <token id="583937" form="би" citation-part="LUKE 1.62" lemma="бꙑти" part-of-speech="V-"
+          morphology="3spsa----i" head-id="583938" relation="aux" presentation-after=" "/>
+        <token id="583938" form="хотѣлъ" citation-part="LUKE 1.62" lemma="хотѣти"
+          part-of-speech="V-" morphology="-sspamn-si" head-id="583931" relation="comp"
+          presentation-after=" "/>
+        <token id="583939" form="нарешти" citation-part="LUKE 1.62" lemma="нарещи"
+          part-of-speech="V-" morphology="--pna----i" head-id="583938" relation="xobj"
+          presentation-after=" ">
+          <slash target-id="583938" relation="xsub"/>
+        </token>
+        <token id="583940" form="е" citation-part="LUKE 1.62" lemma="и" part-of-speech="Pp"
+          morphology="3s---na--i" head-id="583939" relation="obj" presentation-after="."/>
+      </sentence>
+      <sentence id="50281" status="reviewed" presentation-after=" ">
+        <token id="540734" form="не" citation-part="MARK 4.13" lemma="не" part-of-speech="Df"
+          morphology="---------n" head-id="540735" relation="aux" presentation-after=" "/>
+        <token id="540735" form="вѣсте" citation-part="MARK 4.13" lemma="вѣдѣти" part-of-speech="V-"
+          morphology="2ppia----i" relation="pred" presentation-after=" "/>
+        <token id="540736" form="ли" citation-part="MARK 4.13" lemma="ли" part-of-speech="Du"
+          morphology="---------n" head-id="540735" relation="aux" presentation-after=" "/>
+        <token id="540737" form="притъчѧ" citation-part="MARK 4.13" lemma="притъча"
+          part-of-speech="Nb" morphology="-s---fg--i" head-id="540735" relation="obj"
+          presentation-after=" "/>
+        <token id="540738" form="сеѩ҅" citation-part="MARK 4.13" lemma="сь" part-of-speech="Pd"
+          morphology="-s---fg--i" head-id="540737" relation="atr" presentation-after="."/>
+      </sentence>
+      <sentence id="50483" status="reviewed" presentation-after=" ">
+        <token id="546931" form="нѣстъ" citation-part="MARK 11.17" lemma="не бꙑти"
+          part-of-speech="V-" morphology="3spia----i" relation="pred" presentation-after=" "/>
+        <token id="546932" form="ли" citation-part="MARK 11.17" lemma="ли" part-of-speech="Du"
+          morphology="---------n" head-id="546931" relation="aux" presentation-after=" "/>
+        <token id="546933" form="писано" citation-part="MARK 11.17" lemma="пьсати"
+          part-of-speech="V-" morphology="-suppnn-si" head-id="546931" relation="xobj"
+          presentation-after=". ">
+          <slash target-id="546931" relation="xsub"/>
+        </token>
+        <token id="546935" form="ѣко" citation-part="MARK 11.17" lemma="ꙗко" part-of-speech="G-"
+          morphology="---------n" head-id="546933" relation="comp"/>
+      </sentence>
+      <sentence id="37217" status="reviewed" presentation-after=" ">
+        <token id="549562" form="симоне" citation-part="MARK 14.37" lemma="симонъ"
+          part-of-speech="Ne" morphology="-s---mv--i" relation="voc" presentation-after=" "/>
+        <token id="549563" form="съпиши" citation-part="MARK 14.37" lemma="съпати"
+          part-of-speech="V-" morphology="2spia----i" relation="pred" presentation-after=" "/>
+        <token id="549564" form="ли" citation-part="MARK 14.37" lemma="ли" part-of-speech="Du"
+          morphology="---------n" head-id="549563" relation="aux" presentation-after="."/>
+      </sentence>
+      <sentence id="51088" status="reviewed" presentation-after=" ">
+        <token id="578125" form="бьдите" citation-part="MATT 24.42" lemma="бъдѣти"
+          part-of-speech="V-" morphology="2ppma----i" relation="pred" presentation-after=" "/>
+        <token id="578126" form="оубо" citation-part="MATT 24.42" lemma="оубо" part-of-speech="Df"
+          morphology="---------n" head-id="578125" relation="aux" presentation-after=" "/>
+        <token id="578127" form="ѣко" citation-part="MATT 24.42" lemma="ꙗко" part-of-speech="G-"
+          morphology="---------n" head-id="578125" relation="adv" presentation-after=" "/>
+        <token id="578128" form="не" citation-part="MATT 24.42" lemma="не" part-of-speech="Df"
+          morphology="---------n" head-id="578129" relation="aux" presentation-after=" "/>
+        <token id="578129" form="вѣсте" citation-part="MATT 24.42" lemma="вѣдѣти"
+          part-of-speech="V-" morphology="2ppia----i" head-id="578127" relation="pred"
+          presentation-after=" "/>
+        <token id="578130" form="въ" citation-part="MATT 24.42" lemma="въ" part-of-speech="R-"
+          morphology="---------n" head-id="578135" relation="adv" presentation-after=" "/>
+        <token id="578131" form="кѫѭ" citation-part="MATT 24.42" lemma="кꙑи" part-of-speech="Pi"
+          morphology="-s---fa--i" head-id="578132" relation="atr" presentation-after=" "/>
+        <token id="578132" form="годинѫ" citation-part="MATT 24.42" lemma="година"
+          part-of-speech="Nb" morphology="-s---fa--i" head-id="578130" relation="obl"
+          presentation-after=" "/>
+        <token id="578133" form="г҃ь" citation-part="MATT 24.42" lemma="господь" part-of-speech="Nb"
+          morphology="-s---mn--i" head-id="578135" relation="sub" presentation-after=" "/>
+        <token id="578134" form="вашъ" citation-part="MATT 24.42" lemma="вашь" part-of-speech="Ps"
+          morphology="2s---mn--i" head-id="578133" relation="atr" presentation-after=" "/>
+        <token id="578135" form="придетъ" citation-part="MATT 24.42" lemma="прити"
+          part-of-speech="V-" morphology="3spia----i" head-id="578129" relation="comp"
+          presentation-after="."/>
+      </sentence>
+    </div>
+  </source>
+</proiel>
