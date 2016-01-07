@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="instance_exploded.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <div>
    <title>Vita of Gregory I the Great (11th March)</title>
    <sentence id="121118" status="reviewed">
@@ -9037,7 +9038,7 @@
              linebreak="false"/>
       <token id="1687332"
              form="пролиꙗ"
-             lemma="пролити "
+             lemma="пролити"
              part-of-speech="V-"
              presentation-before=""
              morphology="3saia----i"
@@ -9097,7 +9098,7 @@
              linebreak="false"/>
       <token id="1687336"
              form="прѣи҅мь҆никоу"
-             lemma="прѣимьникъ "
+             lemma="прѣимьникъ"
              part-of-speech="Nb"
              presentation-before=""
              morphology="-s---md--i"
@@ -9117,7 +9118,7 @@
              linebreak="false"
              id="1687336"
              form="прѣи҅мь҆никоу"
-             lemma="прѣимьникъ "
+             lemma="прѣимьникъ"
              part-of-speech="Nb"
              presentation-before=""
              morphology="-s---md--i"
@@ -9142,7 +9143,7 @@
              linebreak="false"/>
       <token id="1687338"
              form="намѣсть҆никоу"
-             lemma="намѣстьникъ "
+             lemma="намѣстьникъ"
              part-of-speech="Nb"
              presentation-before=""
              morphology="-s---md--i"

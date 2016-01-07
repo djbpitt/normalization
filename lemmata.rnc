@@ -1,0 +1,33 @@
+start = lemmata
+lemmata = element lemmata { pos+ }
+pos = element pos { id, class+ }
+id =
+    attribute xml:id {
+        "common_noun"
+        | "proper_noun"
+        | "demonstrative_pronoun"
+        | "indefinite_pronoun"
+        | "interrogative_pronoun"
+        | "personal_pronoun"
+        | "personal_reflexive_pronoun"
+        | "possessive_pronoun"
+        | "possessive_reflexive_pronoun"
+        | "relative_pronoun"
+        | "cardinal_numeral"
+        | "ordinal_numeral"
+        | "adjective"
+        | "adverb"
+        | "interrogative_adverb"
+        | "relative_adverb"
+        | "conjunction"
+        | "subjunction"
+        | "interjection"
+        | "preposition"
+        | "verb"
+    }
+class = element class { type, gender?, animacy?, description, lemma+ }
+description = element description { text }
+gender = attribute gender { "m" | "n" | "f" }
+type = attribute type { text }
+animacy = attribute animacy { "yes" | "no" }
+lemma = element lemma { text }
