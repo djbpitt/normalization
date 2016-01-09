@@ -16,9 +16,7 @@
             apostle, etc.
         Treat as inanimate: рабъ, слоуга, намѣстьникъ, отрокъ
         Check animacy: богъ
-        Check animate declension: GA only in sg, or also in du/pl?
         "cardinal numeral" with spaces decline only first part
-        vocative du and pl are hypothetical; remove?
     -->
     <!-- Normalization challenges
         къ немоу
@@ -28,6 +26,30 @@
     <pos type="common noun">
         <class type="a">
             <paradigm type="вѣра" truncate="1">
+                <form case="N" number="sg">а</form>
+                <form case="G" number="sg">ꙑ</form>
+                <form case="D" number="sg">ѣ</form>
+                <form case="A" number="sg">ѫ</form>
+                <form case="I" number="sg">оѭ</form>
+                <form case="L" number="sg">ѣ</form>
+                <form case="V" number="sg">о</form>
+                <form case="N" number="du">ѣ</form>
+                <form case="G" number="du">оу</form>
+                <form case="D" number="du">ама</form>
+                <form case="A" number="du">ѣ</form>
+                <form case="I" number="du">ама</form>
+                <form case="L" number="du">оу</form>
+                <form case="V" number="du">ѣ</form>
+                <form case="N" number="pl">ꙑ</form>
+                <form case="G" number="pl">ъ</form>
+                <form case="D" number="pl">амъ</form>
+                <form case="A" number="pl">ꙑ</form>
+                <form case="I" number="pl">ами</form>
+                <form case="L" number="pl">ахъ</form>
+                <form case="V" number="pl">ꙑ</form>
+            </paradigm>
+            <paradigm type="папа" truncate="1">
+                <!-- identical to вѣра, but m animate -->
                 <form case="N" number="sg">а</form>
                 <form case="G" number="sg">ꙑ</form>
                 <form case="D" number="sg">ѣ</form>
@@ -72,6 +94,77 @@
                 <form case="I" number="pl">ками</form>
                 <form case="L" number="pl">кахъ</form>
                 <form case="V" number="pl">кꙑ</form>
+            </paradigm>
+            <paradigm type="владꙑка" truncate="2">
+                <!-- identical to рѫка, but m animate -->
+                <form case="N" number="sg">ка</form>
+                <form case="G" number="sg">кꙑ</form>
+                <form case="D" number="sg">цѣ</form>
+                <form case="A" number="sg">кѫ</form>
+                <form case="I" number="sg">коѭ</form>
+                <form case="L" number="sg">цѣ</form>
+                <form case="V" number="sg">ко</form>
+                <form case="N" number="du">цѣ</form>
+                <form case="G" number="du">коу</form>
+                <form case="D" number="du">кама</form>
+                <form case="A" number="du">цѣ</form>
+                <form case="I" number="du">кама</form>
+                <form case="L" number="du">коу</form>
+                <form case="V" number="du">цѣ</form>
+                <form case="N" number="pl">кꙑ</form>
+                <form case="G" number="pl">къ</form>
+                <form case="D" number="pl">камъ</form>
+                <form case="A" number="pl">кꙑ</form>
+                <form case="I" number="pl">ками</form>
+                <form case="L" number="pl">кахъ</form>
+                <form case="V" number="pl">кꙑ</form>
+            </paradigm>
+            <paradigm type="нога" truncate="2">
+                <form case="N" number="sg">га</form>
+                <form case="G" number="sg">гꙑ</form>
+                <form case="D" number="sg">ѕѣ</form>
+                <form case="A" number="sg">гѫ</form>
+                <form case="I" number="sg">гоѭ</form>
+                <form case="L" number="sg">ѕѣ</form>
+                <form case="V" number="sg">го</form>
+                <form case="N" number="du">ѕѣ</form>
+                <form case="G" number="du">гоу</form>
+                <form case="D" number="du">гама</form>
+                <form case="A" number="du">ѕѣ</form>
+                <form case="I" number="du">гама</form>
+                <form case="L" number="du">гоу</form>
+                <form case="V" number="du">ѕѣ</form>
+                <form case="N" number="pl">гꙑ</form>
+                <form case="G" number="pl">гъ</form>
+                <form case="D" number="pl">гамъ</form>
+                <form case="A" number="pl">гꙑ</form>
+                <form case="I" number="pl">гами</form>
+                <form case="L" number="pl">гахъ</form>
+                <form case="V" number="pl">гꙑ</form>
+            </paradigm>
+            <paradigm type="слоуга" truncate="2">
+                <!-- identical to нога, but m animate -->
+                <form case="N" number="sg">га</form>
+                <form case="G" number="sg">гꙑ</form>
+                <form case="D" number="sg">ѕѣ</form>
+                <form case="A" number="sg">гѫ</form>
+                <form case="I" number="sg">гоѭ</form>
+                <form case="L" number="sg">ѕѣ</form>
+                <form case="V" number="sg">го</form>
+                <form case="N" number="du">ѕѣ</form>
+                <form case="G" number="du">гоу</form>
+                <form case="D" number="du">гама</form>
+                <form case="A" number="du">ѕѣ</form>
+                <form case="I" number="du">гама</form>
+                <form case="L" number="du">гоу</form>
+                <form case="V" number="du">ѕѣ</form>
+                <form case="N" number="pl">гꙑ</form>
+                <form case="G" number="pl">гъ</form>
+                <form case="D" number="pl">гамъ</form>
+                <form case="A" number="pl">гꙑ</form>
+                <form case="I" number="pl">гами</form>
+                <form case="L" number="pl">гахъ</form>
+                <form case="V" number="pl">гꙑ</form>
             </paradigm>
         </class>
         <class type="ja">
@@ -215,99 +308,6 @@
                 <form case="L" number="pl">ѣхъ</form>
                 <form case="V" number="pl">и</form>
             </paradigm>
-            <paradigm type="мѣсѧць" truncate="2" animacy="no">
-                <form case="N" number="sg">ць</form>
-                <form case="G" number="sg">ца</form>
-                <form case="D" number="sg">цоу</form>
-                <form case="A" number="sg">ць</form>
-                <form case="I" number="sg">цемь</form>
-                <form case="L" number="sg">ци</form>
-                <form case="V" number="sg">че</form>
-                <form case="N" number="du">ца</form>
-                <form case="G" number="du">цоу</form>
-                <form case="D" number="du">цема</form>
-                <form case="A" number="du">ца</form>
-                <form case="I" number="du">цема</form>
-                <form case="L" number="du">цоу</form>
-                <form case="V" number="du">ца</form>
-                <form case="N" number="pl">и</form>
-                <form case="G" number="pl">ць</form>
-                <form case="D" number="pl">цемъ</form>
-                <form case="A" number="pl">цѧ</form>
-                <form case="I" number="pl">ци</form>
-                <form case="L" number="pl">цихъ</form>
-                <form case="V" number="pl">ци</form>
-            </paradigm>
-            <paradigm type="отьць" truncate="2" animacy="yes">
-                <form case="N" number="sg">ць</form>
-                <form case="G" number="sg">ца</form>
-                <form case="D" number="sg">цоу</form>
-                <form case="A" number="sg">ца</form>
-                <form case="I" number="sg">цемь</form>
-                <form case="L" number="sg">ци</form>
-                <form case="V" number="sg">че</form>
-                <form case="N" number="du">ца</form>
-                <form case="G" number="du">цоу</form>
-                <form case="D" number="du">цема</form>
-                <form case="A" number="du">ца</form>
-                <form case="I" number="du">цема</form>
-                <form case="L" number="du">цоу</form>
-                <form case="V" number="du">ца</form>
-                <form case="N" number="pl">и</form>
-                <form case="G" number="pl">ць</form>
-                <form case="D" number="pl">цемъ</form>
-                <form case="A" number="pl">цѧ</form>
-                <form case="I" number="pl">ци</form>
-                <form case="L" number="pl">цихъ</form>
-                <form case="V" number="pl">ци</form>
-            </paradigm>
-            <paradigm type="обꙑчаи" truncate="1" animacy="no">
-                <form case="N" number="sg">и</form>
-                <form case="G" number="sg">ꙗ</form>
-                <form case="D" number="sg">ю</form>
-                <form case="A" number="sg">и</form>
-                <form case="I" number="sg">ѥмь</form>
-                <form case="L" number="sg">и</form>
-                <form case="V" number="sg">ю</form>
-                <form case="N" number="du">ꙗ</form>
-                <form case="G" number="du">ю</form>
-                <form case="D" number="du">ѥма</form>
-                <form case="A" number="du">ꙗ</form>
-                <form case="I" number="du">ѥма</form>
-                <form case="L" number="du">ю</form>
-                <form case="V" number="du">ꙗ</form>
-                <form case="N" number="pl">и</form>
-                <form case="G" number="pl">и</form>
-                <form case="D" number="pl">ѥмъ</form>
-                <form case="A" number="pl">ѩ</form>
-                <form case="I" number="pl">и</form>
-                <form case="L" number="pl">ихъ</form>
-                <form case="V" number="pl">и</form>
-            </paradigm>
-            <paradigm type="вьседрьжитель" truncate="1" animacy="yes">
-                <!-- special hard е Npl?, if so, find another example for jo -->
-                <form case="N" number="sg">ь</form>
-                <form case="G" number="sg">ꙗ</form>
-                <form case="D" number="sg">ю</form>
-                <form case="A" number="sg">ꙗ</form>
-                <form case="I" number="sg">ѥмь</form>
-                <form case="L" number="sg">и</form>
-                <form case="V" number="sg">ю</form>
-                <form case="N" number="du">ꙗ</form>
-                <form case="G" number="du">ю</form>
-                <form case="D" number="du">ѥма</form>
-                <form case="A" number="du">ꙗ</form>
-                <form case="I" number="du">ѥма</form>
-                <form case="L" number="du">ю</form>
-                <form case="V" number="du">ꙗ</form>
-                <form case="N" number="pl">и</form>
-                <form case="G" number="pl">ь</form>
-                <form case="D" number="pl">ѥмъ</form>
-                <form case="A" number="pl">ѩ</form>
-                <form case="I" number="pl">и</form>
-                <form case="L" number="pl">ихъ</form>
-                <form case="V" number="pl">и</form>
-            </paradigm>
             <paradigm type="вѣкъ" truncate="2" animacy="no">
                 <form case="N" number="sg">къ</form>
                 <form case="G" number="sg">ка</form>
@@ -423,7 +423,178 @@
                 <form case="L" number="pl">ѣхъ</form>
                 <form case="V" number="pl">а</form>
             </paradigm>
+        </class>
+        <class type="jo">
+            <paradigm type="мѫжь" truncate="1" animacy="yes">
+                <!-- husher m animate -->
+                <form case="N" number="sg">ь</form>
+                <form case="G" number="sg">а</form>
+                <form case="D" number="sg">оу</form>
+                <form case="A" number="sg">ь</form>
+                <form case="I" number="sg">емь</form>
+                <form case="L" number="sg">и</form>
+                <form case="V" number="sg">оу</form>
+                <form case="N" number="du">а</form>
+                <form case="G" number="du">оу</form>
+                <form case="D" number="du">ема</form>
+                <form case="A" number="du">а</form>
+                <form case="I" number="du">ема</form>
+                <form case="L" number="du">оу</form>
+                <form case="V" number="du">а</form>
+                <form case="N" number="pl">и</form>
+                <form case="G" number="pl">ь</form>
+                <form case="D" number="pl">емъ</form>
+                <form case="A" number="pl">ѧ</form>
+                <form case="I" number="pl">и</form>
+                <form case="L" number="pl">ихъ</form>
+                <form case="V" number="pl">и</form>
+            </paradigm>
+            <paradigm type="сакеларь" truncate="1" animacy="yes">
+                <!-- - arj m animate -->
+                <form case="N" number="sg">҄ь</form>
+                <form case="G" number="sg">҄ꙗ</form>
+                <form case="D" number="sg">҄ю</form>
+                <form case="A" number="sg">҄ꙗ</form>
+                <form case="I" number="sg">҄ѥмь</form>
+                <form case="L" number="sg">҄и</form>
+                <form case="V" number="sg">҄ю</form>
+                <form case="N" number="du">҄ꙗ</form>
+                <form case="G" number="du">҄ю</form>
+                <form case="D" number="du">҄ѥма</form>
+                <form case="A" number="du">҄ꙗ</form>
+                <form case="I" number="du">҄ѥма</form>
+                <form case="L" number="du">҄ю</form>
+                <form case="V" number="du">҄ꙗ</form>
+                <form case="N" number="pl">е</form>
+                <form case="G" number="pl">҄ь</form>
+                <form case="D" number="pl">ѥмъ</form>
+                <form case="A" number="pl">ѩ</form>
+                <form case="I" number="pl">҄и</form>
+                <form case="L" number="pl">҄ихъ</form>
+                <form case="V" number="pl">҄и</form>
+            </paradigm>
+            <paradigm type="манастꙑрь" truncate="1" animacy="yes">
+                <!-- -rj m inanimate -->
+                <form case="N" number="sg">҄ь</form>
+                <form case="G" number="sg">҄ꙗ</form>
+                <form case="D" number="sg">҄ю</form>
+                <form case="A" number="sg">҄ь</form>
+                <form case="I" number="sg">҄ѥмь</form>
+                <form case="L" number="sg">҄и</form>
+                <form case="V" number="sg">҄ю</form>
+                <form case="N" number="du">҄ꙗ</form>
+                <form case="G" number="du">҄ю</form>
+                <form case="D" number="du">҄ѥма</form>
+                <form case="A" number="du">҄ꙗ</form>
+                <form case="I" number="du">҄ѥма</form>
+                <form case="L" number="du">҄ю</form>
+                <form case="V" number="du">҄ꙗ</form>
+                <form case="N" number="pl">҄и</form>
+                <form case="G" number="pl">҄ь</form>
+                <form case="D" number="pl">҄ѥмъ</form>
+                <form case="A" number="pl">҄ѩ</form>
+                <form case="I" number="pl">҄и</form>
+                <form case="L" number="pl">҄ихъ</form>
+                <form case="V" number="pl">҄и</form>
+            </paradigm>
+            <paradigm type="мѣсѧць" truncate="2" animacy="no">
+                <!-- -c m inanimate -->
+                <form case="N" number="sg">ць</form>
+                <form case="G" number="sg">ца</form>
+                <form case="D" number="sg">цоу</form>
+                <form case="A" number="sg">ць</form>
+                <form case="I" number="sg">цемь</form>
+                <form case="L" number="sg">ци</form>
+                <form case="V" number="sg">че</form>
+                <form case="N" number="du">ца</form>
+                <form case="G" number="du">цоу</form>
+                <form case="D" number="du">цема</form>
+                <form case="A" number="du">ца</form>
+                <form case="I" number="du">цема</form>
+                <form case="L" number="du">цоу</form>
+                <form case="V" number="du">ца</form>
+                <form case="N" number="pl">и</form>
+                <form case="G" number="pl">ць</form>
+                <form case="D" number="pl">цемъ</form>
+                <form case="A" number="pl">цѧ</form>
+                <form case="I" number="pl">ци</form>
+                <form case="L" number="pl">цихъ</form>
+                <form case="V" number="pl">ци</form>
+            </paradigm>
+            <paradigm type="отьць" truncate="2" animacy="yes">
+                <!-- -c m animate -->
+                <form case="N" number="sg">ць</form>
+                <form case="G" number="sg">ца</form>
+                <form case="D" number="sg">цоу</form>
+                <form case="A" number="sg">ца</form>
+                <form case="I" number="sg">цемь</form>
+                <form case="L" number="sg">ци</form>
+                <form case="V" number="sg">че</form>
+                <form case="N" number="du">ца</form>
+                <form case="G" number="du">цоу</form>
+                <form case="D" number="du">цема</form>
+                <form case="A" number="du">ца</form>
+                <form case="I" number="du">цема</form>
+                <form case="L" number="du">цоу</form>
+                <form case="V" number="du">ца</form>
+                <form case="N" number="pl">и</form>
+                <form case="G" number="pl">ць</form>
+                <form case="D" number="pl">цемъ</form>
+                <form case="A" number="pl">цѧ</form>
+                <form case="I" number="pl">ци</form>
+                <form case="L" number="pl">цихъ</form>
+                <form case="V" number="pl">ци</form>
+            </paradigm>
+            <paradigm type="обꙑчаи" truncate="1" animacy="no">
+                <!-- -j m inanimate -->
+                <form case="N" number="sg">и</form>
+                <form case="G" number="sg">ꙗ</form>
+                <form case="D" number="sg">ю</form>
+                <form case="A" number="sg">и</form>
+                <form case="I" number="sg">ѥмь</form>
+                <form case="L" number="sg">и</form>
+                <form case="V" number="sg">ю</form>
+                <form case="N" number="du">ꙗ</form>
+                <form case="G" number="du">ю</form>
+                <form case="D" number="du">ѥма</form>
+                <form case="A" number="du">ꙗ</form>
+                <form case="I" number="du">ѥма</form>
+                <form case="L" number="du">ю</form>
+                <form case="V" number="du">ꙗ</form>
+                <form case="N" number="pl">и</form>
+                <form case="G" number="pl">и</form>
+                <form case="D" number="pl">ѥмъ</form>
+                <form case="A" number="pl">ѩ</form>
+                <form case="I" number="pl">и</form>
+                <form case="L" number="pl">ихъ</form>
+                <form case="V" number="pl">и</form>
+            </paradigm>
+            <paradigm type="вьседрьжитель" truncate="1" animacy="yes">
+                <!-- m -telj animate, special hard е Npl -->
+                <form case="N" number="sg">҄ь</form>
+                <form case="G" number="sg">ꙗ</form>
+                <form case="D" number="sg">ю</form>
+                <form case="A" number="sg">ꙗ</form>
+                <form case="I" number="sg">ѥмь</form>
+                <form case="L" number="sg">҄и</form>
+                <form case="V" number="sg">ю</form>
+                <form case="N" number="du">ꙗ</form>
+                <form case="G" number="du">ю</form>
+                <form case="D" number="du">ѥма</form>
+                <form case="A" number="du">ꙗ</form>
+                <form case="I" number="du">ѥма</form>
+                <form case="L" number="du">ю</form>
+                <form case="V" number="du">ꙗ</form>
+                <form case="N" number="pl">е</form>
+                <form case="G" number="pl">҄ь</form>
+                <form case="D" number="pl">ѥмъ</form>
+                <form case="A" number="pl">ѩ</form>
+                <form case="I" number="pl">҄и</form>
+                <form case="L" number="pl">҄ихъ</form>
+                <form case="V" number="pl">҄и</form>
+            </paradigm>
             <paradigm type="лице" truncate="1">
+                <!-- n -c -->
                 <form case="N" number="sg">е</form>
                 <form case="G" number="sg">а</form>
                 <form case="D" number="sg">оу</form>
@@ -447,6 +618,7 @@
                 <form case="V" number="pl">а</form>
             </paradigm>
             <paradigm type="житиѥ" truncate="1">
+                <!-- n -ij- -->
                 <form case="N" number="sg">ѥ</form>
                 <form case="G" number="sg">ꙗ</form>
                 <form case="D" number="sg">ю</form>
@@ -494,6 +666,53 @@
                 <form case="L" number="pl">ьхъ</form>
                 <form case="V" number="pl">и</form>
             </paradigm>
+            <paradigm type="господь" truncate="1">
+                <form case="N" number="sg">ь</form>
+                <form case="G" number="sg">и</form>
+                <form case="D" number="sg">и</form>
+                <form case="A" number="sg">ь</form>
+                <form case="I" number="sg">ьмь</form>
+                <form case="L" number="sg">и</form>
+                <form case="V" number="sg">и</form>
+                <form case="N" number="du">и</form>
+                <form case="G" number="du">ью</form>
+                <form case="D" number="du">ьма</form>
+                <form case="A" number="du">и</form>
+                <form case="I" number="du">ьма</form>
+                <form case="L" number="du">ью</form>
+                <form case="V" number="du">и</form>
+                <form case="N" number="pl">ьѥ</form>
+                <form case="G" number="pl">ьи</form>
+                <form case="D" number="pl">ьмъ</form>
+                <form case="A" number="pl">и</form>
+                <form case="I" number="pl">ьми</form>
+                <form case="L" number="pl">ьхъ</form>
+                <form case="V" number="pl">и</form>
+            </paradigm>
+            <paradigm type="маломощь" truncate="1">
+                <!-- irreg Isg, Diels §64, n. 8 -->
+                <form case="N" number="sg">ь</form>
+                <form case="G" number="sg">и</form>
+                <form case="D" number="sg">и</form>
+                <form case="A" number="sg">ь</form>
+                <form case="I" number="sg">ьѭ</form>
+                <form case="L" number="sg">и</form>
+                <form case="V" number="sg">и</form>
+                <form case="N" number="du">и</form>
+                <form case="G" number="du">ью</form>
+                <form case="D" number="du">ьма</form>
+                <form case="A" number="du">и</form>
+                <form case="I" number="du">ьма</form>
+                <form case="L" number="du">ью</form>
+                <form case="V" number="du">и</form>
+                <form case="N" number="pl">ьѥ</form>
+                <form case="G" number="pl">ьи</form>
+                <form case="D" number="pl">ьмъ</form>
+                <form case="A" number="pl">и</form>
+                <form case="I" number="pl">ьми</form>
+                <form case="L" number="pl">ьхъ</form>
+                <form case="V" number="pl">и</form>
+            </paradigm>
         </class>
         <class type="u">
             <paradigm type="црькꙑ" truncate="1">
@@ -517,24 +736,24 @@
                 <form case="L" number="pl">ъвехъ</form>
             </paradigm>
             <paradigm type="кръвь" truncate="1">
-                <form case="N" number="sg">ъвь</form>
-                <form case="G" number="sg">ъве</form>
-                <form case="D" number="sg">ъви</form>
-                <form case="A" number="sg">ъвь</form>
-                <form case="I" number="sg">ъвьѭ</form>
-                <form case="L" number="sg">ъве</form>
-                <form case="N" number="du">ъви</form>
-                <form case="G" number="du">ъвоу</form>
-                <form case="D" number="du">ъвьма</form>
-                <form case="A" number="du">ъви</form>
-                <form case="I" number="du">ъвьма</form>
-                <form case="L" number="du">ъвоу</form>
-                <form case="N" number="pl">ъви</form>
-                <form case="G" number="pl">ъвъ</form>
-                <form case="D" number="pl">ъвемъ</form>
-                <form case="A" number="pl">ъви</form>
-                <form case="I" number="pl">ъвьми</form>
-                <form case="L" number="pl">ъвехъ</form>
+                <form case="N" number="sg">ь</form>
+                <form case="G" number="sg">е</form>
+                <form case="D" number="sg">и</form>
+                <form case="A" number="sg">ь</form>
+                <form case="I" number="sg">ьѭ</form>
+                <form case="L" number="sg">е</form>
+                <form case="N" number="du">и</form>
+                <form case="G" number="du">оу</form>
+                <form case="D" number="du">ьма</form>
+                <form case="A" number="du">и</form>
+                <form case="I" number="du">ьма</form>
+                <form case="L" number="du">оу</form>
+                <form case="N" number="pl">и</form>
+                <form case="G" number="pl">ъ</form>
+                <form case="D" number="pl">емъ</form>
+                <form case="A" number="pl">и</form>
+                <form case="I" number="pl">ьми</form>
+                <form case="L" number="pl">ехъ</form>
             </paradigm>
             <paradigm type="мати" truncate="1">
                 <form case="N" number="sg">и</form>
@@ -559,24 +778,179 @@
         </class>
         <class type="C">
             <paradigm type="имѧ" truncate="2">
-                <form case="N" number="sg">ѧ</form>
-                <form case="G" number="sg">ене</form>
-                <form case="D" number="sg">ени</form>
-                <form case="A" number="sg">ѧ</form>
-                <form case="I" number="sg">енемь</form>
-                <form case="L" number="sg">ене</form>
-                <form case="N" number="du">ена</form>
-                <form case="G" number="du">еноу</form>
-                <form case="D" number="du">еньма</form>
-                <form case="A" number="du">ена</form>
-                <form case="I" number="du">еньма</form>
-                <form case="L" number="du">еноу</form>
-                <form case="N" number="pl">ена</form>
-                <form case="G" number="pl">енъ</form>
-                <form case="D" number="pl">енемъ</form>
-                <form case="A" number="pl">ена</form>
-                <form case="I" number="pl">еньми</form>
-                <form case="L" number="pl">енехъ</form>
+                <form case="N" number="sg">мѧ</form>
+                <form case="G" number="sg">мене</form>
+                <form case="D" number="sg">мени</form>
+                <form case="A" number="sg">мѧ</form>
+                <form case="I" number="sg">менемь</form>
+                <form case="L" number="sg">мене</form>
+                <form case="N" number="du">мена</form>
+                <form case="G" number="du">меноу</form>
+                <form case="D" number="du">меньма</form>
+                <form case="A" number="du">мена</form>
+                <form case="I" number="du">меньма</form>
+                <form case="L" number="du">меноу</form>
+                <form case="N" number="pl">мена</form>
+                <form case="G" number="pl">менъ</form>
+                <form case="D" number="pl">менемъ</form>
+                <form case="A" number="pl">мена</form>
+                <form case="I" number="pl">меньми</form>
+                <form case="L" number="pl">менехъ</form>
+            </paradigm>
+            <paradigm type="дьнь" truncate="2">
+                <form case="N" number="sg">ь</form>
+                <form case="G" number="sg">е</form>
+                <form case="D" number="sg">и</form>
+                <form case="A" number="sg">ь</form>
+                <form case="I" number="sg">ьмь</form>
+                <form case="L" number="sg">е</form>
+                <form case="N" number="du">и</form>
+                <form case="G" number="du">оу</form>
+                <form case="D" number="du">ьма</form>
+                <form case="A" number="du">и</form>
+                <form case="I" number="du">ьма</form>
+                <form case="L" number="du">оу</form>
+                <form case="N" number="pl">е</form>
+                <form case="G" number="pl">ъ</form>
+                <form case="D" number="pl">емъ</form>
+                <form case="A" number="pl">и</form>
+                <form case="I" number="pl">ꙑ</form>
+                <!-- Ipl uncertain y ~ ъmi (Lunt §4.410) -->
+                <form case="L" number="pl">ехъ</form>
+            </paradigm>
+        </class>
+    </pos>
+    <pos type="adjective">
+        <class type="o">
+            <paradigm type="новъ" truncate="1">
+                <form gender="m" case="N" number="sg" length="short">ъ</form>
+                <form gender="m" case="G" number="sg" length="short">а</form>
+                <form gender="m" case="D" number="sg" length="short">оу</form>
+                <form gender="m" case="A" number="sg" length="short" animate="no">ъ</form>
+                <form gender="m" case="A" number="sg" length="short" animate="yes">а</form>
+                <form gender="m" case="I" number="sg" length="short">омь</form>
+                <form gender="m" case="L" number="sg" length="short">ѣ</form>
+                <form gender="m" case="V" number="sg" length="short">е</form>
+                <form gender="m" case="N" number="du" length="short">а</form>
+                <form gender="m" case="G" number="du" length="short">оу</form>
+                <form gender="m" case="D" number="du" length="short">ома</form>
+                <form gender="m" case="A" number="du" length="short">а</form>
+                <form gender="m" case="I" number="du" length="short">ома</form>
+                <form gender="m" case="L" number="du" length="short">оу</form>
+                <form gender="m" case="V" number="du" length="short">а</form>
+                <form gender="m" case="N" number="pl" length="short">и</form>
+                <form gender="m" case="G" number="pl" length="short">ъ</form>
+                <form gender="m" case="D" number="pl" length="short">ѣмъ</form>
+                <form gender="m" case="A" number="pl" length="short">ꙑ</form>
+                <form gender="m" case="I" number="pl" length="short">ꙑ</form>
+                <form gender="m" case="L" number="pl" length="short">ѣхъ</form>
+                <form gender="m" case="V" number="pl" length="short">и</form>
+                <form gender="n" case="N" number="sg" length="short">о</form>
+                <form gender="n" case="G" number="sg" length="short">а</form>
+                <form gender="n" case="D" number="sg" length="short">оу</form>
+                <form gender="n" case="A" number="sg" length="short">о</form>
+                <form gender="n" case="I" number="sg" length="short">омь</form>
+                <form gender="n" case="L" number="sg" length="short">ѣ</form>
+                <form gender="n" case="V" number="sg" length="short">о</form>
+                <form gender="n" case="N" number="du" length="short">ѣ</form>
+                <form gender="n" case="G" number="du" length="short">оу</form>
+                <form gender="n" case="D" number="du" length="short">ома</form>
+                <form gender="n" case="A" number="du" length="short">ѣ</form>
+                <form gender="n" case="I" number="du" length="short">ома</form>
+                <form gender="n" case="L" number="du" length="short">оу</form>
+                <form gender="n" case="V" number="du" length="short">а</form>
+                <form gender="n" case="N" number="pl" length="short">а</form>
+                <form gender="n" case="G" number="pl" length="short">ъ</form>
+                <form gender="n" case="D" number="pl" length="short">ѣмъ</form>
+                <form gender="n" case="A" number="pl" length="short">а</form>
+                <form gender="n" case="I" number="pl" length="short">ꙑ</form>
+                <form gender="n" case="L" number="pl" length="short">ѣхъ</form>
+                <form gender="n" case="V" number="pl" length="short">а</form>
+                <form gender="f" case="N" number="sg" length="short">а</form>
+                <form gender="f" case="G" number="sg" length="short">ꙑ</form>
+                <form gender="f" case="D" number="sg" length="short">ѣ</form>
+                <form gender="f" case="A" number="sg" length="short">ѫ</form>
+                <form gender="f" case="I" number="sg" length="short">оѭ</form>
+                <form gender="f" case="L" number="sg" length="short">ѣ</form>
+                <form gender="f" case="V" number="sg" length="short">а</form>
+                <form gender="f" case="N" number="du" length="short">ѣ</form>
+                <form gender="f" case="G" number="du" length="short">оу</form>
+                <form gender="f" case="D" number="du" length="short">ама</form>
+                <form gender="f" case="A" number="du" length="short">ѣ</form>
+                <form gender="f" case="I" number="du" length="short">ама</form>
+                <form gender="f" case="L" number="du" length="short">оу</form>
+                <form gender="f" case="V" number="du" length="short">а</form>
+                <form gender="f" case="N" number="pl" length="short">ꙑ</form>
+                <form gender="f" case="G" number="pl" length="short">ъ</form>
+                <form gender="f" case="D" number="pl" length="short">амъ</form>
+                <form gender="f" case="A" number="pl" length="short">ꙑ</form>
+                <form gender="f" case="I" number="pl" length="short">ами</form>
+                <form gender="f" case="L" number="pl" length="short">ахъ</form>
+                <form gender="f" case="V" number="pl" length="short">ꙑ</form>
+                <form gender="m" case="N" number="sg" length="long">ꙑи</form>
+                <form gender="m" case="G" number="sg" length="long">аѥго</form>
+                <form gender="m" case="D" number="sg" length="long">оуѥмоу</form>
+                <form gender="m" case="A" number="sg" length="long" animate="no">аѥго</form>
+                <form gender="m" case="A" number="sg" length="long" animate="yes">ꙑи</form>
+                <form gender="m" case="I" number="sg" length="long">ꙑимь</form>
+                <form gender="m" case="L" number="sg" length="long">ѣѥмь</form>
+                <form gender="m" case="V" number="sg" length="long">ꙑи</form>
+                <form gender="m" case="N" number="du" length="long">аꙗ</form>
+                <form gender="m" case="G" number="du" length="long">оую</form>
+                <form gender="m" case="D" number="du" length="long">ꙑима</form>
+                <form gender="m" case="A" number="du" length="long">аꙗ</form>
+                <form gender="m" case="I" number="du" length="long">ꙑима</form>
+                <form gender="m" case="L" number="du" length="long">ую</form>
+                <form gender="m" case="V" number="du" length="long">аꙗ</form>
+                <form gender="m" case="N" number="pl" length="long">ии</form>
+                <form gender="m" case="G" number="pl" length="long">ꙑихъ</form>
+                <form gender="m" case="D" number="pl" length="long">ꙑимъ</form>
+                <form gender="m" case="A" number="pl" length="long">ꙑѩ</form>
+                <form gender="m" case="I" number="pl" length="long">ꙑими</form>
+                <form gender="m" case="L" number="pl" length="long">ꙑихъ</form>
+                <form gender="m" case="V" number="pl" length="long">ии</form>
+                <form gender="n" case="N" number="sg" length="long">оѥ</form>
+                <form gender="n" case="G" number="sg" length="long">аѥго</form>
+                <form gender="n" case="D" number="sg" length="long">оуѥмоу</form>
+                <form gender="n" case="A" number="sg" length="long">оѥ</form>
+                <form gender="n" case="I" number="sg" length="long">ꙑимь</form>
+                <form gender="n" case="L" number="sg" length="long">ѣѥмь</form>
+                <form gender="n" case="V" number="sg" length="long">оѥ</form>
+                <form gender="n" case="N" number="du" length="long">ѣи</form>
+                <form gender="n" case="G" number="du" length="long">оую</form>
+                <form gender="n" case="D" number="du" length="long">ꙑима</form>
+                <form gender="n" case="A" number="du" length="long">ѣи</form>
+                <form gender="n" case="I" number="du" length="long">ꙑима</form>
+                <form gender="n" case="L" number="du" length="long">оую</form>
+                <form gender="n" case="V" number="du" length="long">ѣи</form>
+                <form gender="n" case="N" number="pl" length="long">аꙗ</form>
+                <form gender="n" case="G" number="pl" length="long">ꙑихъ</form>
+                <form gender="n" case="D" number="pl" length="long">ꙑимъ</form>
+                <form gender="n" case="A" number="pl" length="long">аꙗ</form>
+                <form gender="n" case="I" number="pl" length="long">ꙑими</form>
+                <form gender="n" case="L" number="pl" length="long">ꙑихъ</form>
+                <form gender="n" case="V" number="pl" length="long">аꙗ</form>
+                <form gender="f" case="N" number="sg" length="long">аꙗ</form>
+                <form gender="f" case="G" number="sg" length="long">ꙑѩ</form>
+                <form gender="f" case="D" number="sg" length="long">ѣи</form>
+                <form gender="f" case="A" number="sg" length="long">ѫѭ</form>
+                <form gender="f" case="I" number="sg" length="long">ѫѭ</form>
+                <form gender="f" case="L" number="sg" length="long">ѣи</form>
+                <form gender="f" case="V" number="sg" length="long">аꙗ</form>
+                <form gender="f" case="N" number="du" length="long">ѣи</form>
+                <form gender="f" case="G" number="du" length="long">оую</form>
+                <form gender="f" case="D" number="du" length="long">ꙑима</form>
+                <form gender="f" case="A" number="du" length="long">ѣи</form>
+                <form gender="f" case="I" number="du" length="long">ꙑима</form>
+                <form gender="f" case="L" number="du" length="long">оую</form>
+                <form gender="f" case="V" number="du" length="long">ѣи</form>
+                <form gender="f" case="N" number="pl" length="long">ꙑѩ</form>
+                <form gender="f" case="G" number="pl" length="long">ꙑихъ</form>
+                <form gender="f" case="D" number="pl" length="long">ꙑимъ</form>
+                <form gender="f" case="A" number="pl" length="long">ꙑѩ</form>
+                <form gender="f" case="I" number="pl" length="long">ꙑими</form>
+                <form gender="f" case="L" number="pl" length="long">ꙑихъ</form>
+                <form gender="f" case="V" number="pl" length="long">ꙑѩ</form>
             </paradigm>
         </class>
     </pos>

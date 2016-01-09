@@ -2,8 +2,9 @@
 <?xml-model href="lemmata.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="lemmata.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lemmata>
+   <!--
    <pos xml:id="common_noun">
-      <!-- o stem m -->
+      <!-\- o stem m -\->
       <class type="братръ" gender="m" animacy="yes">
          <description>Plain o-stem m, animate</description>
          <lemma>ангелъ</lemma>
@@ -48,7 +49,7 @@
          <description>x o-stem m, animate</description>
          <lemma>патриархъ</lemma>
       </class>
-      <!-- jo-stem m -->
+      <!-\- jo-stem m -\->
       <class type="мѫжь" gender="m" animacy="yes">
          <description>jo-stem m, animate</description>
          <lemma>мѫжь</lemma>
@@ -66,7 +67,7 @@
       </class>
       <class type="сакеларь" gender="m" animacy="yes">
          <description>r jo-stem m, animate</description>
-         <lemma>сакеларъ</lemma>
+         <lemma canonic="сак҄еларъ">сакеларъ</lemma>
       </class>
       <class type="манастꙑрь" gender="m" animacy="no">
          <description>r jo-stem m, inanimate</description>
@@ -76,7 +77,7 @@
          <description>-teljь jo-stem m, animate</description>
          <lemma>вьседрьжитель</lemma>
       </class>
-      <!-- o-stem n -->
+      <!-\- o-stem n -\->
       <class type="блюдо">
          <description>o-stem n</description>
          <lemma>блюдо</lemma>
@@ -87,7 +88,7 @@
          <lemma>ризьно</lemma>
          <lemma>цѣсарьство</lemma>
       </class>
-      <!-- jo-stem n -->
+      <!-\- jo-stem n -\->
       <class type="лице">
          <description>jo-stem neuter -Ce</description>
          <lemma>лице</lemma>
@@ -104,7 +105,7 @@
          <lemma>съпасениѥ</lemma>
          <lemma>даꙗниѥ</lemma>
       </class>
-      <!-- a-stem -->
+      <!-\- a-stem -\->
       <class type="вѣра">
          <description>a-stem f</description>
          <lemma>вѣра</lemma>
@@ -134,8 +135,8 @@
          <description>k a-stem m, animate</description>
          <lemma>владꙑка</lemma>
       </class>
-      <!-- ja-stem -->
-      <class type="братриꙗ">
+      <!-\- ja-stem -\->
+      <class type="коуциꙗ">
          <description>ja-stem f j</description>
          <lemma>братриꙗ</lemma>
          <lemma>коуциꙗ</lemma>
@@ -145,23 +146,20 @@
          <lemma>землꙗ</lemma>
       </class>
       <class type="доуша">
-         <description>ja-stem f husher</description>
+         <description>ja-stem f husher and c</description>
+         <lemma>богородица</lemma>
          <lemma>госпожда</lemma>
          <lemma>доуша</lemma>
-         <lemma>лъжа</lemma>
-      </class>
-      <class type="богородица">
-         <description>ja-stem f c</description>
-         <lemma>богородица</lemma>
          <lemma>златица</lemma>
+         <lemma>лъжа</lemma>
          <lemma>ризьница</lemma>
          <lemma>тьмьница</lemma>
       </class>
-      <class type="">
+      <class type="благꙑни">
          <description>ja-stem f -ynji</description>
          <lemma>благꙑни</lemma>
       </class>
-      <!-- i-stem -->
+      <!-\- i-stem -\->
       <class type="господь" gender="m" animacy="yes">
          <description>i-stem m, animate</description>
          <lemma>господь</lemma>
@@ -181,7 +179,7 @@
          <lemma>трепетъ</lemma>
          <lemma>чьсть</lemma>
       </class>
-      <!-- C-stem -->
+      <!-\- C-stem -\->
       <class type="дьнь" gender="m" animacy="yes">
          <description>n-stem m</description>
          <lemma>дьнь</lemma>
@@ -203,8 +201,9 @@
          <lemma>мати</lemma>
       </class>
    </pos>
+-->
    <pos xml:id="adjective">
-      <class type="блаженъ">
+      <class type="новъ">
          <description>Hard</description>
          <lemma>благословлѥнъ</lemma>
          <lemma>блаженъ</lemma>
@@ -212,6 +211,7 @@
          <lemma>деснъ</lemma>
          <lemma>жѧдьнъ</lemma>
          <lemma>малъ</lemma>
+         <lemma>новъ</lemma>
          <lemma>пристрашьнъ</lemma>
          <lemma>простъ</lemma>
          <lemma>прѣмилостивъ</lemma>
@@ -225,7 +225,7 @@
          <lemma>чоудьнъ</lemma>
          <lemma>чьстьнъ</lemma>
       </class>
-      <class type="нагъ">
+      <!--      <class type="нагъ">
          <description>g</description>
          <lemma>нагъ</lemma>
       </class>
@@ -259,8 +259,9 @@
          <lemma>мъногъ</lemma>
          <lemma>оубогъ</lemma>
       </class>
+-->
    </pos>
-   <pos xml:id="cardinal_numeral">
+   <!--   <pos xml:id="cardinal_numeral">
       <class type="ѥдинъ">
          <description>one</description>
          <lemma>ѥдинъ</lemma>
@@ -672,4 +673,5 @@
          <lemma>ꙗко</lemma>
       </class>
    </pos>
+-->
 </lemmata>

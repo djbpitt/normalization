@@ -30,4 +30,5 @@ description = element description { text }
 gender = attribute gender { "m" | "n" | "f" }
 type = attribute type { text }
 animacy = attribute animacy { "yes" | "no" }
-lemma = element lemma { text }
+lemma = element lemma { canonic?, text }
+canonic = attribute canonic { text }
