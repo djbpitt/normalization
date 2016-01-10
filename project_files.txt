@@ -1,14 +1,14 @@
 Files
 
+create_full_paradigms.xsl
+Uses gregory_lemmata.xml and paradigms.xml to create full_paradigms.xml
+
+full_paradigms.xml
+Full paradigms of all words in dictionary, with lemma and morphological annotation
+
 gregory_lemmata.xml
 List of all lexemes in text, categorized morphologically. Used to generate full-text dictionary
 Validate against lemmata.rnc and lemmata.sch
-
-lemmata.rnc
-Used to validate gregory_lemmata.xml
-
-lemmata.sch
-Used to validate gregory_lemmata.xml
 
 gregory_proiel_exploded.xml
 PROIEL output, converted to more tractable XML
@@ -16,3 +16,21 @@ Validate against instance_exploded.sch
 
 instance_exploded.sch
 Used to validate gregory_proiel_exploded.xml. Verifies that all @lemma values are in gregory_lemmata.xml lemma list.
+
+lemmata.rnc
+Used to validate gregory_lemmata.xml
+
+lemmata.sch
+Used to validate gregory_lemmata.xml
+
+normalize.xsl
+Transform input like gregory_proiel_exploded.xml to normalized output using full_paradigms.xml
+
+paradigms.xml
+Tables of endings, used by create_full_paradigms.xsl
+
+project_files.txt
+This list of all project files
+
+test_sentences.xml
+For testing syntactic analysis (distinction of declaratives, interrogatives, imperatives)
