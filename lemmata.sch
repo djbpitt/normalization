@@ -2,6 +2,7 @@
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     <sch:let name="paradigm_entries" value="doc('paradigms.xml')//paradigm/@type"/>
+    <sch:let name="indeclinables" value="('акꙑ', 'а', 'аминъ', 'како', 'без', 'ѥгда', 'аще')"/>
     <sch:pattern>
         <sch:rule context="pos/@xml:id">
             <sch:report test="count(//pos/@xml:id[. eq current()]) ne 1">The @xml:id associated with
@@ -10,7 +11,7 @@
         <sch:rule context="@type">
             <sch:report test="count(ancestor::pos/class/@type[. eq current()]) ne 1">A @type value
                 on a class should not repeat within a pos</sch:report>
-            <sch:assert test=". = $paradigm_entries"></sch:assert>
+            <sch:assert test=". = ($paradigm_entries, $indeclinables)"/>
         </sch:rule>
         <sch:rule context="lemma">
             <sch:report test="string-length(normalize-space(.)) eq 0">A lemma element cannot be

@@ -2,9 +2,9 @@
 <?xml-model href="lemmata.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="lemmata.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <lemmata>
-   <!--
+
    <pos xml:id="common_noun">
-      <!-\- o stem m -\->
+      <!-- o stem m -->
       <class type="братръ" gender="m" animacy="yes">
          <description>Plain o-stem m, animate</description>
          <lemma>ангелъ</lemma>
@@ -49,7 +49,7 @@
          <description>x o-stem m, animate</description>
          <lemma>патриархъ</lemma>
       </class>
-      <!-\- jo-stem m -\->
+      <!-- jo-stem m -->
       <class type="мѫжь" gender="m" animacy="yes">
          <description>jo-stem m, animate</description>
          <lemma>мѫжь</lemma>
@@ -77,7 +77,7 @@
          <description>-teljь jo-stem m, animate</description>
          <lemma>вьседрьжитель</lemma>
       </class>
-      <!-\- o-stem n -\->
+      <!-- o-stem n -->
       <class type="блюдо">
          <description>o-stem n</description>
          <lemma>блюдо</lemma>
@@ -88,7 +88,7 @@
          <lemma>ризьно</lemma>
          <lemma>цѣсарьство</lemma>
       </class>
-      <!-\- jo-stem n -\->
+      <!-- jo-stem n -->
       <class type="лице">
          <description>jo-stem neuter -Ce</description>
          <lemma>лице</lemma>
@@ -105,7 +105,7 @@
          <lemma>съпасениѥ</lemma>
          <lemma>даꙗниѥ</lemma>
       </class>
-      <!-\- a-stem -\->
+      <!-- a-stem -->
       <class type="вѣра">
          <description>a-stem f</description>
          <lemma>вѣра</lemma>
@@ -135,7 +135,7 @@
          <description>k a-stem m, animate</description>
          <lemma>владꙑка</lemma>
       </class>
-      <!-\- ja-stem -\->
+      <!-- ja-stem -->
       <class type="коуциꙗ">
          <description>ja-stem f j</description>
          <lemma>братриꙗ</lemma>
@@ -159,7 +159,7 @@
          <description>ja-stem f -ynji</description>
          <lemma>благꙑни</lemma>
       </class>
-      <!-\- i-stem -\->
+      <!-- i-stem -->
       <class type="господь" gender="m" animacy="yes">
          <description>i-stem m, animate</description>
          <lemma>господь</lemma>
@@ -179,7 +179,7 @@
          <lemma>трепетъ</lemma>
          <lemma>чьсть</lemma>
       </class>
-      <!-\- C-stem -\->
+      <!-- C-stem -->
       <class type="дьнь" gender="m" animacy="yes">
          <description>n-stem m</description>
          <lemma>дьнь</lemma>
@@ -201,7 +201,6 @@
          <lemma>мати</lemma>
       </class>
    </pos>
--->
    <pos xml:id="adjective">
       <class type="новъ">
          <description>Hard</description>
@@ -225,8 +224,10 @@
          <lemma>чоудьнъ</lemma>
          <lemma>чьстьнъ</lemma>
       </class>
-      <!--      <class type="нагъ">
+      <class type="нагъ">
          <description>g</description>
+         <lemma>дроугъ</lemma>
+         <lemma>оубогъ</lemma>
          <lemma>нагъ</lemma>
       </class>
       <class type="връховьнь">
@@ -234,7 +235,7 @@
          <lemma>връховьнь</lemma>
          <lemma>вꙑшьнь</lemma>
       </class>
-      <class type="любонищь">
+      <class type="нищь">
          <description>Husher</description>
          <lemma>любонищь</lemma>
          <lemma>нищь</lemma>
@@ -245,6 +246,10 @@
          <description>j</description>
          <lemma>божии</lemma>
       </class>
+      <class type="мъногъ">
+         <description>Lung §4.322; mъnogъ also has regular adj endings</description>
+         <lemma>мъногъ</lemma>
+      </class>
       <class type="великъ">
          <description>k</description>
          <lemma>ангельскъ</lemma>
@@ -253,13 +258,7 @@
          <lemma>римьскъ</lemma>
          <lemma>чловѣчьскъ</lemma>
       </class>
-      <class type="дроугъ">
-         <description>g</description>
-         <lemma>дроугъ</lemma>
-         <lemma>мъногъ</lemma>
-         <lemma>оубогъ</lemma>
-      </class>
--->
+
    </pos>
    <!--   <pos xml:id="cardinal_numeral">
       <class type="ѥдинъ">
@@ -285,8 +284,8 @@
          <description>ten</description>
          <lemma>десѧть</lemma>
       </class>
-   </pos>
-   <pos xml:id="demonstrative_pronoun">
+   </pos>-->
+   <!-- <pos xml:id="demonstrative_pronoun">
       <class type="какъ">
          <description>kakъ</description>
          <lemma>какъ</lemma>
@@ -309,8 +308,8 @@
          <lemma>тъ</lemma>
          <lemma>тъжде</lemma>
       </class>
-   </pos>
-   <pos xml:id="indefinite_pronoun">
+   </pos> -->
+   <!-- <pos xml:id="indefinite_pronoun">
       <class type="инъ">
          <description>hard</description>
          <lemma>инъ</lemma>
@@ -335,7 +334,8 @@
          <description>nothing</description>
          <lemma>ничьтоже</lemma>
       </class>
-   </pos>
+   </pos> -->
+   <!-- 
    <pos xml:id="interrogative_pronoun">
       <class type="къто">
          <description>who</description>
@@ -346,12 +346,16 @@
          <lemma>чьто</lemma>
       </class>
    </pos>
+   -->
+   <!--
    <pos xml:id="ordinal_numeral">
       <class type="третии">
          <description>third</description>
          <lemma>третии</lemma>
       </class>
    </pos>
+   -->
+   <!--
    <pos xml:id="personal_pronoun">
       <class type="азъ">
          <description>1sg</description>
@@ -374,12 +378,16 @@
          <lemma>и</lemma>
       </class>
    </pos>
+   -->
+   <!--
    <pos xml:id="personal_reflexive_pronoun">
       <class type="себе">
          <description>sebe</description>
          <lemma>себе</lemma>
       </class>
    </pos>
+   -->
+   <!--
    <pos xml:id="possessive_pronoun">
       <class type="мои">
          <description>sg</description>
@@ -392,12 +400,16 @@
          <lemma>вашь</lemma>
       </class>
    </pos>
+   -->
+   <!--
    <pos xml:id="possessive_reflexive_pronoun">
       <class type="свои">
          <description>svojь</description>
          <lemma>свои</lemma>
       </class>
    </pos>
+   -->
+   <!--
    <pos xml:id="proper_noun">
       <class type="иоанъ" gender="m">
          <description>m o</description>
@@ -428,12 +440,16 @@
          <lemma>силвиꙗ</lemma>
       </class>
    </pos>
+   -->
+   <!--
    <pos xml:id="relative_pronoun">
       <class type="иже">
          <description>iže</description>
          <lemma>иже</lemma>
       </class>
    </pos>
+   -->
+   <!--
    <pos xml:id="verb">
       <class type="жити">
          <description>Diels I.1: v</description>
@@ -585,6 +601,8 @@
          <lemma>ꙗсти</lemma>
       </class>
    </pos>
+   -->
+
    <pos xml:id="adverb">
       <class type="акꙑ">
          <description>uninflected</description>
@@ -615,7 +633,7 @@
       </class>
    </pos>
    <pos xml:id="conjunction">
-      <class type="only">
+      <class type="а">
          <description>Indeclinable</description>
          <lemma>а</lemma>
          <lemma>и</lemma>
@@ -623,7 +641,7 @@
       </class>
    </pos>
    <pos xml:id="interjection">
-      <class type="only">
+      <class type="аминъ">
          <description>Indeclinable</description>
          <lemma>аминъ</lemma>
          <lemma>се</lemma>
@@ -631,14 +649,14 @@
       </class>
    </pos>
    <pos xml:id="interrogative_adverb">
-      <class type="only">
+      <class type="како">
          <description>Indeclinable</description>
          <lemma>како</lemma>
          <lemma>ли</lemma>
       </class>
    </pos>
    <pos xml:id="preposition">
-      <class type="only">
+      <class type="без">
          <description>Indeclinable</description>
          <lemma>без</lemma>
          <lemma>близъ</lemma>
@@ -656,7 +674,7 @@
       </class>
    </pos>
    <pos xml:id="relative_adverb">
-      <class type="only">
+      <class type="ѥгда">
          <description>Indeclinable</description>
          <lemma>отънѥлиже</lemma>
          <lemma>ѥгда</lemma>
@@ -664,7 +682,7 @@
       </class>
    </pos>
    <pos xml:id="subjunction">
-      <class type="only">
+      <class type="аще">
          <description>Indeclinable</description>
          <lemma>аще</lemma>
          <lemma>да</lemma>
@@ -673,5 +691,5 @@
          <lemma>ꙗко</lemma>
       </class>
    </pos>
--->
+
 </lemmata>
