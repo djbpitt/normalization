@@ -41,7 +41,7 @@
             <tr>
                 <th>Diplomatic</th>
                 <xsl:apply-templates
-                    select="token[(1 or @id ne preceding-sibling::token[1]/@id) and @part-of-speech = ('Nb', 'A-')]"
+                    select="token[(1 or @id ne preceding-sibling::token[1]/@id) and @part-of-speech = ('Df', 'C-', 'I-', 'Du', 'R-', 'Dq', 'G-', 'Nb', 'A-')]"
                     mode="original"/>
             </tr>
             <tr>
