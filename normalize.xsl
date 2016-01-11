@@ -21,52 +21,84 @@
     </xsl:template>
     <xsl:template match="sentence">
         <sentence>
-            <xsl:apply-templates select="token"/>
+            <!-- Placeholder pos filter; eventually process all pos -->
+            <xsl:apply-templates select="token[@part-of-speech = ('Nb', 'A-')]"/>
             <!-- Placeholder final period; replace with choice of period, question mark, exclamation point -->
             <xsl:value-of select="'.'"/>
         </sentence>
     </xsl:template>
-    <xsl:template match="token[@part-of-speech = 'Nb']">
-        <!-- common noun -->
-        <!--
-            relevant morphology fields are:
-            2. number (s, d, p; there are others, but not in OCS)
-            7. case (n, a, g, d, i, l, v; there are others, but not in OCS)
-        -->
+    <xsl:template match="token">
         <xsl:variable name="morphology"
             select="
                 for $i in string-to-codepoints(@morphology)
                 return
                     codepoints-to-string($i)"
             as="xs:string+"/>
-        <xsl:variable name="type" select="key('classByLemma', @lemma, $lemmata)/@type"
-            as="attribute(type)"/>
-        <xsl:variable name="paradigm" select="key('paradigmByExample', $type, $paradigms)"
-            as="element(paradigm)"/>
-        <xsl:variable name="stem"
-            select="substring(@lemma, 1, string-length(@lemma) - number($paradigm/@truncate))"
-            as="xs:string"/>
-        <xsl:variable name="desinence"
-            select="$paradigm/form[starts-with(@number, $morphology[2]) and @case = upper-case($morphology[7])]"
-            as="xs:string"/>
-        <xsl:variable name="word_form" select="concat($stem, $desinence)" as="xs:string"/>
-        <xsl:sequence
-            select="
-                if (not(preceding-sibling::token)) then
-                    djb:title_case($word_form)
-                else
-                    $word_form"
-        />
-    </xsl:template>
-    <xsl:template match="token[@part-of-speech = 'R-']">
-        <!-- preposition -->
-        <xsl:sequence
-            select="
-                if (not(preceding-sibling::token)) then
-                    djb:title_case(@lemma)
-                else
-                    xs:string(@lemma)"
-        />
+        <xsl:variable name="output_token" as="xs:string?">
+            <!-- Remove question mark from @as (above) when complete -->
+            <xsl:choose>
+                <!-- Distinguish indeclinable from declinable -->
+                <xsl:when test="$morphology[10] eq 'n'">
+                    <xsl:sequence select="@lemma"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:variable name="type" select="key('classByLemma', @lemma, $lemmata)/@type"
+                        as="attribute(type)"/>
+                    <xsl:variable name="paradigm"
+                        select="key('paradigmByExample', $type, $paradigms)" as="element(paradigm)"/>
+                    <xsl:choose>
+                        <!-- If declinable, distinguish pos -->
+                        <xsl:when test="@part-of-speech eq 'Nb'">
+                            <!-- common noun -->
+                            <!--
+                                relevant morphology fields are:
+                                2. number (s, d, p; there are others, but not in OCS)
+                                7. case (n, a, g, d, i, l, v; there are others, but not in OCS)
+                            -->
+                            <xsl:variable name="stem"
+                                select="substring(@lemma, 1, string-length(@lemma) - number($paradigm/@truncate))"
+                                as="xs:string"/>
+                            <xsl:variable name="desinence"
+                                select="$paradigm/form[starts-with(@number, $morphology[2]) and @case = upper-case($morphology[7])]"
+                                as="xs:string"/>
+                            <xsl:sequence select="concat($stem, $desinence)"/>
+                        </xsl:when>
+                        <xsl:when test="@part-of-speech eq 'A-'">
+                            <!-- TO DO: Include comparative and superlative; currently assuming positive (field 8) -->
+                            <!-- adjective -->
+                            <!--
+                               relevant morphology fields are:
+                               2. number (s, d, p; there are others, but not in OCS)
+                               6. gender (m, f, n; there are others, but not in OCS)
+                               7. case (n, a, g, d, i, l, v; there are others, but not in OCS)
+                               9. strength (w, s; w is long and s is short)
+                            -->
+                            <xsl:variable name="stem"
+                                select="substring(@lemma, 1, string-length(@lemma) - number($paradigm/@truncate))"
+                                as="xs:string"/>
+                            <xsl:variable name="desinence"
+                                select="
+                                    $paradigm/form[starts-with(@number, $morphology[2]) and @gender = $morphology[6] and @case = upper-case($morphology[7]) and (if ($morphology[9] eq 's') then
+                                        @length eq 'short'
+                                    else
+                                        @length eq 'long')]"
+                                as="xs:string"/>
+                            <xsl:sequence select="concat($stem, $desinence)"/>
+                        </xsl:when>
+                    </xsl:choose>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:if test="$output_token">
+            <!-- While under development, output only pos for which rules have been created -->
+            <xsl:sequence
+                select="
+                    if (not(preceding-sibling::token)) then
+                        djb:title_case($output_token)
+                    else
+                        $output_token"
+            />
+        </xsl:if>
     </xsl:template>
     <xsl:template match="token[@part-of-speech = 'Ma']">
         <!-- cardinal number -->
@@ -74,67 +106,8 @@
     <xsl:template match="token[@part-of-speech = 'Ne']">
         <!-- proper noun -->
     </xsl:template>
-    <xsl:template match="token[@part-of-speech = 'A-']">
-        <!-- TO DO: Include comparative and superlative; currently assuming positive (field 8) -->
-        <!-- adjective -->
-        <!--
-            relevant morphology fields are:
-            2. number (s, d, p; there are others, but not in OCS)
-            6. gender (m, f, n; there are others, but not in OCS)
-            7. case (n, a, g, d, i, l, v; there are others, but not in OCS)
-            9. strength (w, s; w is long and s is short)
-        -->
-        <xsl:variable name="morphology"
-            select="
-                for $i in string-to-codepoints(@morphology)
-                return
-                    codepoints-to-string($i)"
-            as="xs:string+"/>
-        <xsl:variable name="type" select="key('classByLemma', @lemma, $lemmata)/@type"
-            as="attribute(type)"/>
-        <xsl:variable name="paradigm" select="key('paradigmByExample', $type, $paradigms)"
-            as="element(paradigm)"/>
-        <xsl:variable name="stem"
-            select="substring(@lemma, 1, string-length(@lemma) - number($paradigm/@truncate))"
-            as="xs:string"/>
-        <xsl:variable name="desinence"
-            select="
-                $paradigm/form[starts-with(@number, $morphology[2]) and @gender = $morphology[6] and @case = upper-case($morphology[7]) and (if ($morphology[9] eq 's') then
-                    @length eq 'short'
-                else
-                    @length eq 'long')]"
-            as="xs:string"/>
-        <xsl:variable name="word_form" select="concat($stem, $desinence)" as="xs:string"/>
-        <xsl:sequence
-            select="
-                if (not(preceding-sibling::token)) then
-                    djb:title_case($word_form)
-                else
-                    $word_form"
-        />
-    </xsl:template>
     <xsl:template match="token[@part-of-speech = 'V-']">
         <!-- verb -->
-    </xsl:template>
-    <xsl:template match="token[@part-of-speech = 'C-']">
-        <!-- conjunction -->
-        <xsl:sequence
-            select="
-                if (not(preceding-sibling::token)) then
-                    djb:title_case(@lemma)
-                else
-                    xs:string(@lemma)"
-        />
-    </xsl:template>
-    <xsl:template match="token[@part-of-speech = 'Df']">
-        <!-- adverb -->
-        <xsl:sequence
-            select="
-                if (not(preceding-sibling::token)) then
-                    djb:title_case(@lemma)
-                else
-                    xs:string(@lemma)"
-        />
     </xsl:template>
     <xsl:template match="token[@part-of-speech = 'Pd']">
         <!-- demonstrative pronoun -->
@@ -142,44 +115,14 @@
     <xsl:template match="token[@part-of-speech = 'Pp']">
         <!-- personal pronoun -->
     </xsl:template>
-    <xsl:template match="token[@part-of-speech = 'Dq']">
-        <!-- relative adverb -->
-        <xsl:sequence
-            select="
-                if (not(preceding-sibling::token)) then
-                    djb:title_case(@lemma)
-                else
-                    xs:string(@lemma)"
-        />
-    </xsl:template>
     <xsl:template match="token[@part-of-speech = 'Pt']">
         <!-- possessive reflexive pronoun -->
-    </xsl:template>
-    <xsl:template match="token[@part-of-speech = 'G-']">
-        <!-- subjunction -->
-        <xsl:sequence
-            select="
-                if (not(preceding-sibling::token)) then
-                    djb:title_case(@lemma)
-                else
-                    xs:string(@lemma)"
-        />
     </xsl:template>
     <xsl:template match="token[@part-of-speech = 'Pk']">
         <!-- personal reflexive pronnoun -->
     </xsl:template>
     <xsl:template match="token[@part-of-speech = 'Px']">
         <!-- indefinite pronoun -->
-    </xsl:template>
-    <xsl:template match="token[@part-of-speech = 'Du']">
-        <!-- interrogative adverb -->
-        <xsl:sequence
-            select="
-                if (not(preceding-sibling::token)) then
-                    djb:title_case(@lemma)
-                else
-                    xs:string(@lemma)"
-        />
     </xsl:template>
     <xsl:template match="token[@part-of-speech = 'Pr']">
         <!-- relative pronoun -->
@@ -190,17 +133,8 @@
     <xsl:template match="token[@part-of-speech = 'Mo']">
         <!-- ordinal numeral -->
     </xsl:template>
-    <xsl:template match="token[@part-of-speech = 'I-']">
-        <!-- interjection -->
-        <xsl:sequence
-            select="
-                if (not(preceding-sibling::token)) then
-                    djb:title_case(@lemma)
-                else
-                    xs:string(@lemma)"
-        />
-    </xsl:template>
     <xsl:template match="token[@part-of-speech = 'Pi']">
         <!-- interrogative -->
     </xsl:template>
+
 </xsl:stylesheet>
