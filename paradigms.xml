@@ -797,7 +797,7 @@
                 <form case="I" number="pl">меньми</form>
                 <form case="L" number="pl">менехъ</form>
             </paradigm>
-            <paradigm type="дьнь" truncate="2">
+            <paradigm type="дьнь" truncate="1">
                 <form case="N" number="sg">ь</form>
                 <form case="G" number="sg">е</form>
                 <form case="D" number="sg">и</form>

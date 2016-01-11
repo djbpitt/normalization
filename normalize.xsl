@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:djb="http://www.obdurodon.org" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs" version="2.0">
+    xmlns="http://www.w3.org/1999/xhtml" xmlns:djb="http://www.obdurodon.org"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="#all" version="2.0">
     <xsl:output method="xml" indent="yes"/>
     <!-- Functions -->
     <xsl:function name="djb:title_case" as="xs:string">
@@ -15,17 +15,47 @@
     <xsl:key name="paradigmByExample" match="paradigm" use="@type"/>
     <!-- Templates -->
     <xsl:template match="/">
-        <output>
-            <xsl:apply-templates select="//sentence"/>
-        </output>
+        <html>
+            <head>
+                <title>Normalization output</title>
+                <link rel="stylesheet" type="text/css" href="http://www.obdurodon.org/css/style.css"/>
+                <style type="text/css">
+                    table{
+                        margin-bottom: 10px;
+                    }
+                    td{
+                        font-family: BukyVede;
+                    }</style>
+            </head>
+            <body>
+                <h1>
+                    <xsl:apply-templates select="/div/title"/>
+                </h1>
+                <xsl:apply-templates select="//sentence"/>
+            </body>
+        </html>
     </xsl:template>
     <xsl:template match="sentence">
-        <sentence>
+        <table>
             <!-- Placeholder pos filter; eventually process all pos -->
-            <xsl:apply-templates select="token[@part-of-speech = ('Nb', 'A-')]"/>
-            <!-- Placeholder final period; replace with choice of period, question mark, exclamation point -->
-            <xsl:value-of select="'.'"/>
-        </sentence>
+            <tr>
+                <th>Diplomatic</th>
+                <xsl:apply-templates
+                    select="token[(1 or @id ne preceding-sibling::token[1]/@id) and @part-of-speech = ('Nb', 'A-')]"
+                    mode="original"/>
+            </tr>
+            <tr>
+                <th>Normalized</th>
+                <xsl:apply-templates
+                    select="token[(1 or @id ne preceding-sibling::token[1]/@id) and @part-of-speech = ('Nb', 'A-')]"
+                />
+            </tr>
+        </table>
+    </xsl:template>
+    <xsl:template match="token" mode="original">
+        <td>
+            <xsl:sequence select="xs:string(@form)"/>
+        </td>
     </xsl:template>
     <xsl:template match="token">
         <xsl:variable name="morphology"
@@ -91,13 +121,18 @@
         </xsl:variable>
         <xsl:if test="$output_token">
             <!-- While under development, output only pos for which rules have been created -->
-            <xsl:sequence
-                select="
-                    if (not(preceding-sibling::token)) then
-                        djb:title_case($output_token)
-                    else
-                        $output_token"
-            />
+            <td>
+                <xsl:sequence
+                    select="
+                        if (not(preceding-sibling::token)) then
+                            djb:title_case($output_token)
+                        else
+                            if (not(following-sibling::token)) then
+                                concat($output_token, '.')
+                            else
+                                $output_token"
+                />
+            </td>
         </xsl:if>
     </xsl:template>
     <xsl:template match="token[@part-of-speech = 'Ma']">
