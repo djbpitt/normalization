@@ -827,8 +827,7 @@
                 <form gender="m" case="N" number="sg" length="short">ъ</form>
                 <form gender="m" case="G" number="sg" length="short">а</form>
                 <form gender="m" case="D" number="sg" length="short">оу</form>
-                <form gender="m" case="A" number="sg" length="short" animate="no">ъ</form>
-                <form gender="m" case="A" number="sg" length="short" animate="yes">а</form>
+                <form gender="m" case="A" number="sg" length="short">ъ</form>
                 <form gender="m" case="I" number="sg" length="short">омь</form>
                 <form gender="m" case="L" number="sg" length="short">ѣ</form>
                 <form gender="m" case="V" number="sg" length="short">е</form>
@@ -891,8 +890,7 @@
                 <form gender="m" case="N" number="sg" length="long">ꙑи</form>
                 <form gender="m" case="G" number="sg" length="long">аѥго</form>
                 <form gender="m" case="D" number="sg" length="long">оуѥмоу</form>
-                <form gender="m" case="A" number="sg" length="long" animate="yes">аѥго</form>
-                <form gender="m" case="A" number="sg" length="long" animate="no">ꙑи</form>
+                <form gender="m" case="A" number="sg" length="long">ꙑи</form>
                 <form gender="m" case="I" number="sg" length="long">ꙑимь</form>
                 <form gender="m" case="L" number="sg" length="long">ѣѥмь</form>
                 <form gender="m" case="V" number="sg" length="long">ꙑи</form>
@@ -958,8 +956,7 @@
                 <form gender="m" case="N" number="sg" length="short">къ</form>
                 <form gender="m" case="G" number="sg" length="short">ка</form>
                 <form gender="m" case="D" number="sg" length="short">коу</form>
-                <form gender="m" case="A" number="sg" length="short" animate="no">къ</form>
-                <form gender="m" case="A" number="sg" length="short" animate="yes">ка</form>
+                <form gender="m" case="A" number="sg" length="short">къ</form>
                 <form gender="m" case="I" number="sg" length="short">комь</form>
                 <form gender="m" case="L" number="sg" length="short">цѣ</form>
                 <form gender="m" case="V" number="sg" length="short">че</form>
@@ -1022,8 +1019,7 @@
                 <form gender="m" case="N" number="sg" length="long">кꙑи</form>
                 <form gender="m" case="G" number="sg" length="long">каѥко</form>
                 <form gender="m" case="D" number="sg" length="long">коуѥмоу</form>
-                <form gender="m" case="A" number="sg" length="long" animate="yes">каѥко</form>
-                <form gender="m" case="A" number="sg" length="long" animate="no">кꙑи</form>
+                <form gender="m" case="A" number="sg" length="long">кꙑи</form>
                 <form gender="m" case="I" number="sg" length="long">кꙑимь</form>
                 <form gender="m" case="L" number="sg" length="long">цѣѥмь</form>
                 <form gender="m" case="V" number="sg" length="long">кꙑи</form>
@@ -1089,8 +1085,7 @@
                 <form gender="m" case="N" number="sg" length="short">гъ</form>
                 <form gender="m" case="G" number="sg" length="short">га</form>
                 <form gender="m" case="D" number="sg" length="short">гоу</form>
-                <form gender="m" case="A" number="sg" length="short" animate="no">гъ</form>
-                <form gender="m" case="A" number="sg" length="short" animate="yes">га</form>
+                <form gender="m" case="A" number="sg" length="short">гъ</form>
                 <form gender="m" case="I" number="sg" length="short">гомь</form>
                 <form gender="m" case="L" number="sg" length="short">ѕѣ</form>
                 <form gender="m" case="V" number="sg" length="short">же</form>
@@ -1153,8 +1148,7 @@
                 <form gender="m" case="N" number="sg" length="long">гꙑи</form>
                 <form gender="m" case="G" number="sg" length="long">гаѥго</form>
                 <form gender="m" case="D" number="sg" length="long">гоуѥмоу</form>
-                <form gender="m" case="A" number="sg" length="long" animate="yes">гаѥго</form>
-                <form gender="m" case="A" number="sg" length="long" animate="no">гꙑи</form>
+                <form gender="m" case="A" number="sg" length="long">гꙑи</form>
                 <form gender="m" case="I" number="sg" length="long">гꙑимь</form>
                 <form gender="m" case="L" number="sg" length="long">ѕѣѥмь</form>
                 <form gender="m" case="V" number="sg" length="long">гꙑи</form>
@@ -1220,8 +1214,7 @@
                 <form gender="m" case="N" number="sg" length="short">гъ</form>
                 <form gender="m" case="G" number="sg" length="short">га</form>
                 <form gender="m" case="D" number="sg" length="short">гоу</form>
-                <form gender="m" case="A" number="sg" length="short" animate="no">гъ</form>
-                <form gender="m" case="A" number="sg" length="short" animate="yes">га</form>
+                <form gender="m" case="A" number="sg" length="short">гъ</form>
                 <form gender="m" case="I" number="sg" length="short">ѕѣмь</form>
                 <form gender="m" case="L" number="sg" length="short">ѕѣ</form>
                 <form gender="m" case="V" number="sg" length="short">же</form>
@@ -1284,8 +1277,7 @@
                 <form gender="m" case="N" number="sg" length="long">гꙑи</form>
                 <form gender="m" case="G" number="sg" length="long">гаѥго</form>
                 <form gender="m" case="D" number="sg" length="long">гоуѥмоу</form>
-                <form gender="m" case="A" number="sg" length="long" animate="yes">гаѥго</form>
-                <form gender="m" case="A" number="sg" length="long" animate="no">гꙑи</form>
+                <form gender="m" case="A" number="sg" length="long">гꙑи</form>
                 <form gender="m" case="I" number="sg" length="long">гꙑимь</form>
                 <form gender="m" case="L" number="sg" length="long">ѕѣѥмь</form>
                 <form gender="m" case="V" number="sg" length="long">гꙑи</form>
@@ -1351,8 +1343,7 @@
                 <form gender="m" case="N" number="sg" length="short">ь</form>
                 <form gender="m" case="G" number="sg" length="short">а</form>
                 <form gender="m" case="D" number="sg" length="short">оу</form>
-                <form gender="m" case="A" number="sg" length="short" animate="no">ь</form>
-                <form gender="m" case="A" number="sg" length="short" animate="yes">а</form>
+                <form gender="m" case="A" number="sg" length="short">ь</form>
                 <form gender="m" case="I" number="sg" length="short">емь</form>
                 <form gender="m" case="L" number="sg" length="short">и</form>
                 <form gender="m" case="V" number="sg" length="short">ь</form>
@@ -1415,8 +1406,7 @@
                 <form gender="m" case="N" number="sg" length="long">ии</form>
                 <form gender="m" case="G" number="sg" length="long">аѥго</form>
                 <form gender="m" case="D" number="sg" length="long">оуѥмоу</form>
-                <form gender="m" case="A" number="sg" length="long" animate="yes">аѥго</form>
-                <form gender="m" case="A" number="sg" length="long" animate="no">ии</form>
+                <form gender="m" case="A" number="sg" length="long">ии</form>
                 <form gender="m" case="I" number="sg" length="long">иимь</form>
                 <form gender="m" case="L" number="sg" length="long">иимь</form>
                 <form gender="m" case="V" number="sg" length="long">ии</form>
@@ -1477,13 +1467,141 @@
                 <form gender="f" case="L" number="pl" length="long">иихъ</form>
                 <form gender="f" case="V" number="pl" length="long">ѧѩ</form>
             </paradigm>
+            <paradigm type="третии" truncate="1">
+                <!-- третии -->
+                <form gender="m" case="N" number="sg" length="short">и</form>
+                <form gender="m" case="G" number="sg" length="short">ꙗ</form>
+                <form gender="m" case="D" number="sg" length="short">ю</form>
+                <form gender="m" case="A" number="sg" length="short">и</form>
+                <form gender="m" case="I" number="sg" length="short">ѥмь</form>
+                <form gender="m" case="L" number="sg" length="short">и</form>
+                <form gender="m" case="V" number="sg" length="short">и</form>
+                <form gender="m" case="N" number="du" length="short">ꙗ</form>
+                <form gender="m" case="G" number="du" length="short">ю</form>
+                <form gender="m" case="D" number="du" length="short">ѥма</form>
+                <form gender="m" case="A" number="du" length="short">ꙗ</form>
+                <form gender="m" case="I" number="du" length="short">ѥма</form>
+                <form gender="m" case="L" number="du" length="short">ю</form>
+                <form gender="m" case="V" number="du" length="short">ꙗ</form>
+                <form gender="m" case="N" number="pl" length="short">и</form>
+                <form gender="m" case="G" number="pl" length="short">и</form>
+                <form gender="m" case="D" number="pl" length="short">ѥмъ</form>
+                <form gender="m" case="A" number="pl" length="short">ѩ</form>
+                <form gender="m" case="I" number="pl" length="short">и</form>
+                <form gender="m" case="L" number="pl" length="short">ихъ</form>
+                <form gender="m" case="V" number="pl" length="short">и</form>
+                <form gender="n" case="N" number="sg" length="short">ѥ</form>
+                <form gender="n" case="G" number="sg" length="short">ꙗ</form>
+                <form gender="n" case="D" number="sg" length="short">ю</form>
+                <form gender="n" case="A" number="sg" length="short">ѥ</form>
+                <form gender="n" case="I" number="sg" length="short">ѥмь</form>
+                <form gender="n" case="L" number="sg" length="short">и</form>
+                <form gender="n" case="V" number="sg" length="short">ѥ</form>
+                <form gender="n" case="N" number="du" length="short">и</form>
+                <form gender="n" case="G" number="du" length="short">ю</form>
+                <form gender="n" case="D" number="du" length="short">ѥма</form>
+                <form gender="n" case="A" number="du" length="short">и</form>
+                <form gender="n" case="I" number="du" length="short">ѥма</form>
+                <form gender="n" case="L" number="du" length="short">ю</form>
+                <form gender="n" case="V" number="du" length="short">и</form>
+                <form gender="n" case="N" number="pl" length="short">ꙗ</form>
+                <form gender="n" case="G" number="pl" length="short">и</form>
+                <form gender="n" case="D" number="pl" length="short">ѥмъ</form>
+                <form gender="n" case="A" number="pl" length="short">ꙗ</form>
+                <form gender="n" case="I" number="pl" length="short">и</form>
+                <form gender="n" case="L" number="pl" length="short">ихъ</form>
+                <form gender="n" case="V" number="pl" length="short">ꙗ</form>
+                <form gender="f" case="N" number="sg" length="short">ꙗ</form>
+                <form gender="f" case="G" number="sg" length="short">ѩ</form>
+                <form gender="f" case="D" number="sg" length="short">и</form>
+                <form gender="f" case="A" number="sg" length="short">ѭ</form>
+                <form gender="f" case="I" number="sg" length="short">ѥѭ</form>
+                <form gender="f" case="L" number="sg" length="short">и</form>
+                <form gender="f" case="V" number="sg" length="short">ꙗ</form>
+                <form gender="f" case="N" number="du" length="short">и</form>
+                <form gender="f" case="G" number="du" length="short">ю</form>
+                <form gender="f" case="D" number="du" length="short">ꙗма</form>
+                <form gender="f" case="A" number="du" length="short">и</form>
+                <form gender="f" case="I" number="du" length="short">ꙗма</form>
+                <form gender="f" case="L" number="du" length="short">ю</form>
+                <form gender="f" case="V" number="du" length="short">и</form>
+                <form gender="f" case="N" number="pl" length="short">ѩ</form>
+                <form gender="f" case="G" number="pl" length="short">и</form>
+                <form gender="f" case="D" number="pl" length="short">ꙗмъ</form>
+                <form gender="f" case="A" number="pl" length="short">ѩ</form>
+                <form gender="f" case="I" number="pl" length="short">ꙗми</form>
+                <form gender="f" case="L" number="pl" length="short">ꙗхъ</form>
+                <form gender="f" case="V" number="pl" length="short">ѩ</form>
+                <form gender="m" case="N" number="sg" length="long">ии</form>
+                <form gender="m" case="G" number="sg" length="long">ꙗѥго</form>
+                <form gender="m" case="D" number="sg" length="long">юѥмоу</form>
+                <form gender="m" case="A" number="sg" length="long">ии</form>
+                <form gender="m" case="I" number="sg" length="long">иимь</form>
+                <form gender="m" case="L" number="sg" length="long">иимь</form>
+                <form gender="m" case="V" number="sg" length="long">ии</form>
+                <form gender="m" case="N" number="du" length="long">ꙗꙗ</form>
+                <form gender="m" case="G" number="du" length="long">юю</form>
+                <form gender="m" case="D" number="du" length="long">иима</form>
+                <form gender="m" case="A" number="du" length="long">ꙗꙗ</form>
+                <form gender="m" case="I" number="du" length="long">иима</form>
+                <form gender="m" case="L" number="du" length="long">юю</form>
+                <form gender="m" case="V" number="du" length="long">ꙗꙗ</form>
+                <form gender="m" case="N" number="pl" length="long">ии</form>
+                <form gender="m" case="G" number="pl" length="long">иихъ</form>
+                <form gender="m" case="D" number="pl" length="long">иимъ</form>
+                <form gender="m" case="A" number="pl" length="long">ѩѩ</form>
+                <form gender="m" case="I" number="pl" length="long">иими</form>
+                <form gender="m" case="L" number="pl" length="long">иихъ</form>
+                <form gender="m" case="V" number="pl" length="long">ии</form>
+                <form gender="n" case="N" number="sg" length="long">ѥѥ</form>
+                <form gender="n" case="G" number="sg" length="long">ꙗѥго</form>
+                <form gender="n" case="D" number="sg" length="long">юѥмоу</form>
+                <form gender="n" case="A" number="sg" length="long">ѥѥ</form>
+                <form gender="n" case="I" number="sg" length="long">иимь</form>
+                <form gender="n" case="L" number="sg" length="long">иимь</form>
+                <form gender="n" case="V" number="sg" length="long">ѥѥ</form>
+                <form gender="n" case="N" number="du" length="long">ии</form>
+                <form gender="n" case="G" number="du" length="long">юю</form>
+                <form gender="n" case="D" number="du" length="long">иима</form>
+                <form gender="n" case="A" number="du" length="long">ии</form>
+                <form gender="n" case="I" number="du" length="long">иима</form>
+                <form gender="n" case="L" number="du" length="long">юю</form>
+                <form gender="n" case="V" number="du" length="long">ии</form>
+                <form gender="n" case="N" number="pl" length="long">ꙗꙗ</form>
+                <form gender="n" case="G" number="pl" length="long">иихъ</form>
+                <form gender="n" case="D" number="pl" length="long">иимъ</form>
+                <form gender="n" case="A" number="pl" length="long">ꙗꙗ</form>
+                <form gender="n" case="I" number="pl" length="long">иими</form>
+                <form gender="n" case="L" number="pl" length="long">иихъ</form>
+                <form gender="n" case="V" number="pl" length="long">ꙗꙗ</form>
+                <form gender="f" case="N" number="sg" length="long">ꙗꙗ</form>
+                <form gender="f" case="G" number="sg" length="long">ѩѩ</form>
+                <form gender="f" case="D" number="sg" length="long">ии</form>
+                <form gender="f" case="A" number="sg" length="long">ѭѭ</form>
+                <form gender="f" case="I" number="sg" length="long">ѭѭ</form>
+                <form gender="f" case="L" number="sg" length="long">ии</form>
+                <form gender="f" case="V" number="sg" length="long">ꙗꙗ</form>
+                <form gender="f" case="N" number="du" length="long">ии</form>
+                <form gender="f" case="G" number="du" length="long">юю</form>
+                <form gender="f" case="D" number="du" length="long">иима</form>
+                <form gender="f" case="A" number="du" length="long">ии</form>
+                <form gender="f" case="I" number="du" length="long">иима</form>
+                <form gender="f" case="L" number="du" length="long">юю</form>
+                <form gender="f" case="V" number="du" length="long">ии</form>
+                <form gender="f" case="N" number="pl" length="long">ѩѩ</form>
+                <form gender="f" case="G" number="pl" length="long">иихъ</form>
+                <form gender="f" case="D" number="pl" length="long">иимъ</form>
+                <form gender="f" case="A" number="pl" length="long">ѩѩ</form>
+                <form gender="f" case="I" number="pl" length="long">иими</form>
+                <form gender="f" case="L" number="pl" length="long">иихъ</form>
+                <form gender="f" case="V" number="pl" length="long">ѩѩ</form>
+            </paradigm>
             <paradigm type="божии" truncate="1">
                 <!-- j possessives; no long forms-->
                 <form gender="m" case="N" number="sg" length="short">и</form>
                 <form gender="m" case="G" number="sg" length="short">ꙗ</form>
                 <form gender="m" case="D" number="sg" length="short">ю</form>
-                <form gender="m" case="A" number="sg" length="short" animate="no">и</form>
-                <form gender="m" case="A" number="sg" length="short" animate="yes">ꙗ</form>
+                <form gender="m" case="A" number="sg" length="short">и</form>
                 <form gender="m" case="I" number="sg" length="short">ѥмь</form>
                 <form gender="m" case="L" number="sg" length="short">и</form>
                 <form gender="m" case="V" number="sg" length="short">и</form>
@@ -1549,8 +1667,7 @@
                 <form gender="m" case="N" number="sg" length="short">҄ь</form>
                 <form gender="m" case="G" number="sg" length="short">҄ꙗ</form>
                 <form gender="m" case="D" number="sg" length="short">҄ю</form>
-                <form gender="m" case="A" number="sg" length="short" animate="no">҄ь</form>
-                <form gender="m" case="A" number="sg" length="short" animate="yes">҄ꙗ</form>
+                <form gender="m" case="A" number="sg" length="short">҄ь</form>
                 <form gender="m" case="I" number="sg" length="short">҄ѥмь</form>
                 <form gender="m" case="L" number="sg" length="short">҄и</form>
                 <form gender="m" case="V" number="sg" length="short">҄ю</form>
@@ -1613,8 +1730,7 @@
                 <form gender="m" case="N" number="sg" length="long">҄ии</form>
                 <form gender="m" case="G" number="sg" length="long">҄ꙗѥго</form>
                 <form gender="m" case="D" number="sg" length="long">҄юѥмоу</form>
-                <form gender="m" case="A" number="sg" length="long" animate="yes">҄ꙗѥго</form>
-                <form gender="m" case="A" number="sg" length="long" animate="no">҄ии</form>
+                <form gender="m" case="A" number="sg" length="long">҄ии</form>
                 <form gender="m" case="I" number="sg" length="long">҄иимь</form>
                 <form gender="m" case="L" number="sg" length="long">҄иимь</form>
                 <form gender="m" case="V" number="sg" length="long">҄ии</form>

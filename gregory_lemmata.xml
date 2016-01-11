@@ -242,6 +242,10 @@
          <lemma>ниць</lemma>
          <lemma>щоуждь</lemma>
       </class>
+      <class type="третии">
+         <description>soft with stem in -j</description>
+         <lemma>третии</lemma>
+      </class>
       <class type="божии">
          <description>j</description>
          <lemma>божии</lemma>
