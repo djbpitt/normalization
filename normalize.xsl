@@ -11,6 +11,7 @@
     <!-- Globals and keys -->
     <xsl:variable name="lemmata" select="doc('gregory_lemmata.xml')" as="document-node()"/>
     <xsl:key name="classByLemma" match="class" use="lemma"/>
+    <xsl:key name="lemmaByLemma" match="lemma" use="."/>
     <xsl:variable name="paradigms" select="doc('paradigms.xml')" as="document-node()"/>
     <xsl:key name="paradigmByExample" match="paradigm" use="@type"/>
     <!-- Templates -->
@@ -41,13 +42,13 @@
             <tr>
                 <th>Diplomatic</th>
                 <xsl:apply-templates
-                    select="token[(1 or @id ne preceding-sibling::token[1]/@id) and @part-of-speech = ('Df', 'C-', 'I-', 'Du', 'R-', 'Dq', 'G-', 'Nb', 'A-')]"
+                    select="token[(1 or @id ne preceding-sibling::token[1]/@id) and @part-of-speech = ('C-', 'I-', 'Df', 'Du', 'R-', 'Dq', 'G-', 'Nb', 'A-')]"
                     mode="original"/>
             </tr>
             <tr>
                 <th>Normalized</th>
                 <xsl:apply-templates
-                    select="token[(1 or @id ne preceding-sibling::token[1]/@id) and @part-of-speech = ('Nb', 'A-')]"
+                    select="token[(1 or @id ne preceding-sibling::token[1]/@id) and @part-of-speech = ('C-', 'I-', 'Df', 'Du', 'R-', 'Dq', 'G-', 'Nb', 'A-')]"
                 />
             </tr>
         </table>
@@ -69,6 +70,7 @@
             <xsl:choose>
                 <!-- Distinguish indeclinable from declinable -->
                 <xsl:when test="$morphology[10] eq 'n'">
+                    <!-- Do we need to add these to the lemma list for @canonic purposes? -->
                     <xsl:sequence select="@lemma"/>
                 </xsl:when>
                 <xsl:otherwise>
@@ -76,17 +78,20 @@
                         as="attribute(type)"/>
                     <xsl:variable name="paradigm"
                         select="key('paradigmByExample', $type, $paradigms)" as="element(paradigm)"/>
+                    <xsl:variable name="lemma"
+                        select="(key('lemmaByLemma', @lemma, $lemmata)/@canonic, @lemma)[1]"
+                        as="xs:string"/>
                     <xsl:choose>
                         <!-- If declinable, distinguish pos -->
                         <xsl:when test="@part-of-speech eq 'Nb'">
                             <!-- common noun -->
                             <!--
                                 relevant morphology fields are:
-                                2. number (s, d, p; there are others, but not in OCS)
-                                7. case (n, a, g, d, i, l, v; there are others, but not in OCS)
+                                2. number (s, d, p)
+                                7. case (n, a, g, d, i, l, v)
                             -->
                             <xsl:variable name="stem"
-                                select="substring(@lemma, 1, string-length(@lemma) - number($paradigm/@truncate))"
+                                select="substring($lemma, 1, string-length($lemma) - number($paradigm/@truncate))"
                                 as="xs:string"/>
                             <xsl:variable name="desinence"
                                 select="$paradigm/form[starts-with(@number, $morphology[2]) and @case = upper-case($morphology[7])]"
@@ -98,13 +103,13 @@
                             <!-- adjective -->
                             <!--
                                relevant morphology fields are:
-                               2. number (s, d, p; there are others, but not in OCS)
-                               6. gender (m, f, n; there are others, but not in OCS)
-                               7. case (n, a, g, d, i, l, v; there are others, but not in OCS)
+                               2. number (s, d, p)
+                               6. gender (m, f, n)
+                               7. case (n, a, g, d, i, l, v)
                                9. strength (w, s; w is long and s is short)
                             -->
                             <xsl:variable name="stem"
-                                select="substring(@lemma, 1, string-length(@lemma) - number($paradigm/@truncate))"
+                                select="substring($lemma, 1, string-length($lemma) - number($paradigm/@truncate))"
                                 as="xs:string"/>
                             <xsl:variable name="desinence"
                                 select="
@@ -113,6 +118,19 @@
                                     else
                                         @length eq 'long')]"
                                 as="xs:string"/>
+                            <xsl:sequence select="concat($stem, $desinence)"/>
+                        </xsl:when>
+                        <xsl:when test="@part-of-speech eq 'Df'">
+                            <!-- adverb; currently only positive degree -->
+                            <!--
+                                relevant morphology field is:
+                                8: degree (p, c, s)
+                            -->
+                            <xsl:variable name="stem"
+                                select="substring($lemma, 1, string-length($lemma) - number($paradigm/@truncate))"
+                                as="xs:string"/>
+                            <xsl:variable name="desinence"
+                                select="$paradigm/form[@degree eq $morphology[8]]" as="xs:string"/>
                             <xsl:sequence select="concat($stem, $desinence)"/>
                         </xsl:when>
                     </xsl:choose>

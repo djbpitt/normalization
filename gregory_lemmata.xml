@@ -7,7 +7,7 @@
       <!-- o stem m -->
       <class type="братръ" gender="m" animacy="yes">
          <description>Plain o-stem m, animate</description>
-         <lemma>ангелъ</lemma>
+         <lemma canonic="анг҄елъ">ангелъ</lemma>
          <lemma>апостолъ</lemma>
          <lemma>братръ</lemma>
          <lemma>игоуменъ</lemma>
@@ -413,7 +413,7 @@
       </class>
    </pos>
    -->
-   <!--
+
    <pos xml:id="proper_noun">
       <class type="иоанъ" gender="m">
          <description>m o</description>
@@ -436,7 +436,7 @@
       </class>
       <class type="кела">
          <description>f a</description>
-         <lemma>кела</lemma>
+         <lemma canonic="к҄ела">кела</lemma>
          <lemma>нова</lemma>
       </class>
       <class type="силвиꙗ" gender="f">
@@ -444,7 +444,7 @@
          <lemma>силвиꙗ</lemma>
       </class>
    </pos>
-   -->
+
    <!--
    <pos xml:id="relative_pronoun">
       <class type="иже">
@@ -608,8 +608,8 @@
    -->
 
    <pos xml:id="adverb">
-      <class type="акꙑ">
-         <description>uninflected</description>
+      <class type="мало">
+         <description>some are inflected and some are not</description>
          <lemma>акꙑ</lemma>
          <lemma>бо</lemma>
          <lemma>вꙑинѫ</lemma>

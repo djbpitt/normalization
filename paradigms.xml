@@ -1793,4 +1793,75 @@
             </paradigm>
         </class>
     </pos>
+    <pos type="adverb">
+        <class type="all">
+            <paradigm type="мало" truncate="1">
+                <form degree="p">о</form>
+            </paradigm>
+        </class>
+    </pos>
+    <pos type="proper noun">
+        <class type="o">
+            <paradigm type="иоанъ" truncate="1">
+                <form case="N" number="sg">ъ</form>
+                <form case="G" number="sg">а</form>
+                <form case="D" number="sg">оу</form>
+                <form case="A" number="sg">а</form>
+                <form case="I" number="sg">омь</form>
+                <form case="L" number="sg">ѣ</form>
+                <form case="V" number="sg">е</form>
+            </paradigm>
+            <paradigm type="христосъ" truncate="5">
+                <form case="N" number="sg">осъ</form>
+                <form case="G" number="sg">а</form>
+                <form case="D" number="sg">оу</form>
+                <form case="A" number="sg">а</form>
+                <form case="I" number="sg">омь</form>
+                <form case="L" number="sg">ѣ</form>
+                <form case="V" number="sg">е</form>
+            </paradigm>
+        </class>
+        <class type="jo">
+            <paradigm type="григории" truncate="1">
+                <form case="N" number="sg">и</form>
+                <form case="G" number="sg">ꙗ</form>
+                <form case="D" number="sg">ю</form>
+                <form case="A" number="sg">ꙗ</form>
+                <form case="I" number="sg">ѥмь</form>
+                <form case="L" number="sg">и</form>
+                <form case="V" number="sg">ю</form>
+            </paradigm>
+        </class>
+        <class type="a">
+            <paradigm type="кела">
+                <form case="N" number="sg">а</form>
+                <form case="G" number="sg">ѧ</form>
+                <form case="D" number="sg">ꙑ</form>
+                <form case="A" number="sg">ѫ</form>
+                <form case="I" number="sg">оѭ</form>
+                <form case="L" number="sg">ꙑ</form>
+                <form case="V" number="sg">о</form>
+            </paradigm>
+        </class>
+        <class type="ja">
+            <paradigm type="аньдреꙗ" truncate="1">
+                <form case="N" number="sg">ꙗ</form>
+                <form case="G" number="sg">ѩ</form>
+                <form case="D" number="sg">и</form>
+                <form case="A" number="sg">ѭ</form>
+                <form case="I" number="sg">ѥмь</form>
+                <form case="L" number="sg">и</form>
+                <form case="V" number="sg">ѥ</form>
+            </paradigm>
+            <paradigm type="силвиꙗ" truncate="1">
+                <form case="N" number="sg">ꙗ</form>
+                <form case="G" number="sg">ѩ</form>
+                <form case="D" number="sg">и</form>
+                <form case="A" number="sg">ѭ</form>
+                <form case="I" number="sg">ѥѭ</form>
+                <form case="L" number="sg">и</form>
+                <form case="V" number="sg">ѥ</form>
+            </paradigm>
+        </class>
+    </pos>
 </paradigms>

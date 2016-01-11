@@ -30,6 +30,9 @@ For testing syntactic analysis (distinction of declaratives, interrogatives, imp
 
 Documentation
 
+notes.txt
+Random notes, to be incorporated eventually into proper documentation
+
 proiel_annotation-key.xml
 Key to PROIEL annotations
 

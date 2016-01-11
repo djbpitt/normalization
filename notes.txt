@@ -1,0 +1,7 @@
+Notes
+
+Normalization favors the archaic, even when it contradicts more common younger spellings in the manuscripts. For example,
+gospodь is declined as an i-stem, even though o-stem and jo-stem forms are common.
+
+Palatal sonants (r, l, n) always have a palatalization hook, not only in potentially ambiguous situations (e.g., "ri" could
+be plain or palatal), but also in unambiguous ones (e.g., "r" before a jotated vowel letter, which must be palatal).
