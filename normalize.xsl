@@ -81,6 +81,9 @@
                     <xsl:variable name="lemma"
                         select="(key('lemmaByLemma', @lemma, $lemmata)/@canonic, @lemma)[1]"
                         as="xs:string"/>
+                    <xsl:variable name="stem"
+                        select="substring($lemma, 1, string-length($lemma) - number($paradigm/@truncate))"
+                        as="xs:string"/>
                     <xsl:choose>
                         <!-- If declinable, distinguish pos -->
                         <xsl:when test="@part-of-speech eq 'Nb'">
@@ -90,9 +93,6 @@
                                 2. number (s, d, p)
                                 7. case (n, a, g, d, i, l, v)
                             -->
-                            <xsl:variable name="stem"
-                                select="substring($lemma, 1, string-length($lemma) - number($paradigm/@truncate))"
-                                as="xs:string"/>
                             <xsl:variable name="desinence"
                                 select="$paradigm/form[starts-with(@number, $morphology[2]) and @case = upper-case($morphology[7])]"
                                 as="xs:string"/>
@@ -108,9 +108,6 @@
                                7. case (n, a, g, d, i, l, v)
                                9. strength (w, s; w is long and s is short)
                             -->
-                            <xsl:variable name="stem"
-                                select="substring($lemma, 1, string-length($lemma) - number($paradigm/@truncate))"
-                                as="xs:string"/>
                             <xsl:variable name="desinence"
                                 select="
                                     $paradigm/form[starts-with(@number, $morphology[2]) and @gender = $morphology[6] and @case = upper-case($morphology[7]) and (if ($morphology[9] eq 's') then
@@ -126,9 +123,6 @@
                                 relevant morphology field is:
                                 8: degree (p, c, s)
                             -->
-                            <xsl:variable name="stem"
-                                select="substring($lemma, 1, string-length($lemma) - number($paradigm/@truncate))"
-                                as="xs:string"/>
                             <xsl:variable name="desinence"
                                 select="$paradigm/form[@degree eq $morphology[8]]" as="xs:string"/>
                             <xsl:sequence select="concat($stem, $desinence)"/>
