@@ -1,0 +1,33 @@
+start = paradigms
+paradigms = element paradigms { pos+ }
+pos = element pos { pos_type, class+ }
+pos_type = attribute type { "Nb" | "A-" | "Df" | "Ne" | "V-" }
+class = element class { type, paradigm+ }
+type = attribute type { text }
+paradigm = element paradigm { type, truncate, animacy?, form+ }
+truncate = attribute truncate { xsd:int }
+animacy = attribute animacy { "yes" | "no" }
+form =
+    element form {
+        person?,
+        number?,
+        tense?,
+        mood?,
+        voice?,
+        gender?,
+        case?,
+        degree?,
+        strength?,
+        inflection?,
+        text
+    }
+person = attribute person { "1" | "2" | "3" }
+number = attribute number { "s" | "d" | "p" }
+tense = attribute tense { "p" | "i" | "p" | "s" | "a" | "u" | "l" | "f" | "t" }
+mood = attribute mood { "i" | "m" | "n" | "p" | "u" }
+voice = attribute voice { "a" | "p" }
+gender = attribute gender { "m" | "n" | "f" }
+case = attribute case { "n" | "a" | "g" | "d" | "i" | "l" | "v" }
+degree = attribute degree { "p" | "c" | "s" }
+strength = attribute strength { "w" | "s" }
+inflection = attribute inflection { "n" | "i" }
