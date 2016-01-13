@@ -1,5 +1,8 @@
 Notes
 
+Should normalization be based on choices within the ms, e.g., o-stem ~ u-stem? How about bě ~ běaše? If so, how should
+distinctions not recorded in PROIEL (historical stem type, aspect) be managed?
+
 Normalization favors the archaic, even when it contradicts more common younger spellings in the manuscripts. For example,
 gospodь is declined as an i-stem, even though o-stem and jo-stem forms are common.
 
