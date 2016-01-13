@@ -1864,4 +1864,51 @@
             </paradigm>
         </class>
     </pos>
+    <pos type="verb">
+        <class type="Diels I.1: d">
+            <paradigm type="вести" truncate="3">
+                <!-- 
+                    Done: present, imperfect, aorist, imperative, infinitive, supine
+                    To do: pres act, pres pass, result, past act, past pass
+                -->
+                <form person="1" number="s" tense="p" mood="i" voice="a">дѫ</form>
+                <form person="2" number="s" tense="p" mood="i" voice="a">деши</form>
+                <form person="3" number="s" tense="p" mood="i" voice="a">детъ</form>
+                <form person="1" number="d" tense="p" mood="i" voice="a">девѣ</form>
+                <form person="2" number="d" tense="p" mood="i" voice="a">дета</form>
+                <form person="3" number="d" tense="p" mood="i" voice="a">дете</form>
+                <form person="1" number="p" tense="p" mood="i" voice="a">демъ</form>
+                <form person="2" number="p" tense="p" mood="i" voice="a">дете</form>
+                <form person="3" number="p" tense="p" mood="i" voice="a">дѫтъ</form>
+                <form person="1" number="s" tense="i" mood="i" voice="a">дѣахъ</form>
+                <form person="2" number="s" tense="i" mood="i" voice="a">дѣаше</form>
+                <form person="3" number="s" tense="i" mood="i" voice="a">дѣаше</form>
+                <form person="1" number="d" tense="i" mood="i" voice="a">дѣаховѣ</form>
+                <form person="2" number="d" tense="i" mood="i" voice="a">дѣашета</form>
+                <form person="3" number="d" tense="i" mood="i" voice="a">дѣашете</form>
+                <form person="1" number="p" tense="i" mood="i" voice="a">дѣахомъ</form>
+                <form person="2" number="p" tense="i" mood="i" voice="a">дѣашете</form>
+                <form person="3" number="p" tense="i" mood="i" voice="a">дѣахѫ</form>
+                <form person="1" number="s" tense="a" mood="i" voice="a">дохъ</form>
+                <form person="2" number="s" tense="a" mood="i" voice="a">де</form>
+                <form person="3" number="s" tense="a" mood="i" voice="a">де</form>
+                <form person="1" number="d" tense="a" mood="i" voice="a">доховѣ</form>
+                <form person="2" number="d" tense="a" mood="i" voice="a">доста</form>
+                <form person="3" number="d" tense="a" mood="i" voice="a">досте</form>
+                <form person="1" number="p" tense="a" mood="i" voice="a">дохомъ</form>
+                <form person="2" number="p" tense="a" mood="i" voice="a">досте</form>
+                <form person="3" number="p" tense="a" mood="i" voice="a">дошѧ</form>
+                <form person="2" number="s" mood="i">ди</form>
+                <form person="3" number="s" mood="i">ди</form>
+                <form person="1" number="d" mood="i">дѣвѣ</form>
+                <form person="2" number="d" mood="i">дѣта</form>
+                <form person="3" number="d" mood="i">дѣте</form>
+                <form person="1" number="d" mood="i">дѣмъ</form>
+                <form person="2" number="d" mood="i">дѣте</form>
+                <form mood="n">вести</form>
+                <form mood="u">вестъ</form>
+                <form ></form>
+            </paradigm>
+        </class>
+    </pos>
 </paradigms>

@@ -11,7 +11,9 @@
         <sch:rule context="@type">
             <sch:report test="count(ancestor::pos/class/@type[. eq current()]) ne 1">A @type value
                 on a class should not repeat within a pos</sch:report>
-            <sch:assert test=". = ($paradigm_entries, $indeclinables)"/>
+            <sch:assert test=". = ($paradigm_entries, $indeclinables)">A @type value should
+                correspond to a @type value of a paradigm in paradigms.xml or to an indeclinable
+                type.</sch:assert>
         </sch:rule>
         <sch:rule context="lemma">
             <sch:report test="string-length(normalize-space(.)) eq 0">A lemma element cannot be

@@ -453,13 +453,13 @@
       </class>
    </pos>
    -->
-   <!--
+   
    <pos xml:id="verb">
-      <class type="жити">
+<!--      <class type="жити">
          <description>Diels I.1: v</description>
          <lemma>жити</lemma>
       </class>
-      <class type="грѧсти">
+-->      <class type="вести">
          <description>Diels I.1: d</description>
          <lemma>вести</lemma>
          <lemma>въвести</lemma>
@@ -468,7 +468,7 @@
          <lemma>пасти</lemma>
          <lemma>привести</lemma>
       </class>
-      <class type="рещи">
+<!--      <class type="рещи">
          <description>Diels I.1: k</description>
          <lemma>нарещи</lemma>
          <lemma>облѣщи</lemma>
@@ -604,8 +604,8 @@
          <description>Diels VII: ꙗсти</description>
          <lemma>ꙗсти</lemma>
       </class>
-   </pos>
-   -->
+-->   </pos>
+   
 
    <pos xml:id="adverb">
       <class type="мало">
@@ -695,5 +695,4 @@
          <lemma>ꙗко</lemma>
       </class>
    </pos>
-
 </lemmata>
