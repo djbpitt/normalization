@@ -15,12 +15,16 @@
             <file name="full_paradigms.xml"/>
         </folder>
         <file name="gregory_lemmata.xml"/>
-        <file name="gregory_proiel_exploded.xml"/>
+        <file name="file:/Users/djb/normalization/gregory_proiel_exploded.xml">
+            <file name="lemmata.rnc"/>
+            <file name="paradigm-output.xsl"/>
+        </file>
         <file name="instance_exploded.sch"/>
         <file name="lemmata.rnc"/>
         <file name="lemmata.sch"/>
         <file name="normalize.xsl"/>
         <file name="normalized.xhtml"/>
+        <file name="paradigm-output.xsl"/>
         <file name="paradigms.xml"/>
         <file name="test_sentences.xml"/>
     </projectTree>
