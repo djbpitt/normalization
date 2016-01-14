@@ -31,17 +31,17 @@
                 aorist forms</sch:assert>
             <sch:assert test="count(form[@mood eq 'm']) eq 7">There must be seven imperative
                 forms</sch:assert>
-            <sch:assert test="count(form[@mood eq 'p' and @tense eq 'p' and @voice eq 'a']) eq 36"
-                >There must be 36 present active participle forms</sch:assert>
-            <!--<sch:assert test="count(form[@mood eq 'p' and @tense eq 'u' and @voice eq 'a']) eq 36"
-                >There must be 36 past active participle forms</sch:assert>-->
+            <sch:assert test="count(form[@mood eq 'p' and @tense eq 'p' and @voice eq 'a']) eq 108"
+                >There must be 108 present active participle forms</sch:assert>
+            <!--<sch:assert test="count(form[@mood eq 'p' and @tense eq 'u' and @voice eq 'a']) eq 108"
+                >There must be 108 past active participle forms</sch:assert>-->
             <sch:assert
-                test="count(form[@mood eq 'p' and @tense eq 'p' and @voice eq 'p']) = (0, 36)">If
-                there are any present passive participle forms, there must be 36 of
+                test="count(form[@mood eq 'p' and @tense eq 'p' and @voice eq 'p']) = (0, 108)">If
+                there are any present passive participle forms, there must be 108 of
                 them</sch:assert>
             <sch:assert
-                test="count(form[@mood eq 'p' and @tense eq 'u' and @voice eq 'p']) = (0, 36)">If
-                there are any past passive participle forms, there must be 36 of them</sch:assert>
+                test="count(form[@mood eq 'p' and @tense eq 'u' and @voice eq 'p']) = (0, 108)">If
+                there are any past passive participle forms, there must be 108 of them</sch:assert>
         </sch:rule>
         <sch:rule context="form[ancestor::pos/@type eq 'V-' and @mood eq 'i' and @tense eq 'p']">
             <!-- Present indicative -->
@@ -93,6 +93,9 @@
                 test="@number and @tense and @voice and @gender and @case and @strength and count(@*) eq 7"
                 >Participles must specify tense and voice; case, number, and gender; and strength;
                 and no other morphological categories</sch:assert>
+            <sch:assert
+                test="count(../form[@mood eq 'p' and @tense eq current()/@tense and @voice eq current()/@voice and @gender eq current()/@gender and @case eq current()/@case and @number eq current()/@number and @strength eq current()/@strength]) eq 1"
+                >No two participial forms can have identical category values</sch:assert>
             <sch:assert test="string-length(normalize-space(.)) gt 0">Forms cannot be
                 empty</sch:assert>
         </sch:rule>
