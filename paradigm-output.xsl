@@ -301,8 +301,8 @@
             as="element(form)+"/>
         <tr>
             <th rowspan="2" colspan="2">&#xa0;</th>
-            <th colspan="3">Short form</th>
-            <th colspan="3">Long form</th>
+            <th colspan="3">Short form (strong</th>
+            <th colspan="3">Long form (weak)</th>
             <th rowspan="2" colspan="2"/>
         </tr>
         <tr>
