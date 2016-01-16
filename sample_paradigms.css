@@ -1,0 +1,14 @@
+td,
+.ocs{
+    font-family: 'Bukyvede Light';
+    font-size: larger;
+}
+.odd{
+    background-color: pink;
+}
+.number{
+    vertical-align: middle;
+}
+.label{
+    text-align: left;
+}
