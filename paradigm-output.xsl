@@ -30,7 +30,7 @@
         <xsl:variable name="stem"
             select="substring(@type, 1, string-length(@type) - number(@truncate))" as="xs:string"/>
         <section>
-            <h3>Present</h3>
+            <h4>Present</h4>
             <table>
                 <tr>
                     <th>&#xa0;</th>
@@ -95,7 +95,7 @@
             </table>
         </section>
         <section>
-            <h3>Aorist</h3>
+            <h4>Aorist</h4>
             <table>
                 <tr>
                     <th>&#xa0;</th>
@@ -160,7 +160,7 @@
             </table>
         </section>
         <section>
-            <h3>Imperfect</h3>
+            <h4>Imperfect</h4>
             <table>
                 <tr>
                     <th>&#xa0;</th>
@@ -225,7 +225,7 @@
             </table>
         </section>
         <section>
-            <h3>Imperative</h3>
+            <h4>Imperative</h4>
             <table>
                 <tr>
                     <th>&#xa0;</th>
@@ -282,7 +282,7 @@
             </table>
         </section>
         <section>
-            <h3>Infinitive and supine</h3>
+            <h4>Infinitive and supine</h4>
             <table>
                 <tr>
                     <th class="label">Infinitive</th>
@@ -299,16 +299,16 @@
             </table>
         </section>
         <section>
-            <h3>Participles</h3>
+            <h4>Participles</h4>
             <section>
-                <h4>Present active</h4>
+                <h5>Present active</h5>
                 <xsl:variable name="forms"
                     select="form[@mood eq 'p' and @voice eq 'a' and @tense eq 'p']"
                     as="element(form)+"/>
                 <table>
                     <tr>
                         <th rowspan="2" colspan="2">&#xa0;</th>
-                        <th colspan="3">Short form (strong</th>
+                        <th colspan="3">Short form (strong)</th>
                         <th colspan="3">Long form (weak)</th>
                         <th rowspan="2" colspan="2"/>
                     </tr>
@@ -944,14 +944,14 @@
                 </table>
             </section>
             <section>
-                <h4>Past active</h4>
+                <h5>Past active</h5>
                 <xsl:variable name="forms"
                     select="form[@mood eq 'p' and @voice eq 'a' and @tense eq 'u']"
                     as="element(form)+"/>
                 <table>
                     <tr>
                         <th rowspan="2" colspan="2">&#xa0;</th>
-                        <th colspan="3">Short form (strong</th>
+                        <th colspan="3">Short form (strong)</th>
                         <th colspan="3">Long form (weak)</th>
                         <th rowspan="2" colspan="2"/>
                     </tr>
@@ -1587,14 +1587,657 @@
                 </table>
             </section>
             <section>
-                <h4>Present passive</h4>
+                <h5>Present passive</h5>
                 <xsl:variable name="forms"
                     select="form[@mood eq 'p' and @voice eq 'p' and @tense eq 'p']"
                     as="element(form)+"/>
                 <table>
                     <tr>
                         <th rowspan="2" colspan="2">&#xa0;</th>
-                        <th colspan="3">Short form (strong</th>
+                        <th colspan="3">Short form (strong)</th>
+                        <th colspan="3">Long form (weak)</th>
+                        <th rowspan="2" colspan="2"/>
+                    </tr>
+                    <tr>
+                        <th>Masculine</th>
+                        <th>Neuter</th>
+                        <th>Feminine</th>
+                        <th>Masculine</th>
+                        <th>Neuter</th>
+                        <th>Feminine</th>
+                    </tr>
+                    <!-- singular -->
+                    <tr>
+                        <th rowspan="6" class="number">Sing</th>
+                        <th class="odd">N</th>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's' and @case eq 'n' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's' and @case eq 'n' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's' and @case eq 'n' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's' and @case eq 'n' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's' and @case eq 'n' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's' and @case eq 'n' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th class="odd">N</th>
+                        <th rowspan="6" class="number">Sing</th>
+                    </tr>
+                    <tr>
+                        <th>A</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's' and @case eq 'a' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's' and @case eq 'a' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's' and @case eq 'a' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's' and @case eq 'a' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's' and @case eq 'a' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's' and @case eq 'a' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>A</th>
+                    </tr>
+                    <tr class="odd">
+                        <th>G</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's' and @case eq 'g' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's' and @case eq 'g' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's' and @case eq 'g' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's' and @case eq 'g' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's' and @case eq 'g' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's' and @case eq 'g' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>G</th>
+                    </tr>
+                    <tr>
+                        <th>L</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's' and @case eq 'l' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's' and @case eq 'l' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's' and @case eq 'l' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's' and @case eq 'l' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's' and @case eq 'l' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's' and @case eq 'l' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>L</th>
+                    </tr>
+                    <tr class="odd">
+                        <th>D</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's' and @case eq 'd' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's' and @case eq 'd' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's' and @case eq 'd' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's' and @case eq 'd' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's' and @case eq 'd' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's' and @case eq 'd' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>D</th>
+                    </tr>
+                    <tr>
+                        <th>I</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's' and @case eq 'i' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's' and @case eq 'i' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's' and @case eq 'i' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's' and @case eq 'i' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's' and @case eq 'i' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's' and @case eq 'i' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>I</th>
+                    </tr>
+                    <!-- dual -->
+                    <tr>
+                        <th rowspan="6" class="number">Dual</th>
+                        <th class="odd">N</th>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd' and @case eq 'n' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd' and @case eq 'n' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd' and @case eq 'n' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd' and @case eq 'n' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd' and @case eq 'n' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd' and @case eq 'n' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th class="odd">N</th>
+                        <th rowspan="6" class="number">Dual</th>
+                    </tr>
+                    <tr>
+                        <th>A</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd' and @case eq 'a' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd' and @case eq 'a' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd' and @case eq 'a' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd' and @case eq 'a' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd' and @case eq 'a' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd' and @case eq 'a' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>A</th>
+                    </tr>
+                    <tr class="odd">
+                        <th>G</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd' and @case eq 'g' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd' and @case eq 'g' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd' and @case eq 'g' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd' and @case eq 'g' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd' and @case eq 'g' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd' and @case eq 'g' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>G</th>
+                    </tr>
+                    <tr>
+                        <th>L</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd' and @case eq 'l' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd' and @case eq 'l' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd' and @case eq 'l' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd' and @case eq 'l' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd' and @case eq 'l' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd' and @case eq 'l' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>L</th>
+                    </tr>
+                    <tr class="odd">
+                        <th>D</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd' and @case eq 'd' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd' and @case eq 'd' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd' and @case eq 'd' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd' and @case eq 'd' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd' and @case eq 'd' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd' and @case eq 'd' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>D</th>
+                    </tr>
+                    <tr>
+                        <th>I</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd' and @case eq 'i' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd' and @case eq 'i' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd' and @case eq 'i' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd' and @case eq 'i' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd' and @case eq 'i' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd' and @case eq 'i' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>I</th>
+                    </tr>
+                    <!-- plural -->
+                    <tr>
+                        <th rowspan="6" class="number">Plural</th>
+                        <th class="odd">N</th>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p' and @case eq 'n' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p' and @case eq 'n' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'p' and @case eq 'n' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p' and @case eq 'n' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p' and @case eq 'n' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td class="odd">
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'p' and @case eq 'n' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th class="odd">N</th>
+                        <th rowspan="6" class="number">Plural</th>
+                    </tr>
+                    <tr>
+                        <th>A</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p' and @case eq 'a' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p' and @case eq 'a' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'p' and @case eq 'a' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p' and @case eq 'a' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p' and @case eq 'a' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'p' and @case eq 'a' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>A</th>
+                    </tr>
+                    <tr class="odd">
+                        <th>G</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p' and @case eq 'g' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p' and @case eq 'g' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'p' and @case eq 'g' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p' and @case eq 'g' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p' and @case eq 'g' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'p' and @case eq 'g' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>G</th>
+                    </tr>
+                    <tr>
+                        <th>L</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p' and @case eq 'l' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p' and @case eq 'l' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'p' and @case eq 'l' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p' and @case eq 'l' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p' and @case eq 'l' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'p' and @case eq 'l' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>L</th>
+                    </tr>
+                    <tr class="odd">
+                        <th>D</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p' and @case eq 'd' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p' and @case eq 'd' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'p' and @case eq 'd' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p' and @case eq 'd' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p' and @case eq 'd' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'p' and @case eq 'd' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>D</th>
+                    </tr>
+                    <tr>
+                        <th>I</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p' and @case eq 'i' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p' and @case eq 'i' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'p' and @case eq 'i' and @strength eq 's'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p' and @case eq 'i' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p' and @case eq 'i' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'p' and @case eq 'i' and @strength eq 'w'])"
+                            />
+                        </td>
+                        <th>I</th>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h5>Past passive</h5>
+                <xsl:variable name="forms"
+                    select="form[@mood eq 'p' and @voice eq 'p' and @tense eq 'u']"
+                    as="element(form)+"/>
+                <table>
+                    <tr>
+                        <th rowspan="2" colspan="2">&#xa0;</th>
+                        <th colspan="3">Short form (strong)</th>
                         <th colspan="3">Long form (weak)</th>
                         <th rowspan="2" colspan="2"/>
                     </tr>

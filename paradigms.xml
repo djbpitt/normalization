@@ -2574,6 +2574,231 @@
                     >домꙑими</form>
                 <form tense="p" mood="p" voice="p" gender="f" case="l" number="p" strength="w"
                     >домꙑихъ</form>
+
+                <!-- masculine past passive strong (short) -->
+                <form tense="u" mood="p" voice="p" gender="m" case="n" number="s" strength="s"
+                    >денъ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="g" number="s" strength="s"
+                    >дена</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="d" number="s" strength="s"
+                    >деноу</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="a" number="s" strength="s"
+                    >денъ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="i" number="s" strength="s"
+                    >деномь</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="l" number="s" strength="s"
+                    >денѣ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="n" number="d" strength="s"
+                    >дена</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="g" number="d" strength="s"
+                    >деноу</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="d" number="d" strength="s"
+                    >денома</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="a" number="d" strength="s"
+                    >дена</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="i" number="d" strength="s"
+                    >денома</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="l" number="d" strength="s"
+                    >деноу</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="n" number="p" strength="s"
+                    >дени</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="g" number="p" strength="s"
+                    >денъ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="d" number="p" strength="s"
+                    >денѣмъ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="a" number="p" strength="s"
+                    >денꙑ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="i" number="p" strength="s"
+                    >денꙑ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="l" number="p" strength="s"
+                    >денѣхъ</form>
+                <!-- neuter past passive strong (short) -->
+                <form tense="u" mood="p" voice="p" gender="n" case="n" number="s" strength="s"
+                    >дено</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="g" number="s" strength="s"
+                    >дена</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="d" number="s" strength="s"
+                    >деноу</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="a" number="s" strength="s"
+                    >дено</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="i" number="s" strength="s"
+                    >деномь</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="l" number="s" strength="s"
+                    >денѣ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="n" number="d" strength="s"
+                    >денѣ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="g" number="d" strength="s"
+                    >деноу</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="d" number="d" strength="s"
+                    >денома</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="a" number="d" strength="s"
+                    >денѣ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="i" number="d" strength="s"
+                    >денома</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="l" number="d" strength="s"
+                    >деноу</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="n" number="p" strength="s"
+                    >дена</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="g" number="p" strength="s"
+                    >денъ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="d" number="p" strength="s"
+                    >денѣмъ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="a" number="p" strength="s"
+                    >дена</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="i" number="p" strength="s"
+                    >денꙑ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="l" number="p" strength="s"
+                    >денѣхъ</form>
+                <!-- feminine past passive strong (short) -->
+                <form tense="u" mood="p" voice="p" gender="f" case="n" number="s" strength="s"
+                    >дена</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="g" number="s" strength="s"
+                    >денꙑ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="d" number="s" strength="s"
+                    >денѣ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="a" number="s" strength="s"
+                    >денѫ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="i" number="s" strength="s"
+                    >деноѭ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="l" number="s" strength="s"
+                    >денѣ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="n" number="d" strength="s"
+                    >денѣ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="g" number="d" strength="s"
+                    >деноу</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="d" number="d" strength="s"
+                    >денама</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="a" number="d" strength="s"
+                    >денѣ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="i" number="d" strength="s"
+                    >денама</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="l" number="d" strength="s"
+                    >деноу</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="n" number="p" strength="s"
+                    >денꙑ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="g" number="p" strength="s"
+                    >денъ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="d" number="p" strength="s"
+                    >денамъ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="a" number="p" strength="s"
+                    >денꙑ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="i" number="p" strength="s"
+                    >денами</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="l" number="p" strength="s"
+                    >денахъ</form>
+                <!-- masculine past passive weak (long) -->
+                <form tense="u" mood="p" voice="p" gender="m" case="n" number="s" strength="w"
+                    >денꙑи</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="g" number="s" strength="w"
+                    >денаѥго</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="d" number="s" strength="w"
+                    >деноуѥмоу</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="a" number="s" strength="w"
+                    >денꙑи</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="i" number="s" strength="w"
+                    >денꙑимь</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="l" number="s" strength="w"
+                    >денѣѥмь</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="n" number="d" strength="w"
+                    >денаꙗ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="g" number="d" strength="w"
+                    >деноую</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="d" number="d" strength="w"
+                    >денꙑима</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="a" number="d" strength="w"
+                    >денаꙗ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="i" number="d" strength="w"
+                    >денꙑима</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="l" number="d" strength="w"
+                    >деную</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="n" number="p" strength="w"
+                    >дении</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="g" number="p" strength="w"
+                    >денꙑихъ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="d" number="p" strength="w"
+                    >денꙑимъ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="a" number="p" strength="w"
+                    >денꙑѩ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="i" number="p" strength="w"
+                    >денꙑими</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="l" number="p" strength="w"
+                    >денꙑихъ</form>
+                <!-- neuter past passive weak (long) -->
+                <form tense="u" mood="p" voice="p" gender="n" case="n" number="s" strength="w"
+                    >деноѥ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="g" number="s" strength="w"
+                    >денаѥго</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="d" number="s" strength="w"
+                    >деноуѥмоу</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="a" number="s" strength="w"
+                    >деноѥ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="i" number="s" strength="w"
+                    >денꙑимь</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="l" number="s" strength="w"
+                    >денѣѥмь</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="n" number="d" strength="w"
+                    >денѣи</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="g" number="d" strength="w"
+                    >деноую</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="d" number="d" strength="w"
+                    >денꙑима</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="a" number="d" strength="w"
+                    >денѣи</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="i" number="d" strength="w"
+                    >денꙑима</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="l" number="d" strength="w"
+                    >деноую</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="n" number="p" strength="w"
+                    >денаꙗ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="g" number="p" strength="w"
+                    >денꙑихъ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="d" number="p" strength="w"
+                    >денꙑимъ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="a" number="p" strength="w"
+                    >денаꙗ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="i" number="p" strength="w"
+                    >денꙑими</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="l" number="p" strength="w"
+                    >денꙑихъ</form>
+                <!-- feminine past passive weak (long) -->
+                <form tense="u" mood="p" voice="p" gender="f" case="n" number="s" strength="w"
+                    >денаꙗ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="g" number="s" strength="w"
+                    >денꙑѩ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="d" number="s" strength="w"
+                    >денѣи</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="a" number="s" strength="w"
+                    >денѫѭ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="i" number="s" strength="w"
+                    >денѫѭ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="l" number="s" strength="w"
+                    >денѣи</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="n" number="d" strength="w"
+                    >денѣи</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="g" number="d" strength="w"
+                    >деноую</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="d" number="d" strength="w"
+                    >денꙑима</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="a" number="d" strength="w"
+                    >денѣи</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="i" number="d" strength="w"
+                    >денꙑима</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="l" number="d" strength="w"
+                    >деноую</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="n" number="p" strength="w"
+                    >денꙑѩ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="g" number="p" strength="w"
+                    >денꙑихъ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="d" number="p" strength="w"
+                    >денꙑимъ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="a" number="p" strength="w"
+                    >денꙑѩ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="i" number="p" strength="w"
+                    >денꙑими</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="l" number="p" strength="w"
+                    >денꙑихъ</form>
+
+
             </paradigm>
         </class>
     </pos>
