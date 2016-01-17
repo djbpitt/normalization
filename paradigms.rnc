@@ -1,7 +1,7 @@
 start = paradigms
 paradigms = element paradigms { pos+ }
 pos = element pos { pos_type, class+ }
-pos_type = attribute type { "Nb" | "A-" | "Df" | "Ne" | "V-" }
+pos_type = attribute type { "Nb" | "A-" | "Df" | "Ne" | "V-" | "Mo" }
 class = element class { type, paradigm+ }
 type = attribute type { text }
 paradigm = element paradigm { type, truncate, animacy?, form+ }

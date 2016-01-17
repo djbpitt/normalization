@@ -1469,135 +1469,6 @@
                 <form gender="f" case="l" number="p" strength="w">иихъ</form>
                 <form gender="f" case="v" number="p" strength="w">ѧѩ</form>
             </paradigm>
-            <paradigm type="третии" truncate="1">
-                <!-- третии -->
-                <form gender="m" case="n" number="s" strength="s">и</form>
-                <form gender="m" case="g" number="s" strength="s">ꙗ</form>
-                <form gender="m" case="d" number="s" strength="s">ю</form>
-                <form gender="m" case="a" number="s" strength="s">и</form>
-                <form gender="m" case="i" number="s" strength="s">ѥмь</form>
-                <form gender="m" case="l" number="s" strength="s">и</form>
-                <form gender="m" case="v" number="s" strength="s">и</form>
-                <form gender="m" case="n" number="d" strength="s">ꙗ</form>
-                <form gender="m" case="g" number="d" strength="s">ю</form>
-                <form gender="m" case="d" number="d" strength="s">ѥма</form>
-                <form gender="m" case="a" number="d" strength="s">ꙗ</form>
-                <form gender="m" case="i" number="d" strength="s">ѥма</form>
-                <form gender="m" case="l" number="d" strength="s">ю</form>
-                <form gender="m" case="v" number="d" strength="s">ꙗ</form>
-                <form gender="m" case="n" number="p" strength="s">и</form>
-                <form gender="m" case="g" number="p" strength="s">и</form>
-                <form gender="m" case="d" number="p" strength="s">ѥмъ</form>
-                <form gender="m" case="a" number="p" strength="s">ѩ</form>
-                <form gender="m" case="i" number="p" strength="s">и</form>
-                <form gender="m" case="l" number="p" strength="s">ихъ</form>
-                <form gender="m" case="v" number="p" strength="s">и</form>
-                <form gender="n" case="n" number="s" strength="s">ѥ</form>
-                <form gender="n" case="g" number="s" strength="s">ꙗ</form>
-                <form gender="n" case="d" number="s" strength="s">ю</form>
-                <form gender="n" case="a" number="s" strength="s">ѥ</form>
-                <form gender="n" case="i" number="s" strength="s">ѥмь</form>
-                <form gender="n" case="l" number="s" strength="s">и</form>
-                <form gender="n" case="v" number="s" strength="s">ѥ</form>
-                <form gender="n" case="n" number="d" strength="s">и</form>
-                <form gender="n" case="g" number="d" strength="s">ю</form>
-                <form gender="n" case="d" number="d" strength="s">ѥма</form>
-                <form gender="n" case="a" number="d" strength="s">и</form>
-                <form gender="n" case="i" number="d" strength="s">ѥма</form>
-                <form gender="n" case="l" number="d" strength="s">ю</form>
-                <form gender="n" case="v" number="d" strength="s">и</form>
-                <form gender="n" case="n" number="p" strength="s">ꙗ</form>
-                <form gender="n" case="g" number="p" strength="s">и</form>
-                <form gender="n" case="d" number="p" strength="s">ѥмъ</form>
-                <form gender="n" case="a" number="p" strength="s">ꙗ</form>
-                <form gender="n" case="i" number="p" strength="s">и</form>
-                <form gender="n" case="l" number="p" strength="s">ихъ</form>
-                <form gender="n" case="v" number="p" strength="s">ꙗ</form>
-                <form gender="f" case="n" number="s" strength="s">ꙗ</form>
-                <form gender="f" case="g" number="s" strength="s">ѩ</form>
-                <form gender="f" case="d" number="s" strength="s">и</form>
-                <form gender="f" case="a" number="s" strength="s">ѭ</form>
-                <form gender="f" case="i" number="s" strength="s">ѥѭ</form>
-                <form gender="f" case="l" number="s" strength="s">и</form>
-                <form gender="f" case="v" number="s" strength="s">ꙗ</form>
-                <form gender="f" case="n" number="d" strength="s">и</form>
-                <form gender="f" case="g" number="d" strength="s">ю</form>
-                <form gender="f" case="d" number="d" strength="s">ꙗма</form>
-                <form gender="f" case="a" number="d" strength="s">и</form>
-                <form gender="f" case="i" number="d" strength="s">ꙗма</form>
-                <form gender="f" case="l" number="d" strength="s">ю</form>
-                <form gender="f" case="v" number="d" strength="s">и</form>
-                <form gender="f" case="n" number="p" strength="s">ѩ</form>
-                <form gender="f" case="g" number="p" strength="s">и</form>
-                <form gender="f" case="d" number="p" strength="s">ꙗмъ</form>
-                <form gender="f" case="a" number="p" strength="s">ѩ</form>
-                <form gender="f" case="i" number="p" strength="s">ꙗми</form>
-                <form gender="f" case="l" number="p" strength="s">ꙗхъ</form>
-                <form gender="f" case="v" number="p" strength="s">ѩ</form>
-                <form gender="m" case="n" number="s" strength="w">ии</form>
-                <form gender="m" case="g" number="s" strength="w">ꙗѥго</form>
-                <form gender="m" case="d" number="s" strength="w">юѥмоу</form>
-                <form gender="m" case="a" number="s" strength="w">ии</form>
-                <form gender="m" case="i" number="s" strength="w">иимь</form>
-                <form gender="m" case="l" number="s" strength="w">иимь</form>
-                <form gender="m" case="v" number="s" strength="w">ии</form>
-                <form gender="m" case="n" number="d" strength="w">ꙗꙗ</form>
-                <form gender="m" case="g" number="d" strength="w">юю</form>
-                <form gender="m" case="d" number="d" strength="w">иима</form>
-                <form gender="m" case="a" number="d" strength="w">ꙗꙗ</form>
-                <form gender="m" case="i" number="d" strength="w">иима</form>
-                <form gender="m" case="l" number="d" strength="w">юю</form>
-                <form gender="m" case="v" number="d" strength="w">ꙗꙗ</form>
-                <form gender="m" case="n" number="p" strength="w">ии</form>
-                <form gender="m" case="g" number="p" strength="w">иихъ</form>
-                <form gender="m" case="d" number="p" strength="w">иимъ</form>
-                <form gender="m" case="a" number="p" strength="w">ѩѩ</form>
-                <form gender="m" case="i" number="p" strength="w">иими</form>
-                <form gender="m" case="l" number="p" strength="w">иихъ</form>
-                <form gender="m" case="v" number="p" strength="w">ии</form>
-                <form gender="n" case="n" number="s" strength="w">ѥѥ</form>
-                <form gender="n" case="g" number="s" strength="w">ꙗѥго</form>
-                <form gender="n" case="d" number="s" strength="w">юѥмоу</form>
-                <form gender="n" case="a" number="s" strength="w">ѥѥ</form>
-                <form gender="n" case="i" number="s" strength="w">иимь</form>
-                <form gender="n" case="l" number="s" strength="w">иимь</form>
-                <form gender="n" case="v" number="s" strength="w">ѥѥ</form>
-                <form gender="n" case="n" number="d" strength="w">ии</form>
-                <form gender="n" case="g" number="d" strength="w">юю</form>
-                <form gender="n" case="d" number="d" strength="w">иима</form>
-                <form gender="n" case="a" number="d" strength="w">ии</form>
-                <form gender="n" case="i" number="d" strength="w">иима</form>
-                <form gender="n" case="l" number="d" strength="w">юю</form>
-                <form gender="n" case="v" number="d" strength="w">ии</form>
-                <form gender="n" case="n" number="p" strength="w">ꙗꙗ</form>
-                <form gender="n" case="g" number="p" strength="w">иихъ</form>
-                <form gender="n" case="d" number="p" strength="w">иимъ</form>
-                <form gender="n" case="a" number="p" strength="w">ꙗꙗ</form>
-                <form gender="n" case="i" number="p" strength="w">иими</form>
-                <form gender="n" case="l" number="p" strength="w">иихъ</form>
-                <form gender="n" case="v" number="p" strength="w">ꙗꙗ</form>
-                <form gender="f" case="n" number="s" strength="w">ꙗꙗ</form>
-                <form gender="f" case="g" number="s" strength="w">ѩѩ</form>
-                <form gender="f" case="d" number="s" strength="w">ии</form>
-                <form gender="f" case="a" number="s" strength="w">ѭѭ</form>
-                <form gender="f" case="i" number="s" strength="w">ѭѭ</form>
-                <form gender="f" case="l" number="s" strength="w">ии</form>
-                <form gender="f" case="v" number="s" strength="w">ꙗꙗ</form>
-                <form gender="f" case="n" number="d" strength="w">ии</form>
-                <form gender="f" case="g" number="d" strength="w">юю</form>
-                <form gender="f" case="d" number="d" strength="w">иима</form>
-                <form gender="f" case="a" number="d" strength="w">ии</form>
-                <form gender="f" case="i" number="d" strength="w">иима</form>
-                <form gender="f" case="l" number="d" strength="w">юю</form>
-                <form gender="f" case="v" number="d" strength="w">ии</form>
-                <form gender="f" case="n" number="p" strength="w">ѩѩ</form>
-                <form gender="f" case="g" number="p" strength="w">иихъ</form>
-                <form gender="f" case="d" number="p" strength="w">иимъ</form>
-                <form gender="f" case="a" number="p" strength="w">ѩѩ</form>
-                <form gender="f" case="i" number="p" strength="w">иими</form>
-                <form gender="f" case="l" number="p" strength="w">иихъ</form>
-                <form gender="f" case="v" number="p" strength="w">ѩѩ</form>
-            </paradigm>
             <paradigm type="божии" truncate="1">
                 <!-- j possessives; no long forms-->
                 <form gender="m" case="n" number="s" strength="s">и</form>
@@ -2799,6 +2670,143 @@
                     >денꙑихъ</form>
 
 
+            </paradigm>
+        </class>
+    </pos>
+    <pos type="Mo">
+        <class type="ordinal">
+            <!-- only long form, so @strength isn't specified -->
+            <paradigm type="ѥдинъ на десѧте" truncate="1">
+                <!-- hard plain -->
+                <form gender="m" case="n" number="s">ꙑи</form>
+                <form gender="m" case="g" number="s">аѥго</form>
+                <form gender="m" case="d" number="s">оуѥмоу</form>
+                <form gender="m" case="a" number="s">ꙑи</form>
+                <form gender="m" case="i" number="s">ꙑимь</form>
+                <form gender="m" case="l" number="s">ѣѥмь</form>
+                <form gender="m" case="v" number="s">ꙑи</form>
+                <form gender="m" case="n" number="d">аꙗ</form>
+                <form gender="m" case="g" number="d">оую</form>
+                <form gender="m" case="d" number="d">ꙑима</form>
+                <form gender="m" case="a" number="d">аꙗ</form>
+                <form gender="m" case="i" number="d">ꙑима</form>
+                <form gender="m" case="l" number="d">ую</form>
+                <form gender="m" case="v" number="d">аꙗ</form>
+                <form gender="m" case="n" number="p">ии</form>
+                <form gender="m" case="g" number="p">ꙑихъ</form>
+                <form gender="m" case="d" number="p">ꙑимъ</form>
+                <form gender="m" case="a" number="p">ꙑѩ</form>
+                <form gender="m" case="i" number="p">ꙑими</form>
+                <form gender="m" case="l" number="p">ꙑихъ</form>
+                <form gender="m" case="v" number="p">ии</form>
+                <form gender="n" case="n" number="s">оѥ</form>
+                <form gender="n" case="g" number="s">аѥго</form>
+                <form gender="n" case="d" number="s">оуѥмоу</form>
+                <form gender="n" case="a" number="s">оѥ</form>
+                <form gender="n" case="i" number="s">ꙑимь</form>
+                <form gender="n" case="l" number="s">ѣѥмь</form>
+                <form gender="n" case="v" number="s">оѥ</form>
+                <form gender="n" case="n" number="d">ѣи</form>
+                <form gender="n" case="g" number="d">оую</form>
+                <form gender="n" case="d" number="d">ꙑима</form>
+                <form gender="n" case="a" number="d">ѣи</form>
+                <form gender="n" case="i" number="d">ꙑима</form>
+                <form gender="n" case="l" number="d">оую</form>
+                <form gender="n" case="v" number="d">ѣи</form>
+                <form gender="n" case="n" number="p">аꙗ</form>
+                <form gender="n" case="g" number="p">ꙑихъ</form>
+                <form gender="n" case="d" number="p">ꙑимъ</form>
+                <form gender="n" case="a" number="p">аꙗ</form>
+                <form gender="n" case="i" number="p">ꙑими</form>
+                <form gender="n" case="l" number="p">ꙑихъ</form>
+                <form gender="n" case="v" number="p">аꙗ</form>
+                <form gender="f" case="n" number="s">аꙗ</form>
+                <form gender="f" case="g" number="s">ꙑѩ</form>
+                <form gender="f" case="d" number="s">ѣи</form>
+                <form gender="f" case="a" number="s">ѫѭ</form>
+                <form gender="f" case="i" number="s">ѫѭ</form>
+                <form gender="f" case="l" number="s">ѣи</form>
+                <form gender="f" case="v" number="s">аꙗ</form>
+                <form gender="f" case="n" number="d">ѣи</form>
+                <form gender="f" case="g" number="d">оую</form>
+                <form gender="f" case="d" number="d">ꙑима</form>
+                <form gender="f" case="a" number="d">ѣи</form>
+                <form gender="f" case="i" number="d">ꙑима</form>
+                <form gender="f" case="l" number="d">оую</form>
+                <form gender="f" case="v" number="d">ѣи</form>
+                <form gender="f" case="n" number="p">ꙑѩ</form>
+                <form gender="f" case="g" number="p">ꙑихъ</form>
+                <form gender="f" case="d" number="p">ꙑимъ</form>
+                <form gender="f" case="a" number="p">ꙑѩ</form>
+                <form gender="f" case="i" number="p">ꙑими</form>
+                <form gender="f" case="l" number="p">ꙑихъ</form>
+                <form gender="f" case="v" number="p">ꙑѩ</form>
+            </paradigm>
+            <paradigm type="третии" truncate="1">
+                <!-- третии -->
+                <form gender="m" case="n" number="s">ии</form>
+                <form gender="m" case="g" number="s">ꙗѥго</form>
+                <form gender="m" case="d" number="s">юѥмоу</form>
+                <form gender="m" case="a" number="s">ии</form>
+                <form gender="m" case="i" number="s">иимь</form>
+                <form gender="m" case="l" number="s">иимь</form>
+                <form gender="m" case="v" number="s">ии</form>
+                <form gender="m" case="n" number="d">ꙗꙗ</form>
+                <form gender="m" case="g" number="d">юю</form>
+                <form gender="m" case="d" number="d">иима</form>
+                <form gender="m" case="a" number="d">ꙗꙗ</form>
+                <form gender="m" case="i" number="d">иима</form>
+                <form gender="m" case="l" number="d">юю</form>
+                <form gender="m" case="v" number="d">ꙗꙗ</form>
+                <form gender="m" case="n" number="p">ии</form>
+                <form gender="m" case="g" number="p">иихъ</form>
+                <form gender="m" case="d" number="p">иимъ</form>
+                <form gender="m" case="a" number="p">ѩѩ</form>
+                <form gender="m" case="i" number="p">иими</form>
+                <form gender="m" case="l" number="p">иихъ</form>
+                <form gender="m" case="v" number="p">ии</form>
+                <form gender="n" case="n" number="s">ѥѥ</form>
+                <form gender="n" case="g" number="s">ꙗѥго</form>
+                <form gender="n" case="d" number="s">юѥмоу</form>
+                <form gender="n" case="a" number="s">ѥѥ</form>
+                <form gender="n" case="i" number="s">иимь</form>
+                <form gender="n" case="l" number="s">иимь</form>
+                <form gender="n" case="v" number="s">ѥѥ</form>
+                <form gender="n" case="n" number="d">ии</form>
+                <form gender="n" case="g" number="d">юю</form>
+                <form gender="n" case="d" number="d">иима</form>
+                <form gender="n" case="a" number="d">ии</form>
+                <form gender="n" case="i" number="d">иима</form>
+                <form gender="n" case="l" number="d">юю</form>
+                <form gender="n" case="v" number="d">ии</form>
+                <form gender="n" case="n" number="p">ꙗꙗ</form>
+                <form gender="n" case="g" number="p">иихъ</form>
+                <form gender="n" case="d" number="p">иимъ</form>
+                <form gender="n" case="a" number="p">ꙗꙗ</form>
+                <form gender="n" case="i" number="p">иими</form>
+                <form gender="n" case="l" number="p">иихъ</form>
+                <form gender="n" case="v" number="p">ꙗꙗ</form>
+                <form gender="f" case="n" number="s">ꙗꙗ</form>
+                <form gender="f" case="g" number="s">ѩѩ</form>
+                <form gender="f" case="d" number="s">ии</form>
+                <form gender="f" case="a" number="s">ѭѭ</form>
+                <form gender="f" case="i" number="s">ѭѭ</form>
+                <form gender="f" case="l" number="s">ии</form>
+                <form gender="f" case="v" number="s">ꙗꙗ</form>
+                <form gender="f" case="n" number="d">ии</form>
+                <form gender="f" case="g" number="d">юю</form>
+                <form gender="f" case="d" number="d">иима</form>
+                <form gender="f" case="a" number="d">ии</form>
+                <form gender="f" case="i" number="d">иима</form>
+                <form gender="f" case="l" number="d">юю</form>
+                <form gender="f" case="v" number="d">ии</form>
+                <form gender="f" case="n" number="p">ѩѩ</form>
+                <form gender="f" case="g" number="p">иихъ</form>
+                <form gender="f" case="d" number="p">иимъ</form>
+                <form gender="f" case="a" number="p">ѩѩ</form>
+                <form gender="f" case="i" number="p">иими</form>
+                <form gender="f" case="l" number="p">иихъ</form>
+                <form gender="f" case="v" number="p">ѩѩ</form>
             </paradigm>
         </class>
     </pos>

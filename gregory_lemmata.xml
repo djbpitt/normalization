@@ -242,10 +242,6 @@
          <lemma>ниць</lemma>
          <lemma>щоуждь</lemma>
       </class>
-      <class type="третии">
-         <description>soft with stem in -j</description>
-         <lemma>третии</lemma>
-      </class>
       <class type="божии">
          <description>j</description>
          <lemma>божии</lemma>
@@ -264,12 +260,7 @@
       </class>
 
    </pos>
-   <!--   <pos xml:id="cardinal_numeral">
-      <class type="ѥдинъ">
-         <description>one</description>
-         <lemma>ѥдинъ</lemma>
-         <lemma>ѥдинъ на десѧте</lemma>
-      </class>
+   <!-- <pos xml:id="cardinal_numeral">
       <class type="дъва">
          <description>two</description>
          <lemma>дъва</lemma>
@@ -289,6 +280,16 @@
          <lemma>десѧть</lemma>
       </class>
    </pos>-->
+   <pos xml:id="ordinal_numeral">
+      <class type="ѥдинъ на десѧте">
+         <description>compound ordinals</description>
+         <lemma>ѥдинъ на десѧте</lemma>
+      </class>
+      <class type="третии">
+         <description>soft with stem in -j</description>
+         <lemma>третии</lemma>
+      </class>
+   </pos>
    <!-- <pos xml:id="demonstrative_pronoun">
       <class type="какъ">
          <description>kakъ</description>
@@ -339,8 +340,7 @@
          <lemma>ничьтоже</lemma>
       </class>
    </pos> -->
-   <!-- 
-   <pos xml:id="interrogative_pronoun">
+   <!-- <pos xml:id="interrogative_pronoun">
       <class type="къто">
          <description>who</description>
          <lemma>къто</lemma>
@@ -351,16 +351,7 @@
       </class>
    </pos>
    -->
-   <!--
-   <pos xml:id="ordinal_numeral">
-      <class type="третии">
-         <description>third</description>
-         <lemma>третии</lemma>
-      </class>
-   </pos>
-   -->
-   <!--
-   <pos xml:id="personal_pronoun">
+   <!-- <pos xml:id="personal_pronoun">
       <class type="азъ">
          <description>1sg</description>
          <lemma>азъ</lemma>
@@ -383,16 +374,14 @@
       </class>
    </pos>
    -->
-   <!--
-   <pos xml:id="personal_reflexive_pronoun">
+   <!-- <pos xml:id="personal_reflexive_pronoun">
       <class type="себе">
          <description>sebe</description>
          <lemma>себе</lemma>
       </class>
    </pos>
    -->
-   <!--
-   <pos xml:id="possessive_pronoun">
+   <!-- <pos xml:id="possessive_pronoun">
       <class type="мои">
          <description>sg</description>
          <lemma>мои</lemma>
@@ -405,15 +394,13 @@
       </class>
    </pos>
    -->
-   <!--
-   <pos xml:id="possessive_reflexive_pronoun">
+   <!-- <pos xml:id="possessive_reflexive_pronoun">
       <class type="свои">
          <description>svojь</description>
          <lemma>свои</lemma>
       </class>
    </pos>
    -->
-
    <pos xml:id="proper_noun">
       <class type="иоанъ" gender="m">
          <description>m o</description>
@@ -445,21 +432,21 @@
       </class>
    </pos>
 
-   <!--
-   <pos xml:id="relative_pronoun">
+   <!-- <pos xml:id="relative_pronoun">
       <class type="иже">
          <description>iže</description>
          <lemma>иже</lemma>
       </class>
    </pos>
    -->
-   
+
    <pos xml:id="verb">
-<!--      <class type="жити">
+      <!--      <class type="жити">
          <description>Diels I.1: v</description>
          <lemma>жити</lemma>
       </class>
--->      <class type="вести">
+-->
+      <class type="вести">
          <description>Diels I.1: d</description>
          <lemma>вести</lemma>
          <lemma>въвести</lemma>
@@ -468,7 +455,7 @@
          <lemma>пасти</lemma>
          <lemma>привести</lemma>
       </class>
-<!--      <class type="рещи">
+      <!--      <class type="рещи">
          <description>Diels I.1: k</description>
          <lemma>нарещи</lemma>
          <lemma>облѣщи</lemma>
@@ -604,9 +591,8 @@
          <description>Diels VII: ꙗсти</description>
          <lemma>ꙗсти</lemma>
       </class>
--->   </pos>
-   
-
+-->
+   </pos>
    <pos xml:id="adverb">
       <class type="мало">
          <description>some are inflected and some are not</description>

@@ -14,8 +14,8 @@
               <token id="1686773" form="въ" lemma="въ" part-of-speech="R-" presentation-before=""
                      morphology="---------n" head-id="1691407" relation="adv" presentation-after=" "
                      citation-part="8" part="1" folio="061" side="r" line="15" linebreak="false"/>
-              <token id="1686774" form="а꙯ї" lemma="ѥдинъ на десѧте" part-of-speech="Ma"
-                     presentation-before="" morphology="---------n" head-id="1686773" relation="obl"
+              <token id="1686774" form="а꙯ї" lemma="ѥдинъ на десѧте" part-of-speech="Me"
+                     presentation-before="" morphology="-s---ma--i" head-id="1686773" relation="obl"
                      presentation-after="· " citation-part="8" part="1" folio="061" side="r"
                      line="15" linebreak="false"/>
        </sentence>
