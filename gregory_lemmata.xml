@@ -88,6 +88,10 @@
          <lemma>ризьно</lemma>
          <lemma>цѣсарьство</lemma>
       </class>
+      <class type="врата">
+         <description>o-stem neuter pluralia tantum</description>
+         <lemma>врата</lemma>
+      </class>
       <!-- jo-stem n -->
       <class type="лице">
          <description>jo-stem neuter -Ce</description>
@@ -492,6 +496,7 @@
          <lemma>оубоꙗти</lemma>
          <lemma>оуслꙑшати</lemma>
       </class>
+      -->
       <class type="молити">
          <description>Diels IV: молити</description>
          <lemma>искоусити</lemma>
@@ -511,6 +516,7 @@
          <lemma>творити</lemma>
          <lemma>хвалити</lemma>
       </class>
+      <!--
       <class type="зъвати">
          <description>Diels V.1: зъвати</description>
          <lemma>зъвати</lemma>

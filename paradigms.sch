@@ -87,8 +87,18 @@
             <sch:assert test="string-length(normalize-space(.)) gt 0">Forms cannot be
                 empty</sch:assert>
         </sch:rule>
-        <sch:rule context="form[ancestor::pos/@type eq 'V-' and @mood eq 'p']">
-            <!-- Participles -->
+        <sch:rule context="form[ancestor::pos/@type eq 'V-' and @mood eq 'p' and @tense eq 's']">
+            <!-- Resultative participles-->
+            <sch:assert test="count(../form[@tense eq 's']) eq 9">There must be exactly 9
+                resultative participle forms</sch:assert>
+            <sch:assert
+                test="count(../form[@tense eq 's' and @gender eq current()/@gender and @number eq current()/@number]) eq 1"
+                >No two resultative forms can have identical category values</sch:assert>
+            <sch:assert test="@case eq 'n'">Resultative participles occur only in the nominative
+                case</sch:assert>
+        </sch:rule>
+        <sch:rule context="form[ancestor::pos/@type eq 'V-' and @mood eq 'p' and @tense ne 's']">
+            <!-- Participles (except resultative) -->
             <sch:assert
                 test="@number and @tense and @voice and @gender and @case and @strength and count(@*) eq 7"
                 >Participles must specify tense and voice; case, number, and gender; and strength;

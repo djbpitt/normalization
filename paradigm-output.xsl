@@ -21,6 +21,11 @@
                         <section class="tables">
                             <xsl:apply-templates select="//paradigm[@type eq 'вести']"/>
                         </section>
+                        <h3>Diels IV, stem in -<span class="ocs">л</span>- (<span class="ocs"
+                                >молити</span>)</h3>
+                        <section class="tables">
+                            <xsl:apply-templates select="//paradigm[@type eq 'молити']"/>
+                        </section>
                     </section>
                 </section>
             </body>
@@ -300,6 +305,64 @@
         </section>
         <section>
             <h4>Participles</h4>
+            <section>
+                <h5>Resultative</h5>
+                <xsl:variable name="forms" select="form[@mood eq 'p' and @tense eq 's']"
+                    as="element(form)+"/>
+                <table>
+                    <tr>
+                        <th>&#xa0;</th>
+                        <th>Masculine</th>
+                        <th>Neuter</th>
+                        <th>Feminine</th>
+                    </tr>
+                    <tr class="odd">
+                        <th class="label">Singular</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 's'])"/>
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 's'])"/>
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's'])"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="label">Dual</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'd'])"/>
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'd'])"/>
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 'd'])"/>
+                        </td>
+                    </tr>
+                    <tr class="odd">
+                        <th class="label">Plural</th>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'm' and @number eq 'p'])"/>
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'n' and @number eq 'p'])"/>
+                        </td>
+                        <td>
+                            <xsl:value-of
+                                select="concat($stem, $forms[@gender eq 'f' and @number eq 's'])"/>
+                        </td>
+                    </tr>
+                </table>
+            </section>
             <section>
                 <h5>Present active</h5>
                 <xsl:variable name="forms"

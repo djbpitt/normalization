@@ -11,3 +11,6 @@ Thus 3pl ведошѧ instead of ведѫ (root) or весѧ (old sigmatic).
 
 Palatal sonants (r, l, n) always have a palatalization hook, not only in potentially ambiguous situations (e.g., "ri" could
 be plain or palatal), but also in unambiguous ones (e.g., "r" before a jotated vowel letter, which must be palatal).
+
+PROIEL tags all abbreviated numerals as cardinal and non-inflecting. We change them to cardinal or ordinal according to use.
+PROIEL also tags третии as an adjective; we change it to an ordinal numeral.

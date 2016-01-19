@@ -425,6 +425,15 @@
                 <form case="l" number="p">ѣхъ</form>
                 <form case="v" number="p">а</form>
             </paradigm>
+            <paradigm type="врата" truncate="1">
+                <form case="n" number="p">а</form>
+                <form case="g" number="p">ъ</form>
+                <form case="d" number="p">омъ</form>
+                <form case="a" number="p">а</form>
+                <form case="i" number="p">ꙑ</form>
+                <form case="l" number="p">ѣхъ</form>
+                <form case="v" number="p">а</form>
+            </paradigm>
         </class>
         <class type="jo">
             <paradigm type="мѫжь" truncate="1" animacy="yes">
@@ -1738,7 +1747,7 @@
         </class>
     </pos>
     <pos type="V-">
-        <class type="Diels I.1: d">
+        <class type="Diels I.1: вести">
             <paradigm type="вести" truncate="3">
                 <!--
                     Has root aorist
@@ -1779,6 +1788,16 @@
                 <form person="2" number="p" mood="m">дѣте</form>
                 <form mood="n">сти</form>
                 <form mood="u">стъ</form>
+                <!-- Resultative (nominative short only) -->
+                <form number="s" tense="s" mood="p" voice="a" gender="m" case="n" strength="s">лъ</form>
+                <form number="s" tense="s" mood="p" voice="a" gender="n" case="n" strength="s">ло</form>
+                <form number="s" tense="s" mood="p" voice="a" gender="f" case="n" strength="s">ла</form>
+                <form number="d" tense="s" mood="p" voice="a" gender="m" case="n" strength="s">ла</form>
+                <form number="d" tense="s" mood="p" voice="a" gender="n" case="n" strength="s">лѣ</form>
+                <form number="d" tense="s" mood="p" voice="a" gender="f" case="n" strength="s">лѣ</form>
+                <form number="p" tense="s" mood="p" voice="a" gender="m" case="n" strength="s">ли</form>
+                <form number="p" tense="s" mood="p" voice="a" gender="n" case="n" strength="s">ла</form>
+                <form number="p" tense="s" mood="p" voice="a" gender="f" case="n" strength="s">лꙑ</form>
                 <!-- Masculine present active strong (short) -->
                 <form number="s" tense="p" mood="p" voice="a" gender="m" case="n" strength="s"
                     >дꙑ</form>
@@ -1929,9 +1948,9 @@
                     >дѫщиихъ</form>
                 <!-- Neuter present active weak (long) -->
                 <form number="s" tense="p" mood="p" voice="a" gender="n" case="n" strength="w"
-                    >дѫщее</form>
+                    >дѫщеѥ</form>
                 <form number="s" tense="p" mood="p" voice="a" gender="n" case="a" strength="w"
-                    >дѫщее</form>
+                    >дѫщеѥ</form>
                 <form number="s" tense="p" mood="p" voice="a" gender="n" case="g" strength="w"
                     >дѫщаѥго</form>
                 <form number="s" tense="p" mood="p" voice="a" gender="n" case="d" strength="w"
@@ -2040,7 +2059,7 @@
                     >дъшихъ</form>
                 <!-- Neuter past active strong (short) -->
                 <form number="s" tense="u" mood="p" voice="a" gender="n" case="n" strength="s"
-                    >дъше</form>
+                    >дъ</form>
                 <form number="s" tense="u" mood="p" voice="a" gender="n" case="a" strength="s"
                     >дъше</form>
                 <form number="s" tense="u" mood="p" voice="a" gender="n" case="g" strength="s"
@@ -2151,9 +2170,9 @@
                     >дъшиихъ</form>
                 <!-- Neuter past active weak (long) -->
                 <form number="s" tense="u" mood="p" voice="a" gender="n" case="n" strength="w"
-                    >дъшее</form>
+                    >дъшеѥ</form>
                 <form number="s" tense="u" mood="p" voice="a" gender="n" case="a" strength="w"
-                    >дъшее</form>
+                    >дъшеѥ</form>
                 <form number="s" tense="u" mood="p" voice="a" gender="n" case="g" strength="w"
                     >дъшаѥго</form>
                 <form number="s" tense="u" mood="p" voice="a" gender="n" case="d" strength="w"
@@ -2668,8 +2687,948 @@
                     >денꙑими</form>
                 <form tense="u" mood="p" voice="p" gender="f" case="l" number="p" strength="w"
                     >денꙑихъ</form>
+            </paradigm>
+        </class>
+        <class type="Diels IV: молити">
+            <!--
+                i suffix sonant
+            -->
+            <paradigm type="молити" truncate="3">
+                <form person="1" number="s" tense="p" mood="i">҄ѭ</form>
+                <form person="2" number="s" tense="p" mood="i">иши</form>
+                <form person="3" number="s" tense="p" mood="i">итъ</form>
+                <form person="1" number="d" tense="p" mood="i">ивѣ</form>
+                <form person="2" number="d" tense="p" mood="i">ита</form>
+                <form person="3" number="d" tense="p" mood="i">ите</form>
+                <form person="1" number="p" tense="p" mood="i">имъ</form>
+                <form person="2" number="p" tense="p" mood="i">ите</form>
+                <form person="3" number="p" tense="p" mood="i">ѧтъ</form>
+                <form person="1" number="s" tense="i" mood="i">҄ꙗахъ</form>
+                <form person="2" number="s" tense="i" mood="i">҄ꙗаше</form>
+                <form person="3" number="s" tense="i" mood="i">҄ꙗаше</form>
+                <form person="1" number="d" tense="i" mood="i">҄ꙗаховѣ</form>
+                <form person="2" number="d" tense="i" mood="i">҄ꙗашета</form>
+                <form person="3" number="d" tense="i" mood="i">҄ꙗашете</form>
+                <form person="1" number="p" tense="i" mood="i">҄ꙗахомъ</form>
+                <form person="2" number="p" tense="i" mood="i">҄ꙗашете</form>
+                <form person="3" number="p" tense="i" mood="i">҄ꙗахѫ</form>
+                <form person="1" number="s" tense="a" mood="i">ихъ</form>
+                <form person="2" number="s" tense="a" mood="i">и</form>
+                <form person="3" number="s" tense="a" mood="i">и</form>
+                <form person="1" number="d" tense="a" mood="i">иховѣ</form>
+                <form person="2" number="d" tense="a" mood="i">иста</form>
+                <form person="3" number="d" tense="a" mood="i">исте</form>
+                <form person="1" number="p" tense="a" mood="i">ихомъ</form>
+                <form person="2" number="p" tense="a" mood="i">исте</form>
+                <form person="3" number="p" tense="a" mood="i">ишѧ</form>
+                <form person="2" number="s" mood="m">и</form>
+                <form person="3" number="s" mood="m">и</form>
+                <form person="1" number="d" mood="m">ивѣ</form>
+                <form person="2" number="d" mood="m">ита</form>
+                <form person="3" number="d" mood="m">ите</form>
+                <form person="1" number="p" mood="m">имъ</form>
+                <form person="2" number="p" mood="m">ите</form>
+                <form mood="n">ити</form>
+                <form mood="u">итъ</form>
+                <!-- Resultative (nominative short only) -->
+                <form number="s" tense="s" mood="p" voice="a" gender="m" case="n" strength="s">илъ</form>
+                <form number="s" tense="s" mood="p" voice="a" gender="n" case="n" strength="s">ило</form>
+                <form number="s" tense="s" mood="p" voice="a" gender="f" case="n" strength="s">ила</form>
+                <form number="d" tense="s" mood="p" voice="a" gender="m" case="n" strength="s">ила</form>
+                <form number="d" tense="s" mood="p" voice="a" gender="n" case="n" strength="s">илѣ</form>
+                <form number="d" tense="s" mood="p" voice="a" gender="f" case="n" strength="s">илѣ</form>
+                <form number="p" tense="s" mood="p" voice="a" gender="m" case="n" strength="s">или</form>
+                <form number="p" tense="s" mood="p" voice="a" gender="n" case="n" strength="s">ила</form>
+                <form number="p" tense="s" mood="p" voice="a" gender="f" case="n" strength="s">илꙑ</form>
+                <!-- Masculine present active strong (short) -->
+                <form number="s" tense="p" mood="p" voice="a" gender="m" case="n" strength="s"
+                    >ѧ</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="m" case="a" strength="s"
+                    >ѧщь</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="m" case="g" strength="s"
+                    >ѧща</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="m" case="d" strength="s"
+                    >ѧщоу</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="m" case="i" strength="s"
+                    >ѧщемь</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="m" case="l" strength="s"
+                    >ѧщи</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="m" case="n" strength="s"
+                    >ѧща</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="m" case="a" strength="s"
+                    >ѧща</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="m" case="g" strength="s"
+                    >ѧщоу</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="m" case="d" strength="s"
+                    >ѧщема</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="m" case="i" strength="s"
+                    >ѧщема</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="m" case="l" strength="s"
+                    >ѧщоу</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="m" case="n" strength="s"
+                    >ѧще</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="m" case="a" strength="s"
+                    >ѧщѧ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="m" case="g" strength="s"
+                    >ѧщь</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="m" case="d" strength="s"
+                    >ѧщемъ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="m" case="i" strength="s"
+                    >ѧщи</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="m" case="l" strength="s"
+                    >ѧщихъ</form>
+                <!-- Neuter present active strong (short) -->
+                <form number="s" tense="p" mood="p" voice="a" gender="n" case="n" strength="s"
+                    >ѧ</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="n" case="a" strength="s"
+                    >ѧште</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="n" case="g" strength="s"
+                    >ѧща</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="n" case="d" strength="s"
+                    >ѧщоу</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="n" case="i" strength="s"
+                    >ѧщемь</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="n" case="l" strength="s"
+                    >ѧщи</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="n" case="n" strength="s"
+                    >ѧщи</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="n" case="a" strength="s"
+                    >ѧщи</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="n" case="g" strength="s"
+                    >ѧщоу</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="n" case="d" strength="s"
+                    >ѧщема</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="n" case="i" strength="s"
+                    >ѧщема</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="n" case="l" strength="s"
+                    >ѧщоу</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="n" case="n" strength="s"
+                    >ѧща</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="n" case="a" strength="s"
+                    >ѧща</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="n" case="g" strength="s"
+                    >ѧщь</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="n" case="d" strength="s"
+                    >ѧщемъ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="n" case="i" strength="s"
+                    >ѧщи</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="n" case="l" strength="s"
+                    >ѧщихъ</form>
+                <!-- Feminine present active strong (short) -->
+                <form number="s" tense="p" mood="p" voice="a" gender="f" case="n" strength="s"
+                    >ѧщи</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="f" case="a" strength="s"
+                    >ѧщѫ</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="f" case="g" strength="s"
+                    >ѧщѧ</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="f" case="d" strength="s"
+                    >ѧщи</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="f" case="i" strength="s"
+                    >ѧщеѭ</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="f" case="l" strength="s"
+                    >ѧщи</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="f" case="n" strength="s"
+                    >ѧщи</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="f" case="a" strength="s"
+                    >ѧщи</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="f" case="g" strength="s"
+                    >ѧщоу</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="f" case="d" strength="s"
+                    >ѧщама</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="f" case="i" strength="s"
+                    >ѧщама</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="f" case="l" strength="s"
+                    >ѧщоу</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="f" case="n" strength="s"
+                    >ѧщѧ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="f" case="a" strength="s"
+                    >ѧщѧ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="f" case="g" strength="s"
+                    >ѧщь</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="f" case="d" strength="s"
+                    >ѧщамъ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="f" case="i" strength="s"
+                    >ѧщами</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="f" case="l" strength="s"
+                    >ѧщахъ</form>
+                <!-- Masculine present active weak (long) -->
+                <form number="s" tense="p" mood="p" voice="a" gender="m" case="n" strength="w"
+                    >ѧи</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="m" case="a" strength="w"
+                    >ѧщии</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="m" case="g" strength="w"
+                    >ѧщаѥго</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="m" case="d" strength="w"
+                    >ѧщоуѥмоу</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="m" case="i" strength="w"
+                    >ѧщиимь</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="m" case="l" strength="w"
+                    >ѧщиимь</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="m" case="n" strength="w"
+                    >ѧщаꙗ</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="m" case="a" strength="w"
+                    >ѧщаꙗ</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="m" case="g" strength="w"
+                    >ѧщоую</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="m" case="d" strength="w"
+                    >ѧщиима</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="m" case="i" strength="w"
+                    >ѧщиима</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="m" case="l" strength="w"
+                    >ѧщоую</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="m" case="n" strength="w"
+                    >ѧщеи</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="m" case="a" strength="w"
+                    >ѧщѧѩ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="m" case="g" strength="w"
+                    >ѧщиихъ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="m" case="d" strength="w"
+                    >ѧщиимъ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="m" case="i" strength="w"
+                    >ѧщиими</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="m" case="l" strength="w"
+                    >ѧщиихъ</form>
+                <!-- Neuter present active weak (long) -->
+                <form number="s" tense="p" mood="p" voice="a" gender="n" case="n" strength="w"
+                    >ѧщеѥ</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="n" case="a" strength="w"
+                    >ѧщеѥ</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="n" case="g" strength="w"
+                    >ѧщаѥго</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="n" case="d" strength="w"
+                    >ѧщоуѥмоу</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="n" case="i" strength="w"
+                    >ѧщиимь</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="n" case="l" strength="w"
+                    >ѧщиимь</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="n" case="n" strength="w"
+                    >ѧщии</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="n" case="a" strength="w"
+                    >ѧщии</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="n" case="g" strength="w"
+                    >ѧщоую</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="n" case="d" strength="w"
+                    >ѧщиима</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="n" case="i" strength="w"
+                    >ѧщиима</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="n" case="l" strength="w"
+                    >ѧщоую</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="n" case="n" strength="w"
+                    >ѧщаꙗ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="n" case="a" strength="w"
+                    >ѧщаꙗ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="n" case="g" strength="w"
+                    >ѧщиихъ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="n" case="d" strength="w"
+                    >ѧщиимъ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="n" case="i" strength="w"
+                    >ѧщиими</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="n" case="l" strength="w"
+                    >ѧщиихъ</form>
+                <!-- Feminine present active weak (long) -->
+                <form number="s" tense="p" mood="p" voice="a" gender="f" case="n" strength="w"
+                    >ѧщиꙗ</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="f" case="a" strength="w"
+                    >ѧщѫѭ</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="f" case="g" strength="w"
+                    >ѧщѧѩ</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="f" case="d" strength="w"
+                    >ѧщии</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="f" case="i" strength="w"
+                    >ѧщѫѭ</form>
+                <form number="s" tense="p" mood="p" voice="a" gender="f" case="l" strength="w"
+                    >ѧщии</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="f" case="n" strength="w"
+                    >ѧщии</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="f" case="a" strength="w"
+                    >ѧщии</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="f" case="g" strength="w"
+                    >ѧщоую</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="f" case="d" strength="w"
+                    >ѧщиима</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="f" case="i" strength="w"
+                    >ѧщиима</form>
+                <form number="d" tense="p" mood="p" voice="a" gender="f" case="l" strength="w"
+                    >ѧщоую</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="f" case="n" strength="w"
+                    >ѧщѧѩ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="f" case="a" strength="w"
+                    >ѧщѧѩ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="f" case="g" strength="w"
+                    >ѧщиихъ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="f" case="d" strength="w"
+                    >ѧщиимъ</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="f" case="i" strength="w"
+                    >ѧщиими</form>
+                <form number="p" tense="p" mood="p" voice="a" gender="f" case="l" strength="w"
+                    >ѧщиихъ</form>
+                <!-- Masculine past active strong (short) -->
+                <form number="s" tense="u" mood="p" voice="a" gender="m" case="n" strength="s"
+                    >҄ь</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="m" case="a" strength="s"
+                    >҄ьшь</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="m" case="g" strength="s"
+                    >҄ьша</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="m" case="d" strength="s"
+                    >҄ьшоу</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="m" case="i" strength="s"
+                    >҄ьшемь</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="m" case="l" strength="s"
+                    >҄ьши</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="m" case="n" strength="s"
+                    >҄ьша</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="m" case="a" strength="s"
+                    >҄ьша</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="m" case="g" strength="s"
+                    >҄ьшоу</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="m" case="d" strength="s"
+                    >҄ьшема</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="m" case="i" strength="s"
+                    >҄ьшема</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="m" case="l" strength="s"
+                    >҄ьшоу</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="m" case="n" strength="s"
+                    >҄ьше</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="m" case="a" strength="s"
+                    >҄ьшѧ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="m" case="g" strength="s"
+                    >҄ьшь</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="m" case="d" strength="s"
+                    >҄ьшемъ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="m" case="i" strength="s"
+                    >҄ьши</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="m" case="l" strength="s"
+                    >҄ьшихъ</form>
+                <!-- Neuter past active strong (short) -->
+                <form number="s" tense="u" mood="p" voice="a" gender="n" case="n" strength="s"
+                    >҄ь</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="n" case="a" strength="s"
+                    >҄ьше</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="n" case="g" strength="s"
+                    >҄ьша</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="n" case="d" strength="s"
+                    >҄ьшоу</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="n" case="i" strength="s"
+                    >҄ьшемь</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="n" case="l" strength="s"
+                    >҄ьши</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="n" case="n" strength="s"
+                    >҄ьши</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="n" case="a" strength="s"
+                    >҄ьши</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="n" case="g" strength="s"
+                    >҄ьшоу</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="n" case="d" strength="s"
+                    >҄ьшема</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="n" case="i" strength="s"
+                    >҄ьшема</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="n" case="l" strength="s"
+                    >҄ьшоу</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="n" case="n" strength="s"
+                    >҄ьша</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="n" case="a" strength="s"
+                    >҄ьша</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="n" case="g" strength="s"
+                    >҄ьшь</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="n" case="d" strength="s"
+                    >҄ьшемъ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="n" case="i" strength="s"
+                    >҄ьши</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="n" case="l" strength="s"
+                    >҄ьшихъ</form>
+                <!-- Feminine past active strong (short) -->
+                <form number="s" tense="u" mood="p" voice="a" gender="f" case="n" strength="s"
+                    >҄ьши</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="f" case="a" strength="s"
+                    >҄ьшѫ</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="f" case="g" strength="s"
+                    >҄ьшѧ</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="f" case="d" strength="s"
+                    >҄ьши</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="f" case="i" strength="s"
+                    >҄ьшеѭ</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="f" case="l" strength="s"
+                    >҄ьши</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="f" case="n" strength="s"
+                    >҄ьши</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="f" case="a" strength="s"
+                    >҄ьши</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="f" case="g" strength="s"
+                    >҄ьшоу</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="f" case="d" strength="s"
+                    >҄ьшама</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="f" case="i" strength="s"
+                    >҄ьшама</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="f" case="l" strength="s"
+                    >҄ьшоу</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="f" case="n" strength="s"
+                    >҄ьшѧ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="f" case="a" strength="s"
+                    >҄ьшѧ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="f" case="g" strength="s"
+                    >҄ьшь</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="f" case="d" strength="s"
+                    >҄ьшамъ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="f" case="i" strength="s"
+                    >҄ьшами</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="f" case="l" strength="s"
+                    >҄ьшахъ</form>
+                <!-- Masculine past active weak (long) -->
+                <form number="s" tense="u" mood="p" voice="a" gender="m" case="n" strength="w"
+                    >҄ии</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="m" case="a" strength="w"
+                    >҄ьшии</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="m" case="g" strength="w"
+                    >҄ьшаѥго</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="m" case="d" strength="w"
+                    >҄ьшоуѥмоу</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="m" case="i" strength="w"
+                    >҄ьшиимь</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="m" case="l" strength="w"
+                    >҄ьшиимь</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="m" case="n" strength="w"
+                    >҄ьшаꙗ</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="m" case="a" strength="w"
+                    >҄ьшаꙗ</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="m" case="g" strength="w"
+                    >҄ьшоую</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="m" case="d" strength="w"
+                    >҄ьшиима</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="m" case="i" strength="w"
+                    >҄ьшиима</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="m" case="l" strength="w"
+                    >҄ьшоую</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="m" case="n" strength="w"
+                    >҄ьшеи</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="m" case="a" strength="w"
+                    >҄ьшѧѩ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="m" case="g" strength="w"
+                    >҄ьшиихъ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="m" case="d" strength="w"
+                    >҄ьшиимъ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="m" case="i" strength="w"
+                    >҄ьшиими</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="m" case="l" strength="w"
+                    >҄ьшиихъ</form>
+                <!-- Neuter past active weak (long) -->
+                <form number="s" tense="u" mood="p" voice="a" gender="n" case="n" strength="w"
+                    >҄ьшеѥ</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="n" case="a" strength="w"
+                    >҄ьшеѥ</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="n" case="g" strength="w"
+                    >҄ьшаѥго</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="n" case="d" strength="w"
+                    >҄ьшоуѥмоу</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="n" case="i" strength="w"
+                    >҄ьшиимь</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="n" case="l" strength="w"
+                    >҄ьшиимь</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="n" case="n" strength="w"
+                    >҄ьшии</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="n" case="a" strength="w"
+                    >҄ьшии</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="n" case="g" strength="w"
+                    >҄ьшоую</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="n" case="d" strength="w"
+                    >҄ьшиима</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="n" case="i" strength="w"
+                    >҄ьшиима</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="n" case="l" strength="w"
+                    >҄ьшоую</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="n" case="n" strength="w"
+                    >҄ьшаꙗ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="n" case="a" strength="w"
+                    >҄ьшаꙗ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="n" case="g" strength="w"
+                    >҄ьшиихъ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="n" case="d" strength="w"
+                    >҄ьшиимъ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="n" case="i" strength="w"
+                    >҄ьшиими</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="n" case="l" strength="w"
+                    >҄ьшиихъ</form>
+                <!-- Feminine past active weak (long) -->
+                <form number="s" tense="u" mood="p" voice="a" gender="f" case="n" strength="w"
+                    >҄ьшиꙗ</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="f" case="a" strength="w"
+                    >҄ьшѫѭ</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="f" case="g" strength="w"
+                    >҄ьшѧѩ</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="f" case="d" strength="w"
+                    >҄ьшии</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="f" case="i" strength="w"
+                    >҄ьшѫѭ</form>
+                <form number="s" tense="u" mood="p" voice="a" gender="f" case="l" strength="w"
+                    >҄ьшии</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="f" case="n" strength="w"
+                    >҄ьшии</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="f" case="a" strength="w"
+                    >҄ьшии</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="f" case="g" strength="w"
+                    >҄ьшоую</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="f" case="d" strength="w"
+                    >҄ьшиима</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="f" case="i" strength="w"
+                    >҄ьшиима</form>
+                <form number="d" tense="u" mood="p" voice="a" gender="f" case="l" strength="w"
+                    >҄ьшоую</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="f" case="n" strength="w"
+                    >҄ьшѧѩ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="f" case="a" strength="w"
+                    >҄ьшѧѩ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="f" case="g" strength="w"
+                    >҄ьшиихъ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="f" case="d" strength="w"
+                    >҄ьшиимъ</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="f" case="i" strength="w"
+                    >҄ьшиими</form>
+                <form number="p" tense="u" mood="p" voice="a" gender="f" case="l" strength="w"
+                    >҄ьшиихъ</form>
+                <!-- masculine present passive strong (short) -->
+                <form tense="p" mood="p" voice="p" gender="m" case="n" number="s" strength="s"
+                    >имъ</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="g" number="s" strength="s"
+                    >има</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="d" number="s" strength="s"
+                    >имоу</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="a" number="s" strength="s"
+                    >имъ</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="i" number="s" strength="s"
+                    >имомь</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="l" number="s" strength="s"
+                    >имѣ</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="n" number="d" strength="s"
+                    >има</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="g" number="d" strength="s"
+                    >имоу</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="d" number="d" strength="s"
+                    >имома</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="a" number="d" strength="s"
+                    >има</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="i" number="d" strength="s"
+                    >имома</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="l" number="d" strength="s"
+                    >имоу</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="n" number="p" strength="s"
+                    >ими</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="g" number="p" strength="s"
+                    >имъ</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="d" number="p" strength="s"
+                    >имѣмъ</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="a" number="p" strength="s"
+                    >имꙑ</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="i" number="p" strength="s"
+                    >имꙑ</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="l" number="p" strength="s"
+                    >имѣхъ</form>
+                <!-- neuter present passive strong (short) -->
+                <form tense="p" mood="p" voice="p" gender="n" case="n" number="s" strength="s"
+                    >имо</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="g" number="s" strength="s"
+                    >има</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="d" number="s" strength="s"
+                    >имоу</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="a" number="s" strength="s"
+                    >имо</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="i" number="s" strength="s"
+                    >имомь</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="l" number="s" strength="s"
+                    >имѣ</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="n" number="d" strength="s"
+                    >имѣ</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="g" number="d" strength="s"
+                    >имоу</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="d" number="d" strength="s"
+                    >имома</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="a" number="d" strength="s"
+                    >имѣ</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="i" number="d" strength="s"
+                    >имома</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="l" number="d" strength="s"
+                    >имоу</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="n" number="p" strength="s"
+                    >има</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="g" number="p" strength="s"
+                    >имъ</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="d" number="p" strength="s"
+                    >имѣмъ</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="a" number="p" strength="s"
+                    >има</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="i" number="p" strength="s"
+                    >имꙑ</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="l" number="p" strength="s"
+                    >имѣхъ</form>
+                <!-- feminine present passive strong (short) -->
+                <form tense="p" mood="p" voice="p" gender="f" case="n" number="s" strength="s"
+                    >има</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="g" number="s" strength="s"
+                    >имꙑ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="d" number="s" strength="s"
+                    >имѣ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="a" number="s" strength="s"
+                    >имѫ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="i" number="s" strength="s"
+                    >имоѭ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="l" number="s" strength="s"
+                    >имѣ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="n" number="d" strength="s"
+                    >имѣ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="g" number="d" strength="s"
+                    >имоу</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="d" number="d" strength="s"
+                    >имама</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="a" number="d" strength="s"
+                    >имѣ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="i" number="d" strength="s"
+                    >имама</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="l" number="d" strength="s"
+                    >имоу</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="n" number="p" strength="s"
+                    >имꙑ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="g" number="p" strength="s"
+                    >имъ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="d" number="p" strength="s"
+                    >имамъ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="a" number="p" strength="s"
+                    >имꙑ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="i" number="p" strength="s"
+                    >имами</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="l" number="p" strength="s"
+                    >имахъ</form>
+                <!-- masculine present passive weak (long) -->
+                <form tense="p" mood="p" voice="p" gender="m" case="n" number="s" strength="w"
+                    >имꙑи</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="g" number="s" strength="w"
+                    >имаѥго</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="d" number="s" strength="w"
+                    >имоуѥмоу</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="a" number="s" strength="w"
+                    >имꙑи</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="i" number="s" strength="w"
+                    >имꙑимь</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="l" number="s" strength="w"
+                    >имѣѥмь</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="n" number="d" strength="w"
+                    >имаꙗ</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="g" number="d" strength="w"
+                    >имоую</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="d" number="d" strength="w"
+                    >имꙑима</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="a" number="d" strength="w"
+                    >имаꙗ</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="i" number="d" strength="w"
+                    >имꙑима</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="l" number="d" strength="w"
+                    >имую</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="n" number="p" strength="w"
+                    >имии</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="g" number="p" strength="w"
+                    >имꙑихъ</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="d" number="p" strength="w"
+                    >имꙑимъ</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="a" number="p" strength="w"
+                    >имꙑѩ</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="i" number="p" strength="w"
+                    >имꙑими</form>
+                <form tense="p" mood="p" voice="p" gender="m" case="l" number="p" strength="w"
+                    >имꙑихъ</form>
+                <!-- neuter present passive weak (long) -->
+                <form tense="p" mood="p" voice="p" gender="n" case="n" number="s" strength="w"
+                    >имоѥ</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="g" number="s" strength="w"
+                    >имаѥго</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="d" number="s" strength="w"
+                    >имоуѥмоу</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="a" number="s" strength="w"
+                    >имоѥ</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="i" number="s" strength="w"
+                    >имꙑимь</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="l" number="s" strength="w"
+                    >имѣѥмь</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="n" number="d" strength="w"
+                    >имѣи</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="g" number="d" strength="w"
+                    >имоую</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="d" number="d" strength="w"
+                    >имꙑима</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="a" number="d" strength="w"
+                    >имѣи</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="i" number="d" strength="w"
+                    >имꙑима</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="l" number="d" strength="w"
+                    >имоую</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="n" number="p" strength="w"
+                    >имаꙗ</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="g" number="p" strength="w"
+                    >имꙑихъ</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="d" number="p" strength="w"
+                    >имꙑимъ</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="a" number="p" strength="w"
+                    >имаꙗ</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="i" number="p" strength="w"
+                    >имꙑими</form>
+                <form tense="p" mood="p" voice="p" gender="n" case="l" number="p" strength="w"
+                    >имꙑихъ</form>
+                <!-- feminine present passive weak (long) -->
+                <form tense="p" mood="p" voice="p" gender="f" case="n" number="s" strength="w"
+                    >имаꙗ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="g" number="s" strength="w"
+                    >имꙑѩ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="d" number="s" strength="w"
+                    >имѣи</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="a" number="s" strength="w"
+                    >имѫѭ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="i" number="s" strength="w"
+                    >имѫѭ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="l" number="s" strength="w"
+                    >имѣи</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="n" number="d" strength="w"
+                    >имѣи</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="g" number="d" strength="w"
+                    >имоую</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="d" number="d" strength="w"
+                    >имꙑима</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="a" number="d" strength="w"
+                    >имѣи</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="i" number="d" strength="w"
+                    >имꙑима</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="l" number="d" strength="w"
+                    >имоую</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="n" number="p" strength="w"
+                    >имꙑѩ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="g" number="p" strength="w"
+                    >имꙑихъ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="d" number="p" strength="w"
+                    >имꙑимъ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="a" number="p" strength="w"
+                    >имꙑѩ</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="i" number="p" strength="w"
+                    >имꙑими</form>
+                <form tense="p" mood="p" voice="p" gender="f" case="l" number="p" strength="w"
+                    >имꙑихъ</form>
 
-
+                <!-- masculine past passive strong (short) -->
+                <form tense="u" mood="p" voice="p" gender="m" case="n" number="s" strength="s"
+                    >҄ѥнъ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="g" number="s" strength="s"
+                    >҄ѥна</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="d" number="s" strength="s"
+                    >҄ѥноу</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="a" number="s" strength="s"
+                    >҄ѥнъ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="i" number="s" strength="s"
+                    >҄ѥномь</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="l" number="s" strength="s"
+                    >҄ѥнѣ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="n" number="d" strength="s"
+                    >҄ѥна</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="g" number="d" strength="s"
+                    >҄ѥноу</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="d" number="d" strength="s"
+                    >҄ѥнома</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="a" number="d" strength="s"
+                    >҄ѥна</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="i" number="d" strength="s"
+                    >҄ѥнома</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="l" number="d" strength="s"
+                    >҄ѥноу</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="n" number="p" strength="s"
+                    >҄ѥни</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="g" number="p" strength="s"
+                    >҄ѥнъ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="d" number="p" strength="s"
+                    >҄ѥнѣмъ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="a" number="p" strength="s"
+                    >҄ѥнꙑ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="i" number="p" strength="s"
+                    >҄ѥнꙑ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="l" number="p" strength="s"
+                    >҄ѥнѣхъ</form>
+                <!-- neuter past passive strong (short) -->
+                <form tense="u" mood="p" voice="p" gender="n" case="n" number="s" strength="s"
+                    >҄ѥно</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="g" number="s" strength="s"
+                    >҄ѥна</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="d" number="s" strength="s"
+                    >҄ѥноу</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="a" number="s" strength="s"
+                    >҄ѥно</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="i" number="s" strength="s"
+                    >҄ѥномь</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="l" number="s" strength="s"
+                    >҄ѥнѣ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="n" number="d" strength="s"
+                    >҄ѥнѣ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="g" number="d" strength="s"
+                    >҄ѥноу</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="d" number="d" strength="s"
+                    >҄ѥнома</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="a" number="d" strength="s"
+                    >҄ѥнѣ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="i" number="d" strength="s"
+                    >҄ѥнома</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="l" number="d" strength="s"
+                    >҄ѥноу</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="n" number="p" strength="s"
+                    >҄ѥна</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="g" number="p" strength="s"
+                    >҄ѥнъ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="d" number="p" strength="s"
+                    >҄ѥнѣмъ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="a" number="p" strength="s"
+                    >҄ѥна</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="i" number="p" strength="s"
+                    >҄ѥнꙑ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="l" number="p" strength="s"
+                    >҄ѥнѣхъ</form>
+                <!-- feminine past passive strong (short) -->
+                <form tense="u" mood="p" voice="p" gender="f" case="n" number="s" strength="s"
+                    >҄ѥна</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="g" number="s" strength="s"
+                    >҄ѥнꙑ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="d" number="s" strength="s"
+                    >҄ѥнѣ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="a" number="s" strength="s"
+                    >҄ѥнѫ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="i" number="s" strength="s"
+                    >҄ѥноѭ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="l" number="s" strength="s"
+                    >҄ѥнѣ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="n" number="d" strength="s"
+                    >҄ѥнѣ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="g" number="d" strength="s"
+                    >҄ѥноу</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="d" number="d" strength="s"
+                    >҄ѥнама</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="a" number="d" strength="s"
+                    >҄ѥнѣ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="i" number="d" strength="s"
+                    >҄ѥнама</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="l" number="d" strength="s"
+                    >҄ѥноу</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="n" number="p" strength="s"
+                    >҄ѥнꙑ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="g" number="p" strength="s"
+                    >҄ѥнъ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="d" number="p" strength="s"
+                    >҄ѥнамъ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="a" number="p" strength="s"
+                    >҄ѥнꙑ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="i" number="p" strength="s"
+                    >҄ѥнами</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="l" number="p" strength="s"
+                    >҄ѥнахъ</form>
+                <!-- masculine past passive weak (long) -->
+                <form tense="u" mood="p" voice="p" gender="m" case="n" number="s" strength="w"
+                    >҄ѥнꙑи</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="g" number="s" strength="w"
+                    >҄ѥнаѥго</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="d" number="s" strength="w"
+                    >҄ѥноуѥмоу</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="a" number="s" strength="w"
+                    >҄ѥнꙑи</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="i" number="s" strength="w"
+                    >҄ѥнꙑимь</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="l" number="s" strength="w"
+                    >҄ѥнѣѥмь</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="n" number="d" strength="w"
+                    >҄ѥнаꙗ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="g" number="d" strength="w"
+                    >҄ѥноую</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="d" number="d" strength="w"
+                    >҄ѥнꙑима</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="a" number="d" strength="w"
+                    >҄ѥнаꙗ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="i" number="d" strength="w"
+                    >҄ѥнꙑима</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="l" number="d" strength="w"
+                    >҄ѥную</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="n" number="p" strength="w"
+                    >҄ѥнии</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="g" number="p" strength="w"
+                    >҄ѥнꙑихъ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="d" number="p" strength="w"
+                    >҄ѥнꙑимъ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="a" number="p" strength="w"
+                    >҄ѥнꙑѩ</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="i" number="p" strength="w"
+                    >҄ѥнꙑими</form>
+                <form tense="u" mood="p" voice="p" gender="m" case="l" number="p" strength="w"
+                    >҄ѥнꙑихъ</form>
+                <!-- neuter past passive weak (long) -->
+                <form tense="u" mood="p" voice="p" gender="n" case="n" number="s" strength="w"
+                    >҄ѥноѥ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="g" number="s" strength="w"
+                    >҄ѥнаѥго</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="d" number="s" strength="w"
+                    >҄ѥноуѥмоу</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="a" number="s" strength="w"
+                    >҄ѥноѥ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="i" number="s" strength="w"
+                    >҄ѥнꙑимь</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="l" number="s" strength="w"
+                    >҄ѥнѣѥмь</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="n" number="d" strength="w"
+                    >҄ѥнѣи</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="g" number="d" strength="w"
+                    >҄ѥноую</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="d" number="d" strength="w"
+                    >҄ѥнꙑима</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="a" number="d" strength="w"
+                    >҄ѥнѣи</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="i" number="d" strength="w"
+                    >҄ѥнꙑима</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="l" number="d" strength="w"
+                    >҄ѥноую</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="n" number="p" strength="w"
+                    >҄ѥнаꙗ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="g" number="p" strength="w"
+                    >҄ѥнꙑихъ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="d" number="p" strength="w"
+                    >҄ѥнꙑимъ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="a" number="p" strength="w"
+                    >҄ѥнаꙗ</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="i" number="p" strength="w"
+                    >҄ѥнꙑими</form>
+                <form tense="u" mood="p" voice="p" gender="n" case="l" number="p" strength="w"
+                    >҄ѥнꙑихъ</form>
+                <!-- feminine past passive weak (long) -->
+                <form tense="u" mood="p" voice="p" gender="f" case="n" number="s" strength="w"
+                    >҄ѥнаꙗ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="g" number="s" strength="w"
+                    >҄ѥнꙑѩ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="d" number="s" strength="w"
+                    >҄ѥнѣи</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="a" number="s" strength="w"
+                    >҄ѥнѫѭ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="i" number="s" strength="w"
+                    >҄ѥнѫѭ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="l" number="s" strength="w"
+                    >҄ѥнѣи</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="n" number="d" strength="w"
+                    >҄ѥнѣи</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="g" number="d" strength="w"
+                    >҄ѥноую</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="d" number="d" strength="w"
+                    >҄ѥнꙑима</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="a" number="d" strength="w"
+                    >҄ѥнѣи</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="i" number="d" strength="w"
+                    >҄ѥнꙑима</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="l" number="d" strength="w"
+                    >҄ѥноую</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="n" number="p" strength="w"
+                    >҄ѥнꙑѩ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="g" number="p" strength="w"
+                    >҄ѥнꙑихъ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="d" number="p" strength="w"
+                    >҄ѥнꙑимъ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="a" number="p" strength="w"
+                    >҄ѥнꙑѩ</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="i" number="p" strength="w"
+                    >҄ѥнꙑими</form>
+                <form tense="u" mood="p" voice="p" gender="f" case="l" number="p" strength="w"
+                    >҄ѥнꙑихъ</form>
             </paradigm>
         </class>
     </pos>

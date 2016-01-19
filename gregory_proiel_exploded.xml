@@ -14,7 +14,7 @@
               <token id="1686773" form="въ" lemma="въ" part-of-speech="R-" presentation-before=""
                      morphology="---------n" head-id="1691407" relation="adv" presentation-after=" "
                      citation-part="8" part="1" folio="061" side="r" line="15" linebreak="false"/>
-              <token id="1686774" form="а꙯ї" lemma="ѥдинъ на десѧте" part-of-speech="Me"
+              <token id="1686774" form="а꙯ї" lemma="ѥдинъ на десѧте" part-of-speech="Mo"
                      presentation-before="" morphology="-s---ma--i" head-id="1686773" relation="obl"
                      presentation-after="· " citation-part="8" part="1" folio="061" side="r"
                      line="15" linebreak="false"/>
@@ -208,8 +208,8 @@
                      presentation-before="" morphology="---------n" head-id="1686816" relation="obl"
                      presentation-after=" " citation-part="8" part="1" folio="061" side="r"
                      line="24" linebreak="false"/>
-              <token id="1686818" form="вратъ" lemma="врагъ" part-of-speech="Nb"
-                     presentation-before="" morphology="-p---mg--i" head-id="1686817" relation="obl"
+<!--              <token id="1686818" form="вратъ" lemma="врата" part-of-speech="Nb"-->
+                     presentation-before="" morphology="-p---ng--i" head-id="1686817" relation="obl"
                      presentation-after=" " citation-part="8" part="1" folio="061" side="r"
                      line="24" linebreak="false"/>
               <token id="1686819" form="ст꙯ааго" lemma="свѧтъ" part-of-speech="A-"
@@ -1675,13 +1675,13 @@
                      line="20" linebreak="false"/>
        </sentence>
        <sentence id="121192" status="reviewed">
-              <token id="1687167" form="третиꙗ҅го" lemma="третии" part-of-speech="A-"
-                     presentation-before="" morphology="-s---mgpwi" head-id="1687171" relation="arg"
+              <token id="1687167" form="третиꙗ҅го" lemma="третии" part-of-speech="Mo"
+                     presentation-before="" morphology="-s---mg--i" head-id="1687171" relation="arg"
                      presentation-after=" " citation-part="8" part="1" folio="062" side="r"
                      line="20" linebreak="тре-тиꙗ҅го"/>
               <token part="1" folio="062" side="r" line="21" linebreak="false" id="1687167"
-                     form="третиꙗ҅го" lemma="третии" part-of-speech="A-" presentation-before=""
-                     morphology="-s---mgpwi" head-id="1687171" relation="arg" presentation-after=" "
+                     form="третиꙗ҅го" lemma="третии" part-of-speech="Mo" presentation-before=""
+                     morphology="-s---mg--i" head-id="1687171" relation="arg" presentation-after=" "
                      citation-part="8"/>
               <token id="1687168" form="на" lemma="на" part-of-speech="R-" presentation-before=""
                      morphology="---------n" head-id="1687167" relation="atr" presentation-after=" "
