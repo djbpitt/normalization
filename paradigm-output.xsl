@@ -14,13 +14,15 @@
             <body>
                 <h1>Sample paradigms</h1>
                 <section>
+                    <h2>Verbs</h2>
                     <section>
-                        <h2>Verbs</h2>
                         <h3>Diels I.1, stem in -<span class="ocs">д</span>- (<span class="ocs"
                                 >вести</span>)</h3>
                         <section class="tables">
                             <xsl:apply-templates select="//paradigm[@type eq 'вести']"/>
                         </section>
+                    </section>
+                    <section>
                         <h3>Diels IV, stem in -<span class="ocs">л</span>- (<span class="ocs"
                                 >молити</span>)</h3>
                         <section class="tables">
